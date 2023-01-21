@@ -12,19 +12,11 @@ import {
   useLocation,
 } from "@builder.io/qwik-city";
 
+export const Graph = component$(({ info }: any) => {
+  const data = [0, 1, 2];
 
-
-export const Graph = component$(({info}: any) => {
-
-const data = [0,1,2]
-
-
-
-const all = info.info.data;
-logger(all)
-
-
-
+  const all = info.info.data;
+  logger(all);
 
   return (
     <>
@@ -36,13 +28,9 @@ logger(all)
 
       <br />
 
-
-{all.map((item: any) => (<h3>{item.attributes.slug}</h3> ) )}
-
-
-
-
-
+      {all.map((item: any) => (
+        <h3>{item.attributes.slug}</h3>
+      ))}
     </>
   );
 });

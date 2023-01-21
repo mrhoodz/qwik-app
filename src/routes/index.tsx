@@ -104,6 +104,6 @@ export const head: DocumentHead<any> = ({ data }) => {
   const title = "data";
 
   return {
-    title: title,
+    title: data.info.data[2].attributes.Name,
   };
 };
