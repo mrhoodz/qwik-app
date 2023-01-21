@@ -20,7 +20,7 @@ export const Motion = qwikify$(({ data }: any) => {
       {/* data.data === "hello" ? <motion.div */}
       {data < 3 ? (
         <motion.h1
-          onClick={$(() => boot(data))}
+          // onClick={$(() => boot(data))}
           initial={{ scale: 0.9 }}
           whileHover={{ scale: 1.2, x: 120 }}
           // onHoverStart={  () => console.log("start") }
@@ -43,9 +43,9 @@ export const Motion = qwikify$(({ data }: any) => {
   );
 });
 
-export const boot: any = (data: any) => {
-  console.log(data);
-  alert("pin you");
+// export const boot: any = (data: any) => {
+//   console.log(data);
+//   alert("pin you");
 
-  // console.log("hey mama l see yah");
-};
+//   // console.log("hey mama l see yah");
+// };

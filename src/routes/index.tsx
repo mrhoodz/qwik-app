@@ -4,214 +4,106 @@ import {
   component$,
   useStore,
   useClientEffect$,
+  createContext,
+  useContextProvider,
+  useContext,
+  Resource,
 } from "@builder.io/qwik";
-import type { DocumentHead } from "@builder.io/qwik-city";
+import {
+  DocumentHead,
+  RequestHandler,
+  useContent,
+  useEndpoint,
+} from "@builder.io/qwik-city";
 import { Link } from "@builder.io/qwik-city";
 import { Motion } from "~/integrations/react/motion";
 import { Test } from "~/integrations/react/test";
 import { Try } from "./try";
+import { Graph } from "./graph";
 
-interface CmpButtonProps {
-  onClick$?: PropFunction<() => number>;
+interface ProductData {
+  skuId: string;
+  price: number;
+  description: string;
 }
 
-export default component$((props: CmpButtonProps) => {
-  const data = useStore({ data: "hello" });
+export const onGet: RequestHandler<any> = async ({ params }) => {
+  // put your DB access here (hard coding data for simplicity)
 
-  // let fun = () => {
-  //   console.log("faete");
-  // };
+  //use fetch api to get data from sealion api
+  const response = await fetch(
+    "https://sea-lion-app-ggqop.ondigitalocean.app/api/services"
+  );
+  const info = await response.json();
 
-  const store = useStore({ count: -3 });
+  return {
+    info,
+  };
+};
 
-  // const fun = useStore({
-  //   run: $(() => {
-  //     console.log("nice");
-  //   }),
-
-  // });
-
-  // $( () => console.log("store", store.count)   )
-
-  // const incrementCount = $(() => store.count);
-
-  const plus = $(() => {
-    store.count++;
-    // console.log("ok good");
-  });
-
+export default component$(() => {
+  const productData = useEndpoint<any>();
   return (
     <>
-      <span onClick$={$(() => high())}>ddd</span>
+      <Resource
+        value={productData}
+        onPending={() => <div>Loading...</div>}
+        onRejected={() => <div>Error</div>}
+        onResolved={(product) => {
+          // const x  =
 
-      <p onClick$={$(() => real())}>try on this one</p>
+          logger(product);
+          const all = product.info.data;
 
-      {/* <button onClick$={ () => console.log("hey friend")  } >Click Me</button>;   */}
+          return (
+            <>
+              {all.map((item: any) => {
+                // logger(item)
 
-      {/* <div>
-        <h1>
-          Welcome to Qwik <span class="lightning">⚡️</span>
-        </h1>
+                const all = item.id.attributes;
 
-        <ul>
-          <li>
-            <Motion data={data} client:visible />
-            Check out the <code>src/routes</code> directory to get started.
-          </li>
-          <li>
-            Add integrations with <code>npm run qwik add</code>.
-          </li>
-          <li>
-            More info about development in <code>README.md</code>
-          </li>
-        </ul>
+                return (
+                  <>
+                    <h1>Product: {item.attributes.Name}</h1>
+                  </>
+                );
+              })}
 
-        <h2>Commands</h2>
-
-        <table class="commands">
-          <tr>
-            <td>
-              <code>npm run dev</code>
-            </td>
-            <td>Start the dev server and watch for changes.</td>
-          </tr>
-          <tr>
-            <td>
-              <code>npm run preview</code>
-            </td>
-            <td>Production build and start preview server.</td>
-          </tr>
-          <tr>
-            <td>
-              <code>npm run build</code>
-            </td>
-            <td>Production build.</td>
-          </tr>
-          <tr>
-            <td>
-              <code>npm run qwik add</code>
-            </td>
-            <td>Select an integration to add.</td>
-          </tr>
-        </table>
-
-        <h2>Add Integrations</h2>
-
-        <table class="commands">
-          <tr>
-            <td>
-              <code>npm run qwik add azure-swa</code>
-            </td>
-            <td>
-              <a
-                href="https://learn.microsoft.com/azure/static-web-apps/overview"
-                target="_blank"
-              >
-                Azure Static Web Apps
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <code>npm run qwik add cloudflare-pages</code>
-            </td>
-            <td>
-              <a href="https://developers.cloudflare.com/pages" target="_blank">
-                Cloudflare Pages Server
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <code>npm run qwik add express</code>
-            </td>
-            <td>
-              <a href="https://expressjs.com/" target="_blank">
-                Nodejs Express Server
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <code>npm run qwik add netlify-edge</code>
-            </td>
-            <td>
-              <a href="https://docs.netlify.com/" target="_blank">
-                Netlify Edge Functions
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <code>npm run qwik add static</code>
-            </td>
-            <td>
-              <a
-                href="https://qwik.builder.io/qwikcity/static-site-generation/overview/"
-                target="_blank"
-              >
-                Static Site Generation (SSG)
-              </a>
-            </td>
-          </tr>
-        </table>
-
-        <h2>Community</h2>
-
-        <ul>
-          <li>
-            <span>Questions or just want to say hi? </span>
-            <a href="https://qwik.builder.io/chat" target="_blank">
-              Chat on discord!
-            </a>
-          </li>
-          <li>
-            <span>Follow </span>
-            <a href="https://twitter.com/QwikDev" target="_blank">
-              @QwikDev
-            </a>
-            <span> on Twitter</span>
-          </li>
-          <li>
-            <span>Open issues and contribute on </span>
-            <a href="https://github.com/BuilderIO/qwik" target="_blank">
-              GitHub
-            </a>
-          </li>
-          <li>
-            <span>Watch </span>
-            <a href="https://qwik.builder.io/media/" target="_blank">
-              Presentations, Podcasts, Videos, etc.
-            </a>
-          </li>
-        </ul>
-        <Link class="mindblow" href="/flower/">
-          Blow my mind 🤯
-        </Link>
-      </div> */}
-
-      <h1 onClick$={$(() => plus())}>hey there</h1>
-      <Motion client:load data={store.count} />
-      <Try data={store} />
+              <Graph info={product} />
+            </>
+          );
+        }}
+      />
+      hey bruh
     </>
   );
 });
 
-export const high = (event?: any) => {
-  console.log("finnaly it works");
-  alert("a");
+export const logger = (data: any) => {
+  console.log("data", data.info.data);
 };
 
-export const real = function () {
-  console.log("real");
+export const start = async (data: any) => {
+  // console.log("egg man")
+
+  alert("alert says" + data);
+  // head.title = "23"
 };
 
-export const head: DocumentHead = {
-  title: "Welcome to Qwik",
-  meta: [
-    {
-      name: "description",
-      content: "Qwik site description",
-    },
-  ],
+export const header = () => {
+  // const data = "hey you";
+
+  // const data = useContext(CTX);
+
+  const info = "gave up";
+
+  return info;
+};
+
+export const head: DocumentHead<any> = ({ data }) => {
+  const title = "data";
+
+  return {
+    title: title,
+  };
 };
