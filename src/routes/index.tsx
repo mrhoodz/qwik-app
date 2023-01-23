@@ -8,6 +8,8 @@ import {
   useContextProvider,
   useContext,
   Resource,
+  useSignal,
+  useTask$,
 } from "@builder.io/qwik";
 import {
   DocumentHead,
@@ -20,6 +22,10 @@ import { Motion } from "~/integrations/react/motion";
 import { Test } from "~/integrations/react/test";
 import { Try } from "./try";
 import { Graph } from "./graph";
+import { GraphQLClient, gql } from "graphql-request";
+import axios from "axios";
+import { QwikHead } from "~/components/qwiks-comps/header";
+import { QrCode } from "~/integrations/react/qrCode";
 
 interface ProductData {
   skuId: string;
@@ -28,24 +34,142 @@ interface ProductData {
 }
 
 export const onGet: RequestHandler<any> = async ({ params }) => {
-  // put your DB access here (hard coding data for simplicity)
+  const endpoint = "https://sea-lion-app-ggqop.ondigitalocean.app/graphql";
 
-  //use fetch api to get data from sealion api
-  const response = await fetch(
-    "https://sea-lion-app-ggqop.ondigitalocean.app/api/services"
-  );
-  const info = await response.json();
+  // qwikGraphQLWithFetch();
+
+  const x = await qwikGraphQLWithFetch();
+
+  // $booter(great());
+  // $booter(x);
+
+  // const infomation = qwikGraphQLWithFetch();
 
   return {
-    info,
+    x,
   };
 };
 
 export default component$(() => {
   const productData = useEndpoint<any>();
+  // grab()
+
+  const bear = useStore({ value: 12 });
+  // x()
+
+  // this task will be called exactly once, either on the server or on the browser
+  // useTask$(({ track }) => {
+  //   track(() => bear.value);
+  //   // will run when the component mounts and every time "store.count" changes
+  // });
+
   return (
     <>
+      hey bruh {bear.value}
+      <button
+        onClick$={() => {
+          bear.value++;
+        }}
+      >
+        click me
+      </button>
+      <Try data={bear.value} />
+      <QwikHead />
+      // resource component for graph data
       <Resource
+        value={productData}
+        onPending={() => <div>Loading...</div>}
+        onRejected={() => <div>Failed to person data</div>}
+        onResolved={(graph) => {
+          // $booter(graph.x.services.data[0].attributes.Name);
+
+          return (
+            <>
+              <div>{graph.x.services.data[0].attributes.Name}</div>
+              <QrCode
+                data={graph.x.services.data[0].attributes.Name}
+                client:idle
+              />
+            </>
+          );
+        }}
+      />
+    </>
+  );
+});
+
+// export const logger = (data: any) => {
+//   console.log("data", data.info.data);
+// };
+
+export const $booter = (response: any) => {
+  console.log("booting", response);
+};
+
+// export const x =   ()  => {
+
+//   useTask$(() => {
+//     console.log('component mounted');
+//   })
+
+// } ;
+export const qwikGraphQLWithFetch = async () => {
+  //sealion endpoint
+
+  const endpoint = "https://sea-lion-app-ggqop.ondigitalocean.app/graphql";
+  const headers = {
+    "content-type": "application/json",
+    // "Authorization": "<token>"
+  };
+  const graphqlQuery = {
+    query: `query {
+        services {
+          data {
+            attributes {
+             slug
+              Name
+              Task{
+                  Task
+              }
+            }
+          }
+        }
+      }
+      `,
+    // "variables": {}  !!! if any
+  };
+
+  const options = {
+    method: "POST",
+    headers: headers,
+    body: JSON.stringify(graphqlQuery),
+  };
+
+  const response = await fetch(endpoint, options);
+  const data = await response.json();
+
+  const graphData = data.data;
+
+  console.log(data.data);
+  console.log(data.errors);
+
+  return graphData;
+};
+
+export const great = async () => {
+  return "hey there";
+};
+
+export const head: DocumentHead<any> = ({ data }) => {
+  const title = "data";
+
+  return {
+    title: "zita",
+  };
+};
+
+{
+  /* <Resource
         value={productData}
         onPending={() => <div>Loading...</div>}
         onRejected={() => <div>Error</div>}
@@ -73,37 +197,5 @@ export default component$(() => {
             </>
           );
         }}
-      />
-      hey bruh
-    </>
-  );
-});
-
-export const logger = (data: any) => {
-  console.log("data", data.info.data);
-};
-
-export const start = async (data: any) => {
-  // console.log("egg man")
-
-  alert("alert says" + data);
-  // head.title = "23"
-};
-
-export const header = () => {
-  // const data = "hey you";
-
-  // const data = useContext(CTX);
-
-  const info = "gave up";
-
-  return info;
-};
-
-export const head: DocumentHead<any> = ({ data }) => {
-  const title = "data";
-
-  return {
-    title: data.info.data[2].attributes.Name,
-  };
-};
+      /> */
+}

@@ -50,7 +50,10 @@
     "vite-tsconfig-paths": "3.5.0"
   },
   "dependencies": {
+    "axios": "^1.2.3",
     "framer-motion": "^8.5.0",
-    "graphql-request": "^5.1.0"
+    "graphql": "^16.6.0",
+    "graphql-request": "^5.1.0",
+    "next-qrcode": "^2.4.0"
   }
 }
