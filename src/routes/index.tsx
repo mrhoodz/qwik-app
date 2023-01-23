@@ -33,28 +33,33 @@ interface ProductData {
   description: string;
 }
 
-export const onGet: RequestHandler<any> = async ({ params }) => {
-  const endpoint = "https://sea-lion-app-ggqop.ondigitalocean.app/graphql";
+// export const onGet: RequestHandler<any> = async ({ params }) => {
+//   const endpoint = "https://sea-lion-app-ggqop.ondigitalocean.app/graphql";
 
-  // qwikGraphQLWithFetch();
+//   // qwikGraphQLWithFetch();
 
-  const x = await qwikGraphQLWithFetch();
+//   const x = await qwikGraphQLWithFetch();
 
-  // $booter(great());
-  // $booter(x);
+//   // $booter(great());
+//   // $booter(x);
 
-  // const infomation = qwikGraphQLWithFetch();
+//   // const infomation = qwikGraphQLWithFetch();
 
-  return {
-    x,
-  };
-};
+//   return {
+//     x,
+//   };
+// };
+
+export const MyContext = createContext("my-context");
 
 export default component$(() => {
   const productData = useEndpoint<any>();
   // grab()
 
   const bear = useStore({ value: 12 });
+
+  useContextProvider(MyContext, bear);
+
   // x()
 
   // this task will be called exactly once, either on the server or on the browser
@@ -65,7 +70,9 @@ export default component$(() => {
 
   return (
     <>
-      hey bruh {bear.value}
+      <h2> hey there</h2>
+      <Child />
+
       <button
         onClick$={() => {
           bear.value++;
@@ -73,27 +80,6 @@ export default component$(() => {
       >
         click me
       </button>
-      <Try data={bear.value} />
-      <QwikHead />
-      // resource component for graph data
-      <Resource
-        value={productData}
-        onPending={() => <div>Loading...</div>}
-        onRejected={() => <div>Failed to person data</div>}
-        onResolved={(graph) => {
-          // $booter(graph.x.services.data[0].attributes.Name);
-
-          return (
-            <>
-              <div>{graph.x.services.data[0].attributes.Name}</div>
-              <QrCode
-                data={graph.x.services.data[0].attributes.Name}
-                client:idle
-              />
-            </>
-          );
-        }}
-      />
     </>
   );
 });
@@ -101,6 +87,12 @@ export default component$(() => {
 // export const logger = (data: any) => {
 //   console.log("data", data.info.data);
 // };
+
+export const Child = component$(() => {
+  const state: any = useContext(MyContext);
+
+  return <>lm the child and the context is {state.value} </>;
+});
 
 export const $booter = (response: any) => {
   console.log("booting", response);
@@ -113,48 +105,48 @@ export const $booter = (response: any) => {
 //   })
 
 // } ;
-export const qwikGraphQLWithFetch = async () => {
-  //sealion endpoint
+// export const qwikGraphQLWithFetch = async () => {
+//   //sealion endpoint
 
-  const endpoint = "https://sea-lion-app-ggqop.ondigitalocean.app/graphql";
-  const headers = {
-    "content-type": "application/json",
-    // "Authorization": "<token>"
-  };
-  const graphqlQuery = {
-    query: `query {
-        services {
-          data {
-            attributes {
-             slug
-              Name
-              Task{
-                  Task
-              }
-            }
-          }
-        }
-      }
-      `,
-    // "variables": {}  !!! if any
-  };
+//   const endpoint = "https://sea-lion-app-ggqop.ondigitalocean.app/graphql";
+//   const headers = {
+//     "content-type": "application/json",
+//     // "Authorization": "<token>"
+//   };
+//   const graphqlQuery = {
+//     query: `query {
+//         services {
+//           data {
+//             attributes {
+//              slug
+//               Name
+//               Task{
+//                   Task
+//               }
+//             }
+//           }
+//         }
+//       }
+//       `,
+//     // "variables": {}  !!! if any
+//   };
 
-  const options = {
-    method: "POST",
-    headers: headers,
-    body: JSON.stringify(graphqlQuery),
-  };
+//   const options = {
+//     method: "POST",
+//     headers: headers,
+//     body: JSON.stringify(graphqlQuery),
+//   };
 
-  const response = await fetch(endpoint, options);
-  const data = await response.json();
+//   const response = await fetch(endpoint, options);
+//   const data = await response.json();
 
-  const graphData = data.data;
+//   const graphData = data.data;
 
-  console.log(data.data);
-  console.log(data.errors);
+//   console.log(data.data);
+//   console.log(data.errors);
 
-  return graphData;
-};
+//   return graphData;
+// };
 
 export const great = async () => {
   return "hey there";
