@@ -5,14 +5,14 @@ import { useQRCode } from "next-qrcode";
 
 export const QrCode = qwikify$(({ data }: any) => {
   const { Canvas } = useQRCode();
-  let info = "12";
+  const info = "12";
 
   return (
     <>
-      <h1>Qr code for :  {data} </h1>
+      <h1>Qr code for : {info} </h1>
 
       <Canvas
-        text={`${data}`}
+        text={`${info}`}
         options={{
           level: "M",
           margin: 3,

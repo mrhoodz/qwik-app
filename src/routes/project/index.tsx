@@ -4,13 +4,9 @@ import Analysis from "~/Layout/Projects/analysis";
 import Home from "~/Layout/Projects/home";
 import Timeline from "~/Layout/Projects/timeline";
 
-export default component$(function index({ params }: any) {
-
-
-
+export default component$(function index() {
   return (
     <>
-
       <Home />
 
       <Analysis />
@@ -20,11 +16,7 @@ export default component$(function index({ params }: any) {
   );
 });
 
-
-
-
-
-export const $booter = (response: any) => {
+export const $booter = (response?: any) => {
   console.log("booting", response);
 };
 

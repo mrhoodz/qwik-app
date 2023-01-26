@@ -7,7 +7,6 @@ import "./motion.scss";
 
 export const Motion = qwikify$(() => {
   const { scrollYProgress } = useScroll();
-  const [retra, setRetra] = React.useState(false);
 
   return (
     <>
@@ -24,6 +23,6 @@ export const Motion = qwikify$(() => {
   );
 });
 
-export const boot: any = (data: any) => {
+export const boot: any = () => {
   console.log("kkkk");
 };

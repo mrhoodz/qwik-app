@@ -1,7 +1,7 @@
 import { component$, useStyles$ } from "@builder.io/qwik";
 import styles from "./styles/_focus.scss?inline";
 
-export default component$(function Focus({}) {
+export default component$(function Focus() {
   useStyles$(styles);
 
   return (

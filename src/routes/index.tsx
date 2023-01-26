@@ -4,11 +4,11 @@ import Home from "~/Layout/Home/home";
 import Focus from "~/Layout/Home/focus";
 import Goals from "~/Layout/Home/goals";
 
-interface ProductData {
-  skuId: string;
-  price: number;
-  description: string;
-}
+// interface ProductData {
+//   skuId: string;
+//   price: number;
+//   description: string;
+// }
 
 export default component$(function Index() {
   // const loc = useLocation();
