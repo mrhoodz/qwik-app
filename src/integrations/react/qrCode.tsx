@@ -3,7 +3,7 @@
 import { qwikify$ } from "@builder.io/qwik-react";
 import { useQRCode } from "next-qrcode";
 
-export const QrCode = qwikify$(({ data }: any) => {
+export const QrCode = qwikify$(() => {
   const { Canvas } = useQRCode();
   const info = "12";
 
