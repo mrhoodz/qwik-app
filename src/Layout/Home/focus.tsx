@@ -1,8 +1,6 @@
 import { component$, useStyles$ } from "@builder.io/qwik";
 import styles from "./styles/_focus.scss?inline";
-// import "./styles/_focus.scss"
 
-import React from "react";
 export default component$(function Focus({}) {
   useStyles$(styles);
 

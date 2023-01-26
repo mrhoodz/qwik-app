@@ -1,5 +1,4 @@
 import { component$, useStyles$ } from "@builder.io/qwik";
-import React from "react";
 
 import styles from "./styles/_analysis.scss?inline";
 

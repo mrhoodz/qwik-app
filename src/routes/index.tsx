@@ -1,23 +1,5 @@
-import {
-  $,
-  PropFunction,
-  component$,
-  useStore,
-  useClientEffect$,
-  createContext,
-  useContextProvider,
-  useContext,
-  Resource,
-  useSignal,
-  useTask$,
-} from "@builder.io/qwik";
-import {
-  DocumentHead,
-  RequestHandler,
-  useContent,
-  useEndpoint,
-  useLocation,
-} from "@builder.io/qwik-city";
+import { component$ } from "@builder.io/qwik";
+import { DocumentHead } from "@builder.io/qwik-city";
 import Home from "~/Layout/Home/home";
 import Focus from "~/Layout/Home/focus";
 import Goals from "~/Layout/Home/goals";

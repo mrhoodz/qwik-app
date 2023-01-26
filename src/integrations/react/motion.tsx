@@ -1,23 +1,13 @@
 /** @jsxImportSource react */
 
 import React from "react";
-import {
-  $,
-  PropFunction,
-  component$,
-  useStore,
-  useClientEffect$,
-  useOnWindow,
-  useOnDocument,
-} from "@builder.io/qwik";
 import { qwikify$ } from "@builder.io/qwik-react";
-import { motion, useMotionValueEvent, useScroll } from "framer-motion";
+import { motion, useScroll } from "framer-motion";
 import "./motion.scss";
 
-export const Motion = qwikify$(({ data }: any) => {
+export const Motion = qwikify$(() => {
   const { scrollYProgress } = useScroll();
   const [retra, setRetra] = React.useState(false);
-
 
   return (
     <>

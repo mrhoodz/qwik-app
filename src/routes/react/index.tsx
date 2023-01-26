@@ -1,7 +1,6 @@
 import { component$, useSignal } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import { MUIButton, MUISlider, TableApp } from "~/integrations/react/mui";
-import { Test } from "~/integrations/react/test";
 
 export default component$(() => {
   const show = useSignal(false);
@@ -12,7 +11,6 @@ export default component$(() => {
     <>
       <h1>Qwik/React mother of all demos</h1>
 
-      <Test data="testing yes" client:idle />
       <select
         value={variant.value}
         onChange$={(ev) => {

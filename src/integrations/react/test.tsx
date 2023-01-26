@@ -1,20 +1,10 @@
-
-import { component$ } from "@builder.io/qwik";
-import { qwikify$ } from "@builder.io/qwik-react";
-import React from "react";
 import { Motion } from "./motion";
+import { component$ } from "@builder.io/qwik";
 
-export const Test = component$( () => {
-
+export const Test = component$(() => {
   return (
-
-
-<>
-
-
-<Motion client:visible/>
-
-</>
-
+    <>
+      <Motion client:visible />
+    </>
   );
 });
