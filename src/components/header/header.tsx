@@ -1,43 +1,41 @@
 import { component$, useStylesScoped$ } from "@builder.io/qwik";
 import { QwikLogo } from "../icons/qwik";
-import styles from "./header.css?inline";
+import styles from "./header.scss?inline";
+import { Motion } from "~/integrations/react/motion";
+import { Test } from "~/integrations/react/test";
 
 export default component$(() => {
   useStylesScoped$(styles);
 
   return (
+
+    <>
     <header>
-      <div class="logo">
-        <a href="https://qwik.builder.io/" target="_blank" title="qwik">
-          <QwikLogo />
-        </a>
+
+      <div class="logoArea">
+        <img id="logoPng" src="/logos/logoPng.svg" alt="logoPng" />
+        <img
+          id="logoText"
+          class="desktop"
+          src="/logos/logoText.svg"
+          alt="logoText"
+        />
       </div>
-      <ul>
-        <li>
-          <a
-            href="https://qwik.builder.io/docs/components/overview/"
-            target="_blank"
-          >
-            Documents
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://qwik.builder.io/examples/introduction/hello-world/"
-            target="_blank"
-          >
-            Examples
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://qwik.builder.io/tutorial/welcome/overview/"
-            target="_blank"
-          >
-            Tutorials and more
-          </a>
-        </li>
-      </ul>
+
+      <aside class="menu">
+
+      <span></span>
+      <span></span>
+      <span></span>
+
+
+      </aside>
+
     </header>
+
+    <Motion client:visible />
+
+
+    </>
   );
 });

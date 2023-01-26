@@ -1,0 +1,98 @@
+@import "../../../styles/colors";
+
+#Timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  //   align-items: flex-start;
+  background-color: $primary-bg-color;
+  padding-left: calc(15vw / 524vw * 100vw);
+  padding-right: calc(15vw / 524vw * 100vw);
+  padding-bottom: calc(112vw / 1080vw * 100vh);
+  padding-top: calc(180.2vw / 1080vw * 100vh);
+  margin-top: -127rem;
+  overflow: hidden;
+
+  border-radius: 94rem;
+  z-index: 98;
+
+  #time-elapsed,
+  #belief {
+    display: none;
+  }
+
+  details {
+    position: relative;
+    background-color: white;
+    width: 496rem;
+  }
+
+  #timeline-cards {
+    margin-top: 41rem;
+    & summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: $orange;
+
+      height: 108.25rem;
+
+      // gap: ;
+      padding-left: 32.4rem;
+      padding-right: 14rem;
+      //   list-style: none;
+
+      & .phase-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 132.17rem;
+        height: 49.05rem;
+        border-radius: 7rem;
+        background-color: black;
+
+        font-weight: 600;
+        font-size: 21rem;
+      }
+    }
+
+    & .timeline-item {
+      position: relative;
+
+      & h3 {
+        font-family: Poppins;
+        font-weight: 700;
+        font-size: 29rem;
+        letter-spacing: -0.01em;
+        line-height: 34.8rem;
+        color: black;
+      }
+
+      & h2 {
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 29rem;
+        letter-spacing: -0.01em;
+        line-height: 34.8rem;
+        color: black;
+      }
+
+      & p {
+        // background-color: white;
+        width: 411.42rem;
+
+        margin-top: 22.5rem;
+        margin-left: 32rem;
+        padding-bottom: 22rem;
+
+        // height: 322px;
+        font-family: Lato;
+        font-weight: normal;
+        font-size: 25rem;
+        line-height: 34.8rem;
+        text-align: left;
+        color: black;
+      }
+    }
+  }
+}

@@ -18,7 +18,7 @@
     "fmt.check": "prettier --check .",
     "lint": "eslint \"src/**/*.ts*\"",
     "preview": "qwik build preview && vite preview --open",
-    "start": "vite --open --mode ssr",
+    "start": "vite --host --open --mode ssr",
     "qwik": "qwik"
   },
   "devDependencies": {
@@ -54,6 +54,7 @@
     "framer-motion": "^8.5.0",
     "graphql": "^16.6.0",
     "graphql-request": "^5.1.0",
-    "next-qrcode": "^2.4.0"
+    "next-qrcode": "^2.4.0",
+    "zustand": "^4.3.2"
   }
 }

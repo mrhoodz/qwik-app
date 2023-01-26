@@ -90,6 +90,16 @@
       "captures": true,
       "parent": "s_OW4nu0I1yZ8"
     },
+    "s_0tX9MWS3k9A": {
+      "origin": "Layout/Home/home.tsx",
+      "displayName": "home_component",
+      "canonicalFilename": "s_0tx9mws3k9a",
+      "hash": "0tX9MWS3k9A",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null
+    },
     "s_3sccYCDd1Z0": {
       "origin": "root.tsx",
       "displayName": "root_component",
@@ -110,6 +120,16 @@
       "captures": false,
       "parent": null
     },
+    "s_9xylydsLDHA": {
+      "origin": "Layout/Home/focus.tsx",
+      "displayName": "focus_component",
+      "canonicalFilename": "s_9xylydsldha",
+      "hash": "9xylydsLDHA",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null
+    },
     "s_AKetNByE5TM": {
       "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
       "displayName": "RouterOutlet_component",
@@ -120,21 +140,21 @@
       "captures": false,
       "parent": null
     },
-    "s_BKHE6HfkIVs": {
-      "origin": "routes/try.tsx",
-      "displayName": "Try_component",
-      "canonicalFilename": "s_bkhe6hfkivs",
-      "hash": "BKHE6HfkIVs",
-      "ctxKind": "function",
-      "ctxName": "component$",
-      "captures": false,
-      "parent": null
-    },
     "s_OW4nu0I1yZ8": {
       "origin": "routes/flower/index.tsx",
       "displayName": "flower_component",
       "canonicalFilename": "s_ow4nu0i1yz8",
       "hash": "OW4nu0I1yZ8",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null
+    },
+    "s_PLKM7SZUV5M": {
+      "origin": "Layout/Projects/timeline.tsx",
+      "displayName": "timeline_component",
+      "canonicalFilename": "s_plkm7szuv5m",
+      "hash": "PLKM7SZUV5M",
       "ctxKind": "function",
       "ctxName": "component$",
       "captures": false,
@@ -170,21 +190,51 @@
       "captures": false,
       "parent": null
     },
-    "s_ceU05TscGYE": {
-      "origin": "components/header/header.tsx",
-      "displayName": "header_component",
-      "canonicalFilename": "s_ceu05tscgye",
-      "hash": "ceU05TscGYE",
-      "ctxKind": "function",
-      "ctxName": "component$",
-      "captures": false,
-      "parent": null
-    },
     "s_i4frY0Pt5lk": {
       "origin": "routes/react/index.tsx",
       "displayName": "react_component",
       "canonicalFilename": "s_i4fry0pt5lk",
       "hash": "i4frY0Pt5lk",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null
+    },
+    "s_iWodJ6pb2iY": {
+      "origin": "Layout/Projects/home.tsx",
+      "displayName": "home_component",
+      "canonicalFilename": "s_iwodj6pb2iy",
+      "hash": "iWodJ6pb2iY",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null
+    },
+    "s_is8k9jDSyas": {
+      "origin": "Layout/Projects/analysis.tsx",
+      "displayName": "analysis_component",
+      "canonicalFilename": "s_is8k9jdsyas",
+      "hash": "is8k9jDSyas",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null
+    },
+    "s_k0lXQD2PhuA": {
+      "origin": "routes/project/index.tsx",
+      "displayName": "project_component",
+      "canonicalFilename": "s_k0lxqd2phua",
+      "hash": "k0lXQD2PhuA",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null
+    },
+    "s_lW0WY0td4S4": {
+      "origin": "Layout/Home/goals.tsx",
+      "displayName": "goals_component",
+      "canonicalFilename": "s_lw0wy0td4s4",
+      "hash": "lW0WY0td4S4",
       "ctxKind": "function",
       "ctxName": "component$",
       "captures": false,
@@ -220,15 +270,55 @@
       "captures": false,
       "parent": null
     },
-    "s_ML8WGw215M8": {
-      "origin": "routes/try.tsx",
-      "displayName": "Try_component_up_component",
-      "canonicalFilename": "s_ml8wgw215m8",
-      "hash": "ML8WGw215M8",
+    "s_0G1YV5Tvg7U": {
+      "origin": "Layout/Home/goals.tsx",
+      "displayName": "goals_component_useStyles",
+      "canonicalFilename": "s_0g1yv5tvg7u",
+      "hash": "0G1YV5Tvg7U",
       "ctxKind": "function",
-      "ctxName": "component$",
+      "ctxName": "useStyles$",
       "captures": false,
-      "parent": "s_BKHE6HfkIVs"
+      "parent": "s_lW0WY0td4S4"
+    },
+    "s_5jxbDl0waU0": {
+      "origin": "Layout/Home/focus.tsx",
+      "displayName": "focus_component_useStyles",
+      "canonicalFilename": "s_5jxbdl0wau0",
+      "hash": "5jxbDl0waU0",
+      "ctxKind": "function",
+      "ctxName": "useStyles$",
+      "captures": false,
+      "parent": "s_9xylydsLDHA"
+    },
+    "s_CIAPEQ3876k": {
+      "origin": "Layout/Projects/timeline.tsx",
+      "displayName": "timeline_component_useStyles",
+      "canonicalFilename": "s_ciapeq3876k",
+      "hash": "CIAPEQ3876k",
+      "ctxKind": "function",
+      "ctxName": "useStyles$",
+      "captures": false,
+      "parent": "s_PLKM7SZUV5M"
+    },
+    "s_Gqpek6EjhZI": {
+      "origin": "Layout/Projects/analysis.tsx",
+      "displayName": "analysis_component_useStyles",
+      "canonicalFilename": "s_gqpek6ejhzi",
+      "hash": "Gqpek6EjhZI",
+      "ctxKind": "function",
+      "ctxName": "useStyles$",
+      "captures": false,
+      "parent": "s_is8k9jDSyas"
+    },
+    "s_Td0rLkYVQS4": {
+      "origin": "Layout/Home/home.tsx",
+      "displayName": "home_component_useStyles",
+      "canonicalFilename": "s_td0rlkyvqs4",
+      "hash": "Td0rLkYVQS4",
+      "ctxKind": "function",
+      "ctxName": "useStyles$",
+      "captures": false,
+      "parent": "s_0tX9MWS3k9A"
     },
     "s_hO3b5j0m2ZI": {
       "origin": "root.tsx",
@@ -240,15 +330,15 @@
       "captures": false,
       "parent": "s_3sccYCDd1Z0"
     },
-    "s_N39ca0w8E8Y": {
-      "origin": "components/header/header.tsx",
-      "displayName": "header_component_useStylesScoped",
-      "canonicalFilename": "s_n39ca0w8e8y",
-      "hash": "N39ca0w8E8Y",
+    "s_xZ2yYDi0oyU": {
+      "origin": "Layout/Projects/home.tsx",
+      "displayName": "home_component_useStyles",
+      "canonicalFilename": "s_xz2yydi0oyu",
+      "hash": "xZ2yYDi0oyU",
       "ctxKind": "function",
-      "ctxName": "useStylesScoped$",
+      "ctxName": "useStyles$",
       "captures": false,
-      "parent": "s_ceU05TscGYE"
+      "parent": "s_iWodJ6pb2iY"
     },
     "s_bHjzplUVBNo": {
       "origin": "../node_modules/@builder.io/qwik-react/lib/index.qwik.mjs",
@@ -275,16 +365,6 @@
       "displayName": "MUISlider_qwikify",
       "canonicalFilename": "s_2xxi5peaeoq",
       "hash": "2XxI5peAEOQ",
-      "ctxKind": "function",
-      "ctxName": "qwikify$",
-      "captures": false,
-      "parent": null
-    },
-    "s_5vtBjqz6UTo": {
-      "origin": "integrations/react/motion.tsx",
-      "displayName": "Motion_qwikify",
-      "canonicalFilename": "s_5vtbjqz6uto",
-      "hash": "5vtBjqz6UTo",
       "ctxKind": "function",
       "ctxName": "qwikify$",
       "captures": false,
@@ -340,16 +420,6 @@
       "captures": true,
       "parent": "s_TxCFOy819ag"
     },
-    "s_8u0jWapFe0I": {
-      "origin": "routes/index.tsx",
-      "displayName": "routes_component_plus",
-      "canonicalFilename": "s_8u0jwapfe0i",
-      "hash": "8u0jWapFe0I",
-      "ctxKind": "function",
-      "ctxName": "$",
-      "captures": true,
-      "parent": "s_xYL1qOwPyDI"
-    },
     "s_u0YVoxt2aTY": {
       "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
       "displayName": "Link_component_useOnDocument",
@@ -372,55 +442,78 @@
     }
   },
   "mapping": {
-    "s_DVMPoyljbY8": "q-5302c8f2.js",
-    "s_kzjavhDI3L0": "q-de196e4e.js",
-    "s_yiXwCC0m3jY": "q-de196e4e.js",
-    "s_dznIGAlrcag": "q-6a19c07e.js",
-    "s_CwHr1soCFpo": "q-5302c8f2.js",
-    "s_ajMyuRH1aws": "q-5302c8f2.js",
-    "s_0TpDEaIm2Eg": "q-5302c8f2.js",
-    "s_EpaZ5qQ4Lg4": "q-de196e4e.js",
-    "s_V0Y6u0VD1eY": "q-6a19c07e.js",
-    "s_3sccYCDd1Z0": "q-133224ab.js",
-    "s_8gdLBszqbaM": "q-de196e4e.js",
-    "s_AKetNByE5TM": "q-6e0e99e3.js",
-    "s_BKHE6HfkIVs": "q-8be0018f.js",
-    "s_OW4nu0I1yZ8": "q-6a19c07e.js",
-    "s_TxCFOy819ag": "q-8e95f2d4.js",
-    "s_VkLNXphUh5s": "q-dbd1204d.js",
-    "s_WmYC5H00wtI": "q-087eba0b.js",
-    "s_ceU05TscGYE": "q-158c3fc6.js",
-    "s_i4frY0Pt5lk": "q-5302c8f2.js",
-    "s_xYL1qOwPyDI": "q-30abd6eb.js",
-    "s_zH94hIe0Ick": "q-7a21f072.js",
-    "s_zrbrqoaqXSY": "q-23f1707e.js",
-    "s_ML8WGw215M8": "q-8be0018f.js",
-    "s_hO3b5j0m2ZI": "q-133224ab.js",
-    "s_N39ca0w8E8Y": "q-158c3fc6.js",
-    "s_bHjzplUVBNo": "q-7a21f072.js",
-    "s_p4UiTwsJc7c": "q-6a19c07e.js",
-    "s_2XxI5peAEOQ": "q-bac69762.js",
-    "s_5vtBjqz6UTo": "q-764c57af.js",
+    "s_DVMPoyljbY8": "q-15b4f73e.js",
+    "s_kzjavhDI3L0": "q-b5c20f63.js",
+    "s_yiXwCC0m3jY": "q-b5c20f63.js",
+    "s_dznIGAlrcag": "q-40a82fd3.js",
+    "s_CwHr1soCFpo": "q-15b4f73e.js",
+    "s_ajMyuRH1aws": "q-15b4f73e.js",
+    "s_0TpDEaIm2Eg": "q-15b4f73e.js",
+    "s_EpaZ5qQ4Lg4": "q-b5c20f63.js",
+    "s_V0Y6u0VD1eY": "q-40a82fd3.js",
+    "s_0tX9MWS3k9A": "q-fa68f439.js",
+    "s_3sccYCDd1Z0": "q-aafa03c2.js",
+    "s_8gdLBszqbaM": "q-b5c20f63.js",
+    "s_9xylydsLDHA": "q-3e4698ff.js",
+    "s_AKetNByE5TM": "q-66c6f272.js",
+    "s_OW4nu0I1yZ8": "q-40a82fd3.js",
+    "s_PLKM7SZUV5M": "q-1850c485.js",
+    "s_TxCFOy819ag": "q-de1fbb2e.js",
+    "s_VkLNXphUh5s": "q-2b634382.js",
+    "s_WmYC5H00wtI": "q-7b8fc343.js",
+    "s_i4frY0Pt5lk": "q-15b4f73e.js",
+    "s_iWodJ6pb2iY": "q-fa68f439.js",
+    "s_is8k9jDSyas": "q-fc8262a7.js",
+    "s_k0lXQD2PhuA": "q-27864b7b.js",
+    "s_lW0WY0td4S4": "q-05ead3d2.js",
+    "s_xYL1qOwPyDI": "q-b13d1047.js",
+    "s_zH94hIe0Ick": "q-7842f07b.js",
+    "s_zrbrqoaqXSY": "q-f9c86b34.js",
+    "s_0G1YV5Tvg7U": "q-05ead3d2.js",
+    "s_5jxbDl0waU0": "q-3e4698ff.js",
+    "s_CIAPEQ3876k": "q-1850c485.js",
+    "s_Gqpek6EjhZI": "q-fc8262a7.js",
+    "s_Td0rLkYVQS4": "q-fa68f439.js",
+    "s_hO3b5j0m2ZI": "q-aafa03c2.js",
+    "s_xZ2yYDi0oyU": "q-fa68f439.js",
+    "s_bHjzplUVBNo": "q-7842f07b.js",
+    "s_p4UiTwsJc7c": "q-40a82fd3.js",
+    "s_2XxI5peAEOQ": "q-15202c99.js",
     "s_6LYztwGzxAA": "q-c8392770.js",
-    "s_Hd8r0YexMcY": "q-6d8c5307.js",
-    "s_I2z5asPy2gk": "q-108ae7d5.js",
-    "s_LQzPP0B5Rtk": "q-a3460043.js",
-    "s_2Eo7WCpaqI8": "q-8e95f2d4.js",
-    "s_8u0jWapFe0I": "q-30abd6eb.js",
-    "s_u0YVoxt2aTY": "q-de196e4e.js",
-    "s_x04JC5xeP1U": "q-7a21f072.js"
+    "s_Hd8r0YexMcY": "q-8739de94.js",
+    "s_I2z5asPy2gk": "q-67441ac6.js",
+    "s_LQzPP0B5Rtk": "q-39c2cd4e.js",
+    "s_2Eo7WCpaqI8": "q-de1fbb2e.js",
+    "s_u0YVoxt2aTY": "q-b5c20f63.js",
+    "s_x04JC5xeP1U": "q-7842f07b.js"
   },
   "bundles": {
-    "q-0150a6a4.js": {
-      "size": 954,
+    "q-04e6faad.js": {
+      "size": 231,
       "imports": [
-        "q-4f3865aa.js"
+        "q-a92c5382.js"
+      ],
+      "dynamicImports": [
+        "q-15b4f73e.js"
       ],
       "origins": [
-        "\u0000C:/Exempt/qwik-realwebsdigital/qwik-app/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports",
-        "\u0000C:/Exempt/qwik-realwebsdigital/qwik-app/node_modules/react/jsx-runtime.js?commonjs-module",
-        "node_modules/react/cjs/react-jsx-runtime.production.min.js",
-        "node_modules/react/jsx-runtime.js"
+        "src/routes/react/index.tsx"
+      ]
+    },
+    "q-05ead3d2.js": {
+      "size": 1641,
+      "imports": [
+        "q-a92c5382.js"
+      ],
+      "origins": [
+        "src/Layout/Home/styles/_goals.scss?used&inline",
+        "src/entry_goals.js",
+        "src/s_0g1yv5tvg7u.js",
+        "src/s_lw0wy0td4s4.js"
+      ],
+      "symbols": [
+        "s_0G1YV5Tvg7U",
+        "s_lW0WY0td4S4"
       ]
     },
     "q-06234f0f.js": {
@@ -435,547 +528,22 @@
         "@qwik-city-entries"
       ]
     },
-    "q-087eba0b.js": {
-      "size": 463,
-      "imports": [
-        "q-70a4e3c1.js",
-        "q-a92c5382.js"
-      ],
-      "origins": [
-        "src/entry_QwikCityMockProvider.js",
-        "src/s_wmyc5h00wti.js"
-      ],
-      "symbols": [
-        "s_WmYC5H00wtI"
-      ]
-    },
-    "q-108ae7d5.js": {
-      "size": 316,
-      "imports": [
-        "q-0150a6a4.js",
-        "q-4f3865aa.js",
-        "q-7cdc0339.js",
-        "q-a92c5382.js"
-      ],
-      "origins": [
-        "src/entry_Test.js",
-        "src/s_i2z5aspy2gk.js"
-      ],
-      "symbols": [
-        "s_I2z5asPy2gk"
-      ]
-    },
-    "q-133224ab.js": {
-      "size": 2324,
-      "imports": [
-        "q-70a4e3c1.js",
-        "q-a92c5382.js"
-      ],
-      "dynamicImports": [
-        "q-23f1707e.js"
-      ],
-      "origins": [
-        "src/components/router-head/router-head.tsx",
-        "src/entry_root.js",
-        "src/global.css?used&inline",
-        "src/s_3sccycdd1z0.js",
-        "src/s_ho3b5j0m2zi.js"
-      ],
-      "symbols": [
-        "s_3sccYCDd1Z0",
-        "s_hO3b5j0m2ZI"
-      ]
-    },
-    "q-158c3fc6.js": {
-      "size": 4120,
-      "imports": [
-        "q-a92c5382.js"
-      ],
-      "origins": [
-        "src/components/header/header.css?used&inline",
-        "src/components/icons/qwik.tsx",
-        "src/entry_header.js",
-        "src/s_ceu05tscgye.js",
-        "src/s_n39ca0w8e8y.js"
-      ],
-      "symbols": [
-        "s_ceU05TscGYE",
-        "s_N39ca0w8E8Y"
-      ]
-    },
-    "q-1b2bd697.js": {
-      "size": 716,
-      "imports": [
-        "q-a92c5382.js"
-      ],
-      "dynamicImports": [
-        "q-06234f0f.js",
-        "q-4fa41af5.js",
-        "q-64af0cec.js",
-        "q-67493f45.js",
-        "q-f903e856.js"
-      ],
-      "origins": [
-        "@qwik-city-plan"
-      ]
-    },
-    "q-23f1707e.js": {
-      "size": 639,
-      "imports": [
-        "q-70a4e3c1.js",
-        "q-a92c5382.js"
-      ],
-      "origins": [
-        "src/entry_RouterHead.js",
-        "src/s_zrbrqoaqxsy.js"
-      ],
-      "symbols": [
-        "s_zrbrqoaqXSY"
-      ]
-    },
-    "q-30abd6eb.js": {
-      "size": 916,
-      "imports": [
-        "q-4f3865aa.js",
-        "q-a92c5382.js"
-      ],
-      "dynamicImports": [
-        "q-764c57af.js",
-        "q-8be0018f.js"
-      ],
-      "origins": [
-        "src/entry_routes.js",
-        "src/integrations/react/motion.tsx",
-        "src/routes/try.tsx",
-        "src/s_8u0jwapfe0i.js",
-        "src/s_xyl1qowpydi.js"
-      ],
-      "symbols": [
-        "s_8u0jWapFe0I",
-        "s_xYL1qOwPyDI"
-      ]
-    },
-    "q-45aab3b6.js": {
-      "size": 2536,
-      "origins": [
-        "node_modules/@builder.io/qwik-city/service-worker.mjs",
-        "src/routes/service-worker.ts"
-      ]
-    },
-    "q-4f3865aa.js": {
-      "size": 8903,
-      "imports": [
-        "q-a92c5382.js"
-      ],
-      "dynamicImports": [
-        "q-7a21f072.js",
-        "q-c8392770.js"
-      ],
-      "origins": [
-        "\u0000C:/Exempt/qwik-realwebsdigital/qwik-app/node_modules/react/cjs/react.production.min.js?commonjs-exports",
-        "\u0000C:/Exempt/qwik-realwebsdigital/qwik-app/node_modules/react/index.js?commonjs-module",
-        "\u0000commonjsHelpers.js",
-        "node_modules/@builder.io/qwik-react/lib/index.qwik.mjs",
-        "node_modules/react/cjs/react.production.min.js",
-        "node_modules/react/index.js"
-      ]
-    },
-    "q-4fa41af5.js": {
-      "size": 305,
-      "imports": [
-        "q-a92c5382.js"
-      ],
-      "dynamicImports": [
-        "q-30abd6eb.js"
-      ],
-      "origins": [
-        "src/routes/index.tsx"
-      ]
-    },
-    "q-5302c8f2.js": {
-      "size": 2450,
-      "imports": [
-        "q-4f3865aa.js",
-        "q-a92c5382.js"
-      ],
-      "dynamicImports": [
-        "q-108ae7d5.js",
-        "q-6d8c5307.js",
-        "q-a3460043.js",
-        "q-bac69762.js"
-      ],
-      "origins": [
-        "src/entry_react.js",
-        "src/integrations/react/mui.tsx",
-        "src/integrations/react/test.tsx",
-        "src/s_0tpdeaim2eg.js",
-        "src/s_ajmyurh1aws.js",
-        "src/s_cwhr1socfpo.js",
-        "src/s_dvmpoyljby8.js",
-        "src/s_i4fry0pt5lk.js"
-      ],
-      "symbols": [
-        "s_0TpDEaIm2Eg",
-        "s_ajMyuRH1aws",
-        "s_CwHr1soCFpo",
-        "s_DVMPoyljbY8",
-        "s_i4frY0Pt5lk"
-      ]
-    },
-    "q-64af0cec.js": {
-      "size": 241,
-      "imports": [
-        "q-a92c5382.js"
-      ],
-      "dynamicImports": [
-        "q-6a19c07e.js"
-      ],
-      "origins": [
-        "src/routes/flower/index.tsx"
-      ]
-    },
-    "q-6516bd13.js": {
-      "size": 2025,
-      "imports": [
-        "q-4f3865aa.js",
-        "q-8afd426d.js"
-      ],
-      "origins": [
-        "node_modules/@mui/base/utils/appendOwnerState.js",
-        "node_modules/@mui/base/utils/extractEventHandlers.js",
-        "node_modules/@mui/base/utils/isHostComponent.js",
-        "node_modules/@mui/base/utils/mergeSlotProps.js",
-        "node_modules/@mui/base/utils/omitEventHandlers.js",
-        "node_modules/@mui/base/utils/resolveComponentProps.js",
-        "node_modules/@mui/base/utils/useSlotProps.js",
-        "node_modules/@mui/material/esm/styles/useTheme.js",
-        "node_modules/@mui/material/esm/utils/shouldSpreadAdditionalProps.js",
-        "node_modules/@mui/utils/esm/ownerDocument.js",
-        "node_modules/@mui/utils/esm/useControlled.js"
-      ]
-    },
-    "q-67493f45.js": {
+    "q-0ad0e6da.js": {
       "size": 185,
       "imports": [
         "q-a92c5382.js"
       ],
       "dynamicImports": [
-        "q-dbd1204d.js"
+        "q-2b634382.js"
       ],
       "origins": [
         "src/routes/layout.tsx"
       ]
     },
-    "q-6a19c07e.js": {
-      "size": 2446,
-      "imports": [
-        "q-70a4e3c1.js",
-        "q-a92c5382.js"
-      ],
-      "origins": [
-        "src/entry_flower.js",
-        "src/routes/flower/flower.css?used&inline",
-        "src/s_dznigalrcag.js",
-        "src/s_ow4nu0i1yz8.js",
-        "src/s_p4uitwsjc7c.js",
-        "src/s_v0y6u0vd1ey.js"
-      ],
-      "symbols": [
-        "s_dznIGAlrcag",
-        "s_OW4nu0I1yZ8",
-        "s_p4UiTwsJc7c",
-        "s_V0Y6u0VD1eY"
-      ]
-    },
-    "q-6d8c5307.js": {
-      "size": 170,
-      "imports": [
-        "q-0150a6a4.js",
-        "q-4f3865aa.js",
-        "q-8afd426d.js",
-        "q-a92c5382.js",
-        "q-e995d5c2.js"
-      ],
-      "origins": [
-        "src/entry_MUIButton.js",
-        "src/s_hd8r0yexmcy.js"
-      ],
-      "symbols": [
-        "s_Hd8r0YexMcY"
-      ]
-    },
-    "q-6e0e99e3.js": {
-      "size": 269,
-      "imports": [
-        "q-70a4e3c1.js",
-        "q-a92c5382.js"
-      ],
-      "origins": [
-        "src/entry_RouterOutlet.js",
-        "src/s_aketnbye5tm.js"
-      ],
-      "symbols": [
-        "s_AKetNByE5TM"
-      ]
-    },
-    "q-70a4e3c1.js": {
-      "size": 4281,
-      "imports": [
-        "q-a92c5382.js"
-      ],
-      "dynamicImports": [
-        "q-087eba0b.js",
-        "q-6e0e99e3.js",
-        "q-8e95f2d4.js",
-        "q-de196e4e.js"
-      ],
-      "origins": [
-        "@qwik-city-sw-register",
-        "node_modules/@builder.io/qwik-city/index.qwik.mjs"
-      ]
-    },
-    "q-764c57af.js": {
-      "size": 399,
-      "imports": [
-        "q-0150a6a4.js",
-        "q-4f3865aa.js",
-        "q-7cdc0339.js",
-        "q-a92c5382.js"
-      ],
-      "origins": [
-        "src/entry_Motion.js",
-        "src/s_5vtbjqz6uto.js"
-      ],
-      "symbols": [
-        "s_5vtBjqz6UTo"
-      ]
-    },
-    "q-7a21f072.js": {
-      "size": 1352,
-      "imports": [
-        "q-4f3865aa.js",
-        "q-a92c5382.js",
-        "q-ba6179a7.js"
-      ],
-      "origins": [
-        "node_modules/react-dom/client.js",
-        "src/entry_qwikifyQrl.js",
-        "src/s_bhjzpluvbno.js",
-        "src/s_x04jc5xep1u.js",
-        "src/s_zh94hie0ick.js"
-      ],
-      "symbols": [
-        "s_bHjzplUVBNo",
-        "s_x04JC5xeP1U",
-        "s_zH94hIe0Ick"
-      ]
-    },
-    "q-7cdc0339.js": {
-      "size": 93134,
-      "imports": [
-        "q-4f3865aa.js"
-      ],
-      "origins": [
-        "node_modules/framer-motion/dist/es/animation/animate.mjs",
-        "node_modules/framer-motion/dist/es/animation/create-instant-animation.mjs",
-        "node_modules/framer-motion/dist/es/animation/index.mjs",
-        "node_modules/framer-motion/dist/es/animation/legacy-popmotion/decay.mjs",
-        "node_modules/framer-motion/dist/es/animation/legacy-popmotion/find-spring.mjs",
-        "node_modules/framer-motion/dist/es/animation/legacy-popmotion/index.mjs",
-        "node_modules/framer-motion/dist/es/animation/legacy-popmotion/inertia.mjs",
-        "node_modules/framer-motion/dist/es/animation/legacy-popmotion/keyframes.mjs",
-        "node_modules/framer-motion/dist/es/animation/legacy-popmotion/spring.mjs",
-        "node_modules/framer-motion/dist/es/animation/optimized-appear/data-id.mjs",
-        "node_modules/framer-motion/dist/es/animation/optimized-appear/handoff.mjs",
-        "node_modules/framer-motion/dist/es/animation/optimized-appear/store-id.mjs",
-        "node_modules/framer-motion/dist/es/animation/utils/default-transitions.mjs",
-        "node_modules/framer-motion/dist/es/animation/utils/easing.mjs",
-        "node_modules/framer-motion/dist/es/animation/utils/is-animatable.mjs",
-        "node_modules/framer-motion/dist/es/animation/utils/is-animation-controls.mjs",
-        "node_modules/framer-motion/dist/es/animation/utils/is-keyframes-target.mjs",
-        "node_modules/framer-motion/dist/es/animation/utils/keyframes.mjs",
-        "node_modules/framer-motion/dist/es/animation/utils/transitions.mjs",
-        "node_modules/framer-motion/dist/es/animation/waapi/create-accelerated-animation.mjs",
-        "node_modules/framer-motion/dist/es/animation/waapi/easing.mjs",
-        "node_modules/framer-motion/dist/es/animation/waapi/index.mjs",
-        "node_modules/framer-motion/dist/es/animation/waapi/supports.mjs",
-        "node_modules/framer-motion/dist/es/animation/waapi/utils/get-final-keyframe.mjs",
-        "node_modules/framer-motion/dist/es/components/AnimatePresence/use-presence.mjs",
-        "node_modules/framer-motion/dist/es/context/LayoutGroupContext.mjs",
-        "node_modules/framer-motion/dist/es/context/LazyContext.mjs",
-        "node_modules/framer-motion/dist/es/context/MotionConfigContext.mjs",
-        "node_modules/framer-motion/dist/es/context/MotionContext/create.mjs",
-        "node_modules/framer-motion/dist/es/context/MotionContext/index.mjs",
-        "node_modules/framer-motion/dist/es/context/MotionContext/utils.mjs",
-        "node_modules/framer-motion/dist/es/context/PresenceContext.mjs",
-        "node_modules/framer-motion/dist/es/context/SwitchLayoutGroupContext.mjs",
-        "node_modules/framer-motion/dist/es/easing/anticipate.mjs",
-        "node_modules/framer-motion/dist/es/easing/back.mjs",
-        "node_modules/framer-motion/dist/es/easing/circ.mjs",
-        "node_modules/framer-motion/dist/es/easing/cubic-bezier.mjs",
-        "node_modules/framer-motion/dist/es/easing/ease.mjs",
-        "node_modules/framer-motion/dist/es/easing/modifiers/mirror.mjs",
-        "node_modules/framer-motion/dist/es/easing/modifiers/reverse.mjs",
-        "node_modules/framer-motion/dist/es/events/event-info.mjs",
-        "node_modules/framer-motion/dist/es/events/use-dom-event.mjs",
-        "node_modules/framer-motion/dist/es/events/use-pointer-event.mjs",
-        "node_modules/framer-motion/dist/es/events/utils/is-primary-pointer.mjs",
-        "node_modules/framer-motion/dist/es/frameloop/create-render-step.mjs",
-        "node_modules/framer-motion/dist/es/frameloop/data.mjs",
-        "node_modules/framer-motion/dist/es/frameloop/index.mjs",
-        "node_modules/framer-motion/dist/es/frameloop/on-next-frame.mjs",
-        "node_modules/framer-motion/dist/es/gestures/PanSession.mjs",
-        "node_modules/framer-motion/dist/es/gestures/drag/VisualElementDragControls.mjs",
-        "node_modules/framer-motion/dist/es/gestures/drag/use-drag.mjs",
-        "node_modules/framer-motion/dist/es/gestures/drag/utils/constraints.mjs",
-        "node_modules/framer-motion/dist/es/gestures/drag/utils/lock.mjs",
-        "node_modules/framer-motion/dist/es/gestures/use-focus-gesture.mjs",
-        "node_modules/framer-motion/dist/es/gestures/use-hover-gesture.mjs",
-        "node_modules/framer-motion/dist/es/gestures/use-pan-gesture.mjs",
-        "node_modules/framer-motion/dist/es/gestures/use-tap-gesture.mjs",
-        "node_modules/framer-motion/dist/es/gestures/utils/is-node-or-child.mjs",
-        "node_modules/framer-motion/dist/es/motion/features/animations.mjs",
-        "node_modules/framer-motion/dist/es/motion/features/definitions.mjs",
-        "node_modules/framer-motion/dist/es/motion/features/drag.mjs",
-        "node_modules/framer-motion/dist/es/motion/features/gestures.mjs",
-        "node_modules/framer-motion/dist/es/motion/features/layout/MeasureLayout.mjs",
-        "node_modules/framer-motion/dist/es/motion/features/layout/index.mjs",
-        "node_modules/framer-motion/dist/es/motion/features/load-features.mjs",
-        "node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs",
-        "node_modules/framer-motion/dist/es/motion/features/viewport/use-viewport.mjs",
-        "node_modules/framer-motion/dist/es/motion/index.mjs",
-        "node_modules/framer-motion/dist/es/motion/utils/VisualElementHandler.mjs",
-        "node_modules/framer-motion/dist/es/motion/utils/is-forced-motion-value.mjs",
-        "node_modules/framer-motion/dist/es/motion/utils/make-renderless-component.mjs",
-        "node_modules/framer-motion/dist/es/motion/utils/symbol.mjs",
-        "node_modules/framer-motion/dist/es/motion/utils/use-motion-ref.mjs",
-        "node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs",
-        "node_modules/framer-motion/dist/es/motion/utils/use-visual-state.mjs",
-        "node_modules/framer-motion/dist/es/motion/utils/valid-prop.mjs",
-        "node_modules/framer-motion/dist/es/projection/animation/mix-values.mjs",
-        "node_modules/framer-motion/dist/es/projection/geometry/conversion.mjs",
-        "node_modules/framer-motion/dist/es/projection/geometry/copy.mjs",
-        "node_modules/framer-motion/dist/es/projection/geometry/delta-apply.mjs",
-        "node_modules/framer-motion/dist/es/projection/geometry/delta-calc.mjs",
-        "node_modules/framer-motion/dist/es/projection/geometry/delta-remove.mjs",
-        "node_modules/framer-motion/dist/es/projection/geometry/models.mjs",
-        "node_modules/framer-motion/dist/es/projection/geometry/utils.mjs",
-        "node_modules/framer-motion/dist/es/projection/node/DocumentProjectionNode.mjs",
-        "node_modules/framer-motion/dist/es/projection/node/HTMLProjectionNode.mjs",
-        "node_modules/framer-motion/dist/es/projection/node/create-projection-node.mjs",
-        "node_modules/framer-motion/dist/es/projection/node/id.mjs",
-        "node_modules/framer-motion/dist/es/projection/node/state.mjs",
-        "node_modules/framer-motion/dist/es/projection/shared/stack.mjs",
-        "node_modules/framer-motion/dist/es/projection/styles/scale-border-radius.mjs",
-        "node_modules/framer-motion/dist/es/projection/styles/scale-box-shadow.mjs",
-        "node_modules/framer-motion/dist/es/projection/styles/scale-correction.mjs",
-        "node_modules/framer-motion/dist/es/projection/styles/transform.mjs",
-        "node_modules/framer-motion/dist/es/projection/utils/each-axis.mjs",
-        "node_modules/framer-motion/dist/es/projection/utils/has-transform.mjs",
-        "node_modules/framer-motion/dist/es/projection/utils/measure.mjs",
-        "node_modules/framer-motion/dist/es/render/VisualElement.mjs",
-        "node_modules/framer-motion/dist/es/render/dom/DOMVisualElement.mjs",
-        "node_modules/framer-motion/dist/es/render/dom/create-visual-element.mjs",
-        "node_modules/framer-motion/dist/es/render/dom/motion-proxy.mjs",
-        "node_modules/framer-motion/dist/es/render/dom/motion.mjs",
-        "node_modules/framer-motion/dist/es/render/dom/use-render.mjs",
-        "node_modules/framer-motion/dist/es/render/dom/utils/camel-to-dash.mjs",
-        "node_modules/framer-motion/dist/es/render/dom/utils/create-config.mjs",
-        "node_modules/framer-motion/dist/es/render/dom/utils/css-variables-conversion.mjs",
-        "node_modules/framer-motion/dist/es/render/dom/utils/filter-props.mjs",
-        "node_modules/framer-motion/dist/es/render/dom/utils/is-css-variable.mjs",
-        "node_modules/framer-motion/dist/es/render/dom/utils/is-svg-component.mjs",
-        "node_modules/framer-motion/dist/es/render/dom/utils/parse-dom-variant.mjs",
-        "node_modules/framer-motion/dist/es/render/dom/utils/unit-conversion.mjs",
-        "node_modules/framer-motion/dist/es/render/dom/value-types/animatable-none.mjs",
-        "node_modules/framer-motion/dist/es/render/dom/value-types/defaults.mjs",
-        "node_modules/framer-motion/dist/es/render/dom/value-types/dimensions.mjs",
-        "node_modules/framer-motion/dist/es/render/dom/value-types/find.mjs",
-        "node_modules/framer-motion/dist/es/render/dom/value-types/get-as-type.mjs",
-        "node_modules/framer-motion/dist/es/render/dom/value-types/number.mjs",
-        "node_modules/framer-motion/dist/es/render/dom/value-types/test.mjs",
-        "node_modules/framer-motion/dist/es/render/dom/value-types/type-auto.mjs",
-        "node_modules/framer-motion/dist/es/render/dom/value-types/type-int.mjs",
-        "node_modules/framer-motion/dist/es/render/html/HTMLVisualElement.mjs",
-        "node_modules/framer-motion/dist/es/render/html/config-motion.mjs",
-        "node_modules/framer-motion/dist/es/render/html/use-props.mjs",
-        "node_modules/framer-motion/dist/es/render/html/utils/build-styles.mjs",
-        "node_modules/framer-motion/dist/es/render/html/utils/build-transform.mjs",
-        "node_modules/framer-motion/dist/es/render/html/utils/create-render-state.mjs",
-        "node_modules/framer-motion/dist/es/render/html/utils/render.mjs",
-        "node_modules/framer-motion/dist/es/render/html/utils/scrape-motion-values.mjs",
-        "node_modules/framer-motion/dist/es/render/html/utils/transform.mjs",
-        "node_modules/framer-motion/dist/es/render/svg/SVGVisualElement.mjs",
-        "node_modules/framer-motion/dist/es/render/svg/config-motion.mjs",
-        "node_modules/framer-motion/dist/es/render/svg/lowercase-elements.mjs",
-        "node_modules/framer-motion/dist/es/render/svg/use-props.mjs",
-        "node_modules/framer-motion/dist/es/render/svg/utils/build-attrs.mjs",
-        "node_modules/framer-motion/dist/es/render/svg/utils/camel-case-attrs.mjs",
-        "node_modules/framer-motion/dist/es/render/svg/utils/create-render-state.mjs",
-        "node_modules/framer-motion/dist/es/render/svg/utils/is-svg-tag.mjs",
-        "node_modules/framer-motion/dist/es/render/svg/utils/path.mjs",
-        "node_modules/framer-motion/dist/es/render/svg/utils/render.mjs",
-        "node_modules/framer-motion/dist/es/render/svg/utils/scrape-motion-values.mjs",
-        "node_modules/framer-motion/dist/es/render/svg/utils/transform-origin.mjs",
-        "node_modules/framer-motion/dist/es/render/utils/animation-state.mjs",
-        "node_modules/framer-motion/dist/es/render/utils/animation.mjs",
-        "node_modules/framer-motion/dist/es/render/utils/compare-by-depth.mjs",
-        "node_modules/framer-motion/dist/es/render/utils/flat-tree.mjs",
-        "node_modules/framer-motion/dist/es/render/utils/is-controlling-variants.mjs",
-        "node_modules/framer-motion/dist/es/render/utils/is-variant-label.mjs",
-        "node_modules/framer-motion/dist/es/render/utils/motion-values.mjs",
-        "node_modules/framer-motion/dist/es/render/utils/resolve-dynamic-variants.mjs",
-        "node_modules/framer-motion/dist/es/render/utils/resolve-variants.mjs",
-        "node_modules/framer-motion/dist/es/render/utils/setters.mjs",
-        "node_modules/framer-motion/dist/es/render/utils/types.mjs",
-        "node_modules/framer-motion/dist/es/utils/array.mjs",
-        "node_modules/framer-motion/dist/es/utils/clamp.mjs",
-        "node_modules/framer-motion/dist/es/utils/delay.mjs",
-        "node_modules/framer-motion/dist/es/utils/distance.mjs",
-        "node_modules/framer-motion/dist/es/utils/hsla-to-rgba.mjs",
-        "node_modules/framer-motion/dist/es/utils/interpolate.mjs",
-        "node_modules/framer-motion/dist/es/utils/is-browser.mjs",
-        "node_modules/framer-motion/dist/es/utils/is-numerical-string.mjs",
-        "node_modules/framer-motion/dist/es/utils/is-ref-object.mjs",
-        "node_modules/framer-motion/dist/es/utils/is-zero-value-string.mjs",
-        "node_modules/framer-motion/dist/es/utils/mix-color.mjs",
-        "node_modules/framer-motion/dist/es/utils/mix-complex.mjs",
-        "node_modules/framer-motion/dist/es/utils/mix.mjs",
-        "node_modules/framer-motion/dist/es/utils/noop.mjs",
-        "node_modules/framer-motion/dist/es/utils/pipe.mjs",
-        "node_modules/framer-motion/dist/es/utils/progress.mjs",
-        "node_modules/framer-motion/dist/es/utils/reduced-motion/index.mjs",
-        "node_modules/framer-motion/dist/es/utils/reduced-motion/state.mjs",
-        "node_modules/framer-motion/dist/es/utils/resolve-value.mjs",
-        "node_modules/framer-motion/dist/es/utils/shallow-compare.mjs",
-        "node_modules/framer-motion/dist/es/utils/subscription-manager.mjs",
-        "node_modules/framer-motion/dist/es/utils/time-conversion.mjs",
-        "node_modules/framer-motion/dist/es/utils/use-constant.mjs",
-        "node_modules/framer-motion/dist/es/utils/use-instant-transition-state.mjs",
-        "node_modules/framer-motion/dist/es/utils/use-isomorphic-effect.mjs",
-        "node_modules/framer-motion/dist/es/utils/use-unmount-effect.mjs",
-        "node_modules/framer-motion/dist/es/utils/velocity-per-second.mjs",
-        "node_modules/framer-motion/dist/es/value/index.mjs",
-        "node_modules/framer-motion/dist/es/value/types/color/hex.mjs",
-        "node_modules/framer-motion/dist/es/value/types/color/hsla.mjs",
-        "node_modules/framer-motion/dist/es/value/types/color/index.mjs",
-        "node_modules/framer-motion/dist/es/value/types/color/rgba.mjs",
-        "node_modules/framer-motion/dist/es/value/types/color/utils.mjs",
-        "node_modules/framer-motion/dist/es/value/types/complex/filter.mjs",
-        "node_modules/framer-motion/dist/es/value/types/complex/index.mjs",
-        "node_modules/framer-motion/dist/es/value/types/numbers/index.mjs",
-        "node_modules/framer-motion/dist/es/value/types/numbers/units.mjs",
-        "node_modules/framer-motion/dist/es/value/types/utils.mjs",
-        "node_modules/framer-motion/dist/es/value/use-will-change/is.mjs",
-        "node_modules/framer-motion/dist/es/value/utils/is-motion-value.mjs",
-        "node_modules/framer-motion/dist/es/value/utils/resolve-motion-value.mjs",
-        "node_modules/hey-listen/dist/hey-listen.es.js"
-      ]
-    },
-    "q-8afd426d.js": {
+    "q-1160ba55.js": {
       "size": 49509,
       "imports": [
-        "q-4f3865aa.js"
+        "q-15b4f73e.js"
       ],
       "origins": [
         "node_modules/@babel/runtime/helpers/esm/extends.js",
@@ -1059,50 +627,163 @@
         "node_modules/stylis/src/Utility.js"
       ]
     },
-    "q-8be0018f.js": {
-      "size": 441,
+    "q-15202c99.js": {
+      "size": 18831,
       "imports": [
-        "q-a92c5382.js"
+        "q-1160ba55.js",
+        "q-15b4f73e.js",
+        "q-1aa25136.js",
+        "q-a92c5382.js",
+        "q-a97c133e.js"
       ],
       "origins": [
-        "src/entry_Try.js",
-        "src/s_bkhe6hfkivs.js",
-        "src/s_ml8wgw215m8.js"
+        "node_modules/@mui/base/SliderUnstyled/SliderUnstyled.js",
+        "node_modules/@mui/base/SliderUnstyled/SliderValueLabelUnstyled.js",
+        "node_modules/@mui/base/SliderUnstyled/sliderUnstyledClasses.js",
+        "node_modules/@mui/base/SliderUnstyled/useSlider.js",
+        "node_modules/@mui/material/esm/Slider/Slider.js",
+        "node_modules/@mui/utils/esm/visuallyHidden.js",
+        "src/entry_MUISlider.js",
+        "src/s_2xxi5peaeoq.js"
       ],
       "symbols": [
-        "s_BKHE6HfkIVs",
-        "s_ML8WGw215M8"
+        "s_2XxI5peAEOQ"
       ]
     },
-    "q-8e95f2d4.js": {
-      "size": 1631,
+    "q-15b4f73e.js": {
+      "size": 11089,
       "imports": [
-        "q-70a4e3c1.js",
         "q-a92c5382.js"
       ],
       "dynamicImports": [
-        "q-1b2bd697.js"
+        "q-15202c99.js",
+        "q-39c2cd4e.js",
+        "q-67441ac6.js",
+        "q-7842f07b.js",
+        "q-8739de94.js",
+        "q-c8392770.js"
       ],
       "origins": [
-        "src/entry_QwikCityProvider.js",
-        "src/s_2eo7wcpaqi8.js",
-        "src/s_txcfoy819ag.js"
+        "\u0000C:/Exempt/qwik-realwebsdigital/qwik-app/node_modules/react/cjs/react.production.min.js?commonjs-exports",
+        "\u0000C:/Exempt/qwik-realwebsdigital/qwik-app/node_modules/react/index.js?commonjs-module",
+        "\u0000commonjsHelpers.js",
+        "node_modules/@builder.io/qwik-react/lib/index.qwik.mjs",
+        "node_modules/react/cjs/react.production.min.js",
+        "node_modules/react/index.js",
+        "src/entry_react.js",
+        "src/integrations/react/mui.tsx",
+        "src/integrations/react/test.tsx",
+        "src/s_0tpdeaim2eg.js",
+        "src/s_ajmyurh1aws.js",
+        "src/s_cwhr1socfpo.js",
+        "src/s_dvmpoyljby8.js",
+        "src/s_i4fry0pt5lk.js"
       ],
       "symbols": [
-        "s_2Eo7WCpaqI8",
-        "s_TxCFOy819ag"
+        "s_0TpDEaIm2Eg",
+        "s_ajMyuRH1aws",
+        "s_CwHr1soCFpo",
+        "s_DVMPoyljbY8",
+        "s_i4frY0Pt5lk"
       ]
     },
-    "q-a3460043.js": {
+    "q-1850c485.js": {
+      "size": 2630,
+      "imports": [
+        "q-a92c5382.js"
+      ],
+      "origins": [
+        "src/Layout/Projects/styles/_timeline.scss?used&inline",
+        "src/entry_timeline.js",
+        "src/s_ciapeq3876k.js",
+        "src/s_plkm7szuv5m.js"
+      ],
+      "symbols": [
+        "s_CIAPEQ3876k",
+        "s_PLKM7SZUV5M"
+      ]
+    },
+    "q-1aa25136.js": {
+      "size": 2025,
+      "imports": [
+        "q-1160ba55.js",
+        "q-15b4f73e.js"
+      ],
+      "origins": [
+        "node_modules/@mui/base/utils/appendOwnerState.js",
+        "node_modules/@mui/base/utils/extractEventHandlers.js",
+        "node_modules/@mui/base/utils/isHostComponent.js",
+        "node_modules/@mui/base/utils/mergeSlotProps.js",
+        "node_modules/@mui/base/utils/omitEventHandlers.js",
+        "node_modules/@mui/base/utils/resolveComponentProps.js",
+        "node_modules/@mui/base/utils/useSlotProps.js",
+        "node_modules/@mui/material/esm/styles/useTheme.js",
+        "node_modules/@mui/material/esm/utils/shouldSpreadAdditionalProps.js",
+        "node_modules/@mui/utils/esm/ownerDocument.js",
+        "node_modules/@mui/utils/esm/useControlled.js"
+      ]
+    },
+    "q-27864b7b.js": {
+      "size": 510,
+      "imports": [
+        "q-a92c5382.js"
+      ],
+      "dynamicImports": [
+        "q-1850c485.js",
+        "q-fa68f439.js",
+        "q-fc8262a7.js"
+      ],
+      "origins": [
+        "src/Layout/Projects/analysis.tsx",
+        "src/Layout/Projects/home.tsx",
+        "src/Layout/Projects/timeline.tsx",
+        "src/entry_project.js",
+        "src/s_k0lxqd2phua.js"
+      ],
+      "symbols": [
+        "s_k0lXQD2PhuA"
+      ]
+    },
+    "q-2b634382.js": {
+      "size": 149,
+      "imports": [
+        "q-a92c5382.js"
+      ],
+      "origins": [
+        "src/entry_layout.js",
+        "src/s_vklnxphuh5s.js"
+      ],
+      "symbols": [
+        "s_VkLNXphUh5s"
+      ]
+    },
+    "q-2ced8ced.js": {
+      "size": 817,
+      "imports": [
+        "q-a92c5382.js"
+      ],
+      "dynamicImports": [
+        "q-04e6faad.js",
+        "q-06234f0f.js",
+        "q-0ad0e6da.js",
+        "q-616398bd.js",
+        "q-8e78b23e.js",
+        "q-a1a9053d.js"
+      ],
+      "origins": [
+        "@qwik-city-plan"
+      ]
+    },
+    "q-39c2cd4e.js": {
       "size": 424639,
       "imports": [
-        "q-0150a6a4.js",
-        "q-4f3865aa.js",
-        "q-6516bd13.js",
-        "q-8afd426d.js",
+        "q-1160ba55.js",
+        "q-15b4f73e.js",
+        "q-1aa25136.js",
+        "q-61088d7d.js",
+        "q-9bd4f587.js",
         "q-a92c5382.js",
-        "q-ba6179a7.js",
-        "q-e995d5c2.js"
+        "q-a97c133e.js"
       ],
       "origins": [
         "\u0000C:/Exempt/qwik-realwebsdigital/qwik-app/node_modules/prop-types/index.js?commonjs-module",
@@ -1499,122 +1180,72 @@
         "s_LQzPP0B5Rtk"
       ]
     },
-    "q-a92c5382.js": {
-      "size": 43522,
-      "origins": [
-        "\u0000vite/preload-helper",
-        "node_modules/@builder.io/qwik/core.min.mjs"
-      ]
-    },
-    "q-ba6179a7.js": {
-      "size": 134101,
-      "imports": [
-        "q-4f3865aa.js"
-      ],
-      "origins": [
-        "\u0000C:/Exempt/qwik-realwebsdigital/qwik-app/node_modules/react-dom/cjs/react-dom.production.min.js?commonjs-exports",
-        "\u0000C:/Exempt/qwik-realwebsdigital/qwik-app/node_modules/react-dom/index.js?commonjs-module",
-        "\u0000C:/Exempt/qwik-realwebsdigital/qwik-app/node_modules/scheduler/cjs/scheduler.production.min.js?commonjs-exports",
-        "\u0000C:/Exempt/qwik-realwebsdigital/qwik-app/node_modules/scheduler/index.js?commonjs-module",
-        "node_modules/react-dom/cjs/react-dom.production.min.js",
-        "node_modules/react-dom/index.js",
-        "node_modules/scheduler/cjs/scheduler.production.min.js",
-        "node_modules/scheduler/index.js"
-      ]
-    },
-    "q-bac69762.js": {
-      "size": 18831,
-      "imports": [
-        "q-0150a6a4.js",
-        "q-4f3865aa.js",
-        "q-6516bd13.js",
-        "q-8afd426d.js",
-        "q-a92c5382.js"
-      ],
-      "origins": [
-        "node_modules/@mui/base/SliderUnstyled/SliderUnstyled.js",
-        "node_modules/@mui/base/SliderUnstyled/SliderValueLabelUnstyled.js",
-        "node_modules/@mui/base/SliderUnstyled/sliderUnstyledClasses.js",
-        "node_modules/@mui/base/SliderUnstyled/useSlider.js",
-        "node_modules/@mui/material/esm/Slider/Slider.js",
-        "node_modules/@mui/utils/esm/visuallyHidden.js",
-        "src/entry_MUISlider.js",
-        "src/s_2xxi5peaeoq.js"
-      ],
-      "symbols": [
-        "s_2XxI5peAEOQ"
-      ]
-    },
-    "q-c8392770.js": {
-      "size": 109,
+    "q-3e4698ff.js": {
+      "size": 1229,
       "imports": [
         "q-a92c5382.js"
       ],
       "origins": [
-        "src/entry_useWakeupSignal.js",
-        "src/s_6lyztwgzxaa.js"
+        "src/Layout/Home/styles/_focus.scss?used&inline",
+        "src/entry_focus.js",
+        "src/s_5jxbdl0wau0.js",
+        "src/s_9xylydsldha.js"
       ],
       "symbols": [
-        "s_6LYztwGzxAA"
+        "s_5jxbDl0waU0",
+        "s_9xylydsLDHA"
       ]
     },
-    "q-cc1d7a14.js": {
-      "size": 207,
+    "q-40a82fd3.js": {
+      "size": 2446,
+      "imports": [
+        "q-5780f4d8.js",
+        "q-a92c5382.js"
+      ],
+      "origins": [
+        "src/entry_flower.js",
+        "src/routes/flower/flower.css?used&inline",
+        "src/s_dznigalrcag.js",
+        "src/s_ow4nu0i1yz8.js",
+        "src/s_p4uitwsjc7c.js",
+        "src/s_v0y6u0vd1ey.js"
+      ],
+      "symbols": [
+        "s_dznIGAlrcag",
+        "s_OW4nu0I1yZ8",
+        "s_p4UiTwsJc7c",
+        "s_V0Y6u0VD1eY"
+      ]
+    },
+    "q-45aab3b6.js": {
+      "size": 2536,
+      "origins": [
+        "node_modules/@builder.io/qwik-city/service-worker.mjs",
+        "src/routes/service-worker.ts"
+      ]
+    },
+    "q-5780f4d8.js": {
+      "size": 4281,
       "imports": [
         "q-a92c5382.js"
       ],
       "dynamicImports": [
-        "q-133224ab.js"
+        "q-66c6f272.js",
+        "q-7b8fc343.js",
+        "q-b5c20f63.js",
+        "q-de1fbb2e.js"
       ],
       "origins": [
-        "src/root.tsx"
+        "@qwik-city-sw-register",
+        "node_modules/@builder.io/qwik-city/index.qwik.mjs"
       ]
     },
-    "q-dbd1204d.js": {
-      "size": 436,
-      "imports": [
-        "q-a92c5382.js"
-      ],
-      "dynamicImports": [
-        "q-158c3fc6.js"
-      ],
-      "origins": [
-        "src/components/header/header.tsx",
-        "src/entry_layout.js",
-        "src/s_vklnxphuh5s.js"
-      ],
-      "symbols": [
-        "s_VkLNXphUh5s"
-      ]
-    },
-    "q-de196e4e.js": {
-      "size": 1116,
-      "imports": [
-        "q-70a4e3c1.js",
-        "q-a92c5382.js"
-      ],
-      "origins": [
-        "src/entry_Link.js",
-        "src/s_8gdlbszqbam.js",
-        "src/s_epaz5qq4lg4.js",
-        "src/s_kzjavhdi3l0.js",
-        "src/s_u0yvoxt2aty.js",
-        "src/s_yixwcc0m3jy.js"
-      ],
-      "symbols": [
-        "s_8gdLBszqbaM",
-        "s_EpaZ5qQ4Lg4",
-        "s_kzjavhDI3L0",
-        "s_u0YVoxt2aTY",
-        "s_yiXwCC0m3jY"
-      ]
-    },
-    "q-e995d5c2.js": {
+    "q-61088d7d.js": {
       "size": 22157,
       "imports": [
-        "q-0150a6a4.js",
-        "q-4f3865aa.js",
-        "q-8afd426d.js"
+        "q-1160ba55.js",
+        "q-15b4f73e.js",
+        "q-a97c133e.js"
       ],
       "origins": [
         "\u0000C:/Exempt/qwik-realwebsdigital/qwik-app/node_modules/hoist-non-react-statics/node_modules/react-is/cjs/react-is.production.min.js?commonjs-exports",
@@ -1639,20 +1270,522 @@
         "node_modules/react-transition-group/esm/utils/ChildMapping.js"
       ]
     },
-    "q-f903e856.js": {
-      "size": 235,
+    "q-616398bd.js": {
+      "size": 216,
       "imports": [
         "q-a92c5382.js"
       ],
       "dynamicImports": [
-        "q-5302c8f2.js"
+        "q-27864b7b.js"
       ],
       "origins": [
-        "src/routes/react/index.tsx"
+        "src/routes/project/index.tsx"
+      ]
+    },
+    "q-66c6f272.js": {
+      "size": 269,
+      "imports": [
+        "q-5780f4d8.js",
+        "q-a92c5382.js"
+      ],
+      "origins": [
+        "src/entry_RouterOutlet.js",
+        "src/s_aketnbye5tm.js"
+      ],
+      "symbols": [
+        "s_AKetNByE5TM"
+      ]
+    },
+    "q-67441ac6.js": {
+      "size": 93361,
+      "imports": [
+        "q-15b4f73e.js",
+        "q-a92c5382.js",
+        "q-a97c133e.js"
+      ],
+      "origins": [
+        "node_modules/framer-motion/dist/es/animation/animate.mjs",
+        "node_modules/framer-motion/dist/es/animation/create-instant-animation.mjs",
+        "node_modules/framer-motion/dist/es/animation/index.mjs",
+        "node_modules/framer-motion/dist/es/animation/legacy-popmotion/decay.mjs",
+        "node_modules/framer-motion/dist/es/animation/legacy-popmotion/find-spring.mjs",
+        "node_modules/framer-motion/dist/es/animation/legacy-popmotion/index.mjs",
+        "node_modules/framer-motion/dist/es/animation/legacy-popmotion/inertia.mjs",
+        "node_modules/framer-motion/dist/es/animation/legacy-popmotion/keyframes.mjs",
+        "node_modules/framer-motion/dist/es/animation/legacy-popmotion/spring.mjs",
+        "node_modules/framer-motion/dist/es/animation/optimized-appear/data-id.mjs",
+        "node_modules/framer-motion/dist/es/animation/optimized-appear/handoff.mjs",
+        "node_modules/framer-motion/dist/es/animation/optimized-appear/store-id.mjs",
+        "node_modules/framer-motion/dist/es/animation/utils/default-transitions.mjs",
+        "node_modules/framer-motion/dist/es/animation/utils/easing.mjs",
+        "node_modules/framer-motion/dist/es/animation/utils/is-animatable.mjs",
+        "node_modules/framer-motion/dist/es/animation/utils/is-animation-controls.mjs",
+        "node_modules/framer-motion/dist/es/animation/utils/is-keyframes-target.mjs",
+        "node_modules/framer-motion/dist/es/animation/utils/keyframes.mjs",
+        "node_modules/framer-motion/dist/es/animation/utils/transitions.mjs",
+        "node_modules/framer-motion/dist/es/animation/waapi/create-accelerated-animation.mjs",
+        "node_modules/framer-motion/dist/es/animation/waapi/easing.mjs",
+        "node_modules/framer-motion/dist/es/animation/waapi/index.mjs",
+        "node_modules/framer-motion/dist/es/animation/waapi/supports.mjs",
+        "node_modules/framer-motion/dist/es/animation/waapi/utils/get-final-keyframe.mjs",
+        "node_modules/framer-motion/dist/es/components/AnimatePresence/use-presence.mjs",
+        "node_modules/framer-motion/dist/es/context/LayoutGroupContext.mjs",
+        "node_modules/framer-motion/dist/es/context/LazyContext.mjs",
+        "node_modules/framer-motion/dist/es/context/MotionConfigContext.mjs",
+        "node_modules/framer-motion/dist/es/context/MotionContext/create.mjs",
+        "node_modules/framer-motion/dist/es/context/MotionContext/index.mjs",
+        "node_modules/framer-motion/dist/es/context/MotionContext/utils.mjs",
+        "node_modules/framer-motion/dist/es/context/PresenceContext.mjs",
+        "node_modules/framer-motion/dist/es/context/SwitchLayoutGroupContext.mjs",
+        "node_modules/framer-motion/dist/es/easing/anticipate.mjs",
+        "node_modules/framer-motion/dist/es/easing/back.mjs",
+        "node_modules/framer-motion/dist/es/easing/circ.mjs",
+        "node_modules/framer-motion/dist/es/easing/cubic-bezier.mjs",
+        "node_modules/framer-motion/dist/es/easing/ease.mjs",
+        "node_modules/framer-motion/dist/es/easing/modifiers/mirror.mjs",
+        "node_modules/framer-motion/dist/es/easing/modifiers/reverse.mjs",
+        "node_modules/framer-motion/dist/es/events/event-info.mjs",
+        "node_modules/framer-motion/dist/es/events/use-dom-event.mjs",
+        "node_modules/framer-motion/dist/es/events/use-pointer-event.mjs",
+        "node_modules/framer-motion/dist/es/events/utils/is-primary-pointer.mjs",
+        "node_modules/framer-motion/dist/es/frameloop/create-render-step.mjs",
+        "node_modules/framer-motion/dist/es/frameloop/data.mjs",
+        "node_modules/framer-motion/dist/es/frameloop/index.mjs",
+        "node_modules/framer-motion/dist/es/frameloop/on-next-frame.mjs",
+        "node_modules/framer-motion/dist/es/gestures/PanSession.mjs",
+        "node_modules/framer-motion/dist/es/gestures/drag/VisualElementDragControls.mjs",
+        "node_modules/framer-motion/dist/es/gestures/drag/use-drag.mjs",
+        "node_modules/framer-motion/dist/es/gestures/drag/utils/constraints.mjs",
+        "node_modules/framer-motion/dist/es/gestures/drag/utils/lock.mjs",
+        "node_modules/framer-motion/dist/es/gestures/use-focus-gesture.mjs",
+        "node_modules/framer-motion/dist/es/gestures/use-hover-gesture.mjs",
+        "node_modules/framer-motion/dist/es/gestures/use-pan-gesture.mjs",
+        "node_modules/framer-motion/dist/es/gestures/use-tap-gesture.mjs",
+        "node_modules/framer-motion/dist/es/gestures/utils/is-node-or-child.mjs",
+        "node_modules/framer-motion/dist/es/motion/features/animations.mjs",
+        "node_modules/framer-motion/dist/es/motion/features/definitions.mjs",
+        "node_modules/framer-motion/dist/es/motion/features/drag.mjs",
+        "node_modules/framer-motion/dist/es/motion/features/gestures.mjs",
+        "node_modules/framer-motion/dist/es/motion/features/layout/MeasureLayout.mjs",
+        "node_modules/framer-motion/dist/es/motion/features/layout/index.mjs",
+        "node_modules/framer-motion/dist/es/motion/features/load-features.mjs",
+        "node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs",
+        "node_modules/framer-motion/dist/es/motion/features/viewport/use-viewport.mjs",
+        "node_modules/framer-motion/dist/es/motion/index.mjs",
+        "node_modules/framer-motion/dist/es/motion/utils/VisualElementHandler.mjs",
+        "node_modules/framer-motion/dist/es/motion/utils/is-forced-motion-value.mjs",
+        "node_modules/framer-motion/dist/es/motion/utils/make-renderless-component.mjs",
+        "node_modules/framer-motion/dist/es/motion/utils/symbol.mjs",
+        "node_modules/framer-motion/dist/es/motion/utils/use-motion-ref.mjs",
+        "node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs",
+        "node_modules/framer-motion/dist/es/motion/utils/use-visual-state.mjs",
+        "node_modules/framer-motion/dist/es/motion/utils/valid-prop.mjs",
+        "node_modules/framer-motion/dist/es/projection/animation/mix-values.mjs",
+        "node_modules/framer-motion/dist/es/projection/geometry/conversion.mjs",
+        "node_modules/framer-motion/dist/es/projection/geometry/copy.mjs",
+        "node_modules/framer-motion/dist/es/projection/geometry/delta-apply.mjs",
+        "node_modules/framer-motion/dist/es/projection/geometry/delta-calc.mjs",
+        "node_modules/framer-motion/dist/es/projection/geometry/delta-remove.mjs",
+        "node_modules/framer-motion/dist/es/projection/geometry/models.mjs",
+        "node_modules/framer-motion/dist/es/projection/geometry/utils.mjs",
+        "node_modules/framer-motion/dist/es/projection/node/DocumentProjectionNode.mjs",
+        "node_modules/framer-motion/dist/es/projection/node/HTMLProjectionNode.mjs",
+        "node_modules/framer-motion/dist/es/projection/node/create-projection-node.mjs",
+        "node_modules/framer-motion/dist/es/projection/node/id.mjs",
+        "node_modules/framer-motion/dist/es/projection/node/state.mjs",
+        "node_modules/framer-motion/dist/es/projection/shared/stack.mjs",
+        "node_modules/framer-motion/dist/es/projection/styles/scale-border-radius.mjs",
+        "node_modules/framer-motion/dist/es/projection/styles/scale-box-shadow.mjs",
+        "node_modules/framer-motion/dist/es/projection/styles/scale-correction.mjs",
+        "node_modules/framer-motion/dist/es/projection/styles/transform.mjs",
+        "node_modules/framer-motion/dist/es/projection/utils/each-axis.mjs",
+        "node_modules/framer-motion/dist/es/projection/utils/has-transform.mjs",
+        "node_modules/framer-motion/dist/es/projection/utils/measure.mjs",
+        "node_modules/framer-motion/dist/es/render/VisualElement.mjs",
+        "node_modules/framer-motion/dist/es/render/dom/DOMVisualElement.mjs",
+        "node_modules/framer-motion/dist/es/render/dom/create-visual-element.mjs",
+        "node_modules/framer-motion/dist/es/render/dom/motion-proxy.mjs",
+        "node_modules/framer-motion/dist/es/render/dom/motion.mjs",
+        "node_modules/framer-motion/dist/es/render/dom/use-render.mjs",
+        "node_modules/framer-motion/dist/es/render/dom/utils/camel-to-dash.mjs",
+        "node_modules/framer-motion/dist/es/render/dom/utils/create-config.mjs",
+        "node_modules/framer-motion/dist/es/render/dom/utils/css-variables-conversion.mjs",
+        "node_modules/framer-motion/dist/es/render/dom/utils/filter-props.mjs",
+        "node_modules/framer-motion/dist/es/render/dom/utils/is-css-variable.mjs",
+        "node_modules/framer-motion/dist/es/render/dom/utils/is-svg-component.mjs",
+        "node_modules/framer-motion/dist/es/render/dom/utils/parse-dom-variant.mjs",
+        "node_modules/framer-motion/dist/es/render/dom/utils/unit-conversion.mjs",
+        "node_modules/framer-motion/dist/es/render/dom/value-types/animatable-none.mjs",
+        "node_modules/framer-motion/dist/es/render/dom/value-types/defaults.mjs",
+        "node_modules/framer-motion/dist/es/render/dom/value-types/dimensions.mjs",
+        "node_modules/framer-motion/dist/es/render/dom/value-types/find.mjs",
+        "node_modules/framer-motion/dist/es/render/dom/value-types/get-as-type.mjs",
+        "node_modules/framer-motion/dist/es/render/dom/value-types/number.mjs",
+        "node_modules/framer-motion/dist/es/render/dom/value-types/test.mjs",
+        "node_modules/framer-motion/dist/es/render/dom/value-types/type-auto.mjs",
+        "node_modules/framer-motion/dist/es/render/dom/value-types/type-int.mjs",
+        "node_modules/framer-motion/dist/es/render/html/HTMLVisualElement.mjs",
+        "node_modules/framer-motion/dist/es/render/html/config-motion.mjs",
+        "node_modules/framer-motion/dist/es/render/html/use-props.mjs",
+        "node_modules/framer-motion/dist/es/render/html/utils/build-styles.mjs",
+        "node_modules/framer-motion/dist/es/render/html/utils/build-transform.mjs",
+        "node_modules/framer-motion/dist/es/render/html/utils/create-render-state.mjs",
+        "node_modules/framer-motion/dist/es/render/html/utils/render.mjs",
+        "node_modules/framer-motion/dist/es/render/html/utils/scrape-motion-values.mjs",
+        "node_modules/framer-motion/dist/es/render/html/utils/transform.mjs",
+        "node_modules/framer-motion/dist/es/render/svg/SVGVisualElement.mjs",
+        "node_modules/framer-motion/dist/es/render/svg/config-motion.mjs",
+        "node_modules/framer-motion/dist/es/render/svg/lowercase-elements.mjs",
+        "node_modules/framer-motion/dist/es/render/svg/use-props.mjs",
+        "node_modules/framer-motion/dist/es/render/svg/utils/build-attrs.mjs",
+        "node_modules/framer-motion/dist/es/render/svg/utils/camel-case-attrs.mjs",
+        "node_modules/framer-motion/dist/es/render/svg/utils/create-render-state.mjs",
+        "node_modules/framer-motion/dist/es/render/svg/utils/is-svg-tag.mjs",
+        "node_modules/framer-motion/dist/es/render/svg/utils/path.mjs",
+        "node_modules/framer-motion/dist/es/render/svg/utils/render.mjs",
+        "node_modules/framer-motion/dist/es/render/svg/utils/scrape-motion-values.mjs",
+        "node_modules/framer-motion/dist/es/render/svg/utils/transform-origin.mjs",
+        "node_modules/framer-motion/dist/es/render/utils/animation-state.mjs",
+        "node_modules/framer-motion/dist/es/render/utils/animation.mjs",
+        "node_modules/framer-motion/dist/es/render/utils/compare-by-depth.mjs",
+        "node_modules/framer-motion/dist/es/render/utils/flat-tree.mjs",
+        "node_modules/framer-motion/dist/es/render/utils/is-controlling-variants.mjs",
+        "node_modules/framer-motion/dist/es/render/utils/is-variant-label.mjs",
+        "node_modules/framer-motion/dist/es/render/utils/motion-values.mjs",
+        "node_modules/framer-motion/dist/es/render/utils/resolve-dynamic-variants.mjs",
+        "node_modules/framer-motion/dist/es/render/utils/resolve-variants.mjs",
+        "node_modules/framer-motion/dist/es/render/utils/setters.mjs",
+        "node_modules/framer-motion/dist/es/render/utils/types.mjs",
+        "node_modules/framer-motion/dist/es/utils/array.mjs",
+        "node_modules/framer-motion/dist/es/utils/clamp.mjs",
+        "node_modules/framer-motion/dist/es/utils/delay.mjs",
+        "node_modules/framer-motion/dist/es/utils/distance.mjs",
+        "node_modules/framer-motion/dist/es/utils/hsla-to-rgba.mjs",
+        "node_modules/framer-motion/dist/es/utils/interpolate.mjs",
+        "node_modules/framer-motion/dist/es/utils/is-browser.mjs",
+        "node_modules/framer-motion/dist/es/utils/is-numerical-string.mjs",
+        "node_modules/framer-motion/dist/es/utils/is-ref-object.mjs",
+        "node_modules/framer-motion/dist/es/utils/is-zero-value-string.mjs",
+        "node_modules/framer-motion/dist/es/utils/mix-color.mjs",
+        "node_modules/framer-motion/dist/es/utils/mix-complex.mjs",
+        "node_modules/framer-motion/dist/es/utils/mix.mjs",
+        "node_modules/framer-motion/dist/es/utils/noop.mjs",
+        "node_modules/framer-motion/dist/es/utils/pipe.mjs",
+        "node_modules/framer-motion/dist/es/utils/progress.mjs",
+        "node_modules/framer-motion/dist/es/utils/reduced-motion/index.mjs",
+        "node_modules/framer-motion/dist/es/utils/reduced-motion/state.mjs",
+        "node_modules/framer-motion/dist/es/utils/resolve-value.mjs",
+        "node_modules/framer-motion/dist/es/utils/shallow-compare.mjs",
+        "node_modules/framer-motion/dist/es/utils/subscription-manager.mjs",
+        "node_modules/framer-motion/dist/es/utils/time-conversion.mjs",
+        "node_modules/framer-motion/dist/es/utils/use-constant.mjs",
+        "node_modules/framer-motion/dist/es/utils/use-instant-transition-state.mjs",
+        "node_modules/framer-motion/dist/es/utils/use-isomorphic-effect.mjs",
+        "node_modules/framer-motion/dist/es/utils/use-unmount-effect.mjs",
+        "node_modules/framer-motion/dist/es/utils/velocity-per-second.mjs",
+        "node_modules/framer-motion/dist/es/value/index.mjs",
+        "node_modules/framer-motion/dist/es/value/types/color/hex.mjs",
+        "node_modules/framer-motion/dist/es/value/types/color/hsla.mjs",
+        "node_modules/framer-motion/dist/es/value/types/color/index.mjs",
+        "node_modules/framer-motion/dist/es/value/types/color/rgba.mjs",
+        "node_modules/framer-motion/dist/es/value/types/color/utils.mjs",
+        "node_modules/framer-motion/dist/es/value/types/complex/filter.mjs",
+        "node_modules/framer-motion/dist/es/value/types/complex/index.mjs",
+        "node_modules/framer-motion/dist/es/value/types/numbers/index.mjs",
+        "node_modules/framer-motion/dist/es/value/types/numbers/units.mjs",
+        "node_modules/framer-motion/dist/es/value/types/utils.mjs",
+        "node_modules/framer-motion/dist/es/value/use-will-change/is.mjs",
+        "node_modules/framer-motion/dist/es/value/utils/is-motion-value.mjs",
+        "node_modules/framer-motion/dist/es/value/utils/resolve-motion-value.mjs",
+        "node_modules/hey-listen/dist/hey-listen.es.js",
+        "src/entry_Test.js",
+        "src/s_i2z5aspy2gk.js"
+      ],
+      "symbols": [
+        "s_I2z5asPy2gk"
+      ]
+    },
+    "q-7842f07b.js": {
+      "size": 1352,
+      "imports": [
+        "q-15b4f73e.js",
+        "q-9bd4f587.js",
+        "q-a92c5382.js"
+      ],
+      "origins": [
+        "node_modules/react-dom/client.js",
+        "src/entry_qwikifyQrl.js",
+        "src/s_bhjzpluvbno.js",
+        "src/s_x04jc5xep1u.js",
+        "src/s_zh94hie0ick.js"
+      ],
+      "symbols": [
+        "s_bHjzplUVBNo",
+        "s_x04JC5xeP1U",
+        "s_zH94hIe0Ick"
+      ]
+    },
+    "q-7b8fc343.js": {
+      "size": 463,
+      "imports": [
+        "q-5780f4d8.js",
+        "q-a92c5382.js"
+      ],
+      "origins": [
+        "src/entry_QwikCityMockProvider.js",
+        "src/s_wmyc5h00wti.js"
+      ],
+      "symbols": [
+        "s_WmYC5H00wtI"
+      ]
+    },
+    "q-8739de94.js": {
+      "size": 170,
+      "imports": [
+        "q-1160ba55.js",
+        "q-15b4f73e.js",
+        "q-61088d7d.js",
+        "q-a92c5382.js",
+        "q-a97c133e.js"
+      ],
+      "origins": [
+        "src/entry_MUIButton.js",
+        "src/s_hd8r0yexmcy.js"
+      ],
+      "symbols": [
+        "s_Hd8r0YexMcY"
+      ]
+    },
+    "q-8e78b23e.js": {
+      "size": 241,
+      "imports": [
+        "q-a92c5382.js"
+      ],
+      "dynamicImports": [
+        "q-40a82fd3.js"
+      ],
+      "origins": [
+        "src/routes/flower/index.tsx"
+      ]
+    },
+    "q-9bd4f587.js": {
+      "size": 134101,
+      "imports": [
+        "q-15b4f73e.js"
+      ],
+      "origins": [
+        "\u0000C:/Exempt/qwik-realwebsdigital/qwik-app/node_modules/react-dom/cjs/react-dom.production.min.js?commonjs-exports",
+        "\u0000C:/Exempt/qwik-realwebsdigital/qwik-app/node_modules/react-dom/index.js?commonjs-module",
+        "\u0000C:/Exempt/qwik-realwebsdigital/qwik-app/node_modules/scheduler/cjs/scheduler.production.min.js?commonjs-exports",
+        "\u0000C:/Exempt/qwik-realwebsdigital/qwik-app/node_modules/scheduler/index.js?commonjs-module",
+        "node_modules/react-dom/cjs/react-dom.production.min.js",
+        "node_modules/react-dom/index.js",
+        "node_modules/scheduler/cjs/scheduler.production.min.js",
+        "node_modules/scheduler/index.js"
+      ]
+    },
+    "q-a1a9053d.js": {
+      "size": 261,
+      "imports": [
+        "q-a92c5382.js"
+      ],
+      "dynamicImports": [
+        "q-b13d1047.js"
+      ],
+      "origins": [
+        "src/routes/index.tsx"
+      ]
+    },
+    "q-a92c5382.js": {
+      "size": 43522,
+      "origins": [
+        "\u0000vite/preload-helper",
+        "node_modules/@builder.io/qwik/core.min.mjs"
+      ]
+    },
+    "q-a97c133e.js": {
+      "size": 954,
+      "imports": [
+        "q-15b4f73e.js"
+      ],
+      "origins": [
+        "\u0000C:/Exempt/qwik-realwebsdigital/qwik-app/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports",
+        "\u0000C:/Exempt/qwik-realwebsdigital/qwik-app/node_modules/react/jsx-runtime.js?commonjs-module",
+        "node_modules/react/cjs/react-jsx-runtime.production.min.js",
+        "node_modules/react/jsx-runtime.js"
+      ]
+    },
+    "q-aafa03c2.js": {
+      "size": 859,
+      "imports": [
+        "q-5780f4d8.js",
+        "q-a92c5382.js"
+      ],
+      "dynamicImports": [
+        "q-f9c86b34.js"
+      ],
+      "origins": [
+        "src/components/router-head/router-head.tsx",
+        "src/entry_root.js",
+        "src/global.scss?used&inline",
+        "src/s_3sccycdd1z0.js",
+        "src/s_ho3b5j0m2zi.js"
+      ],
+      "symbols": [
+        "s_3sccYCDd1Z0",
+        "s_hO3b5j0m2ZI"
+      ]
+    },
+    "q-b13d1047.js": {
+      "size": 510,
+      "imports": [
+        "q-a92c5382.js"
+      ],
+      "dynamicImports": [
+        "q-05ead3d2.js",
+        "q-3e4698ff.js",
+        "q-fa68f439.js"
+      ],
+      "origins": [
+        "src/Layout/Home/focus.tsx",
+        "src/Layout/Home/goals.tsx",
+        "src/Layout/Home/home.tsx",
+        "src/entry_routes.js",
+        "src/s_xyl1qowpydi.js"
+      ],
+      "symbols": [
+        "s_xYL1qOwPyDI"
+      ]
+    },
+    "q-b5c20f63.js": {
+      "size": 1116,
+      "imports": [
+        "q-5780f4d8.js",
+        "q-a92c5382.js"
+      ],
+      "origins": [
+        "src/entry_Link.js",
+        "src/s_8gdlbszqbam.js",
+        "src/s_epaz5qq4lg4.js",
+        "src/s_kzjavhdi3l0.js",
+        "src/s_u0yvoxt2aty.js",
+        "src/s_yixwcc0m3jy.js"
+      ],
+      "symbols": [
+        "s_8gdLBszqbaM",
+        "s_EpaZ5qQ4Lg4",
+        "s_kzjavhDI3L0",
+        "s_u0YVoxt2aTY",
+        "s_yiXwCC0m3jY"
+      ]
+    },
+    "q-b6c718a5.js": {
+      "size": 207,
+      "imports": [
+        "q-a92c5382.js"
+      ],
+      "dynamicImports": [
+        "q-aafa03c2.js"
+      ],
+      "origins": [
+        "src/root.tsx",
+        "src/styles/style.scss"
+      ]
+    },
+    "q-c8392770.js": {
+      "size": 109,
+      "imports": [
+        "q-a92c5382.js"
+      ],
+      "origins": [
+        "src/entry_useWakeupSignal.js",
+        "src/s_6lyztwgzxaa.js"
+      ],
+      "symbols": [
+        "s_6LYztwGzxAA"
+      ]
+    },
+    "q-de1fbb2e.js": {
+      "size": 1631,
+      "imports": [
+        "q-5780f4d8.js",
+        "q-a92c5382.js"
+      ],
+      "dynamicImports": [
+        "q-2ced8ced.js"
+      ],
+      "origins": [
+        "src/entry_QwikCityProvider.js",
+        "src/s_2eo7wcpaqi8.js",
+        "src/s_txcfoy819ag.js"
+      ],
+      "symbols": [
+        "s_2Eo7WCpaqI8",
+        "s_TxCFOy819ag"
+      ]
+    },
+    "q-f9c86b34.js": {
+      "size": 633,
+      "imports": [
+        "q-5780f4d8.js",
+        "q-a92c5382.js"
+      ],
+      "origins": [
+        "src/entry_RouterHead.js",
+        "src/s_zrbrqoaqxsy.js"
+      ],
+      "symbols": [
+        "s_zrbrqoaqXSY"
+      ]
+    },
+    "q-fa68f439.js": {
+      "size": 2517,
+      "imports": [
+        "q-a92c5382.js"
+      ],
+      "origins": [
+        "src/Layout/Home/styles/_home.scss?used&inline",
+        "src/Layout/Projects/styles/_home.scss?used&inline",
+        "src/entry_home.js",
+        "src/s_0tx9mws3k9a.js",
+        "src/s_iwodj6pb2iy.js",
+        "src/s_td0rlkyvqs4.js",
+        "src/s_xz2yydi0oyu.js"
+      ],
+      "symbols": [
+        "s_0tX9MWS3k9A",
+        "s_iWodJ6pb2iY",
+        "s_Td0rLkYVQS4",
+        "s_xZ2yYDi0oyU"
+      ]
+    },
+    "q-fc8262a7.js": {
+      "size": 2126,
+      "imports": [
+        "q-a92c5382.js"
+      ],
+      "origins": [
+        "src/Layout/Projects/styles/_analysis.scss?used&inline",
+        "src/entry_analysis.js",
+        "src/s_gqpek6ejhzi.js",
+        "src/s_is8k9jdsyas.js"
+      ],
+      "symbols": [
+        "s_Gqpek6EjhZI",
+        "s_is8k9jDSyas"
       ]
     }
   },
-  "injections": [],
+  "injections": [
+    {
+      "tag": "style",
+      "location": "head",
+      "attributes": {
+        "data-src": "/build/q-a1b58167.css",
+        "dangerouslySetInnerHTML": "p,div,article,section,span,aside{font-weight:500;color:#d1ede4;font-size:21rem;letter-spacing:.01em;line-height:46rem;text-align:left}h1{font-family:Poppins;font-weight:600;font-size:68rem;letter-spacing:-.04em;line-height:85rem;color:#edd8d8}.subtitle{font-family:Lato,\"sans-serif\";font-size:21rem;font-weight:400;color:#d1ede4}.scroll{font-size:16.05rem;letter-spacing:-.01em;font-weight:400}.scroll img{position:relative;height:57.17rem;width:57.17rem}h2{font-family:Poppins;font-weight:600;font-size:68rem;letter-spacing:-.04em;line-height:66rem;text-align:left;color:#edd8d8}.focus-card{position:relative;display:flex;flex-direction:column;color:#d1ede4}.focus-card .numtitle{font-size:30rem;letter-spacing:.01em;line-height:42rem;text-align:left;color:inherit}.focus-card .title{font-weight:700;font-size:40rem;letter-spacing:.01em;line-height:54rem;text-align:left;color:inherit}.focus-card .subtitle{font-family:Lato;font-weight:700;font-size:25rem;letter-spacing:.01em;text-align:left;color:inherit}.p-content{font-family:Poppins;font-weight:600;font-size:23rem;letter-spacing:.02em;line-height:36rem}.talk-btn{position:relative;display:flex;justify-content:center;align-items:center;width:140rem;height:63rem;border-radius:31.5rem;background:#d1ede4;border:1px solid #d1ede4;font-weight:600;font-size:18rem;letter-spacing:-.05em;color:#000}.featured{position:relative}.featured .subtitle{font-weight:500;font-size:27rem;letter-spacing:.01em;line-height:37rem;text-align:left}.featured .featured-area{position:relative;width:380rem}.featured .featured-area img{position:relative;height:52.32rem;width:auto}.goal-card{position:relative;display:flex;flex-direction:column;color:#d1ede4}.goal-card .numtitle{font-size:30rem;letter-spacing:.01em;line-height:42rem;text-align:left;color:inherit}.goal-card .title{font-weight:700;font-size:40rem;letter-spacing:.01em;line-height:54rem;text-align:left;color:inherit}.goal-card .percent{position:relative;height:7rem;width:311rem;background-color:#edd8d8}\n"
+      }
+    }
+  ],
   "version": "1",
   "options": {
     "target": "client",

@@ -1,0 +1,55 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+  background-color: black;
+  color: red;
+  font-size: 23rem;
+  height: 113rem;
+  width: 100%;
+
+  padding-top: 30rem;
+  padding-bottom: 32.3rem;
+  padding-left: 40.8rem;
+  padding-right: 53rem;
+  z-index: 999;
+
+  & .logoArea {
+    display: flex;
+    align-items: center;
+  }
+
+  & #logoPng {
+    position: relative;
+    height: 50.67rem;
+    width: 57.94rem;
+  }
+
+  & #logoText {
+    position: relative;
+    height: 50.67rem;
+    width: 57.94rem;
+  }
+
+  & .menu {
+    position: relative;
+    height: 35rem;
+    width: 52rem;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+
+    & span {
+      background-color: #d1ede4;
+      width: 52rem;
+      height: 5rem;
+    }
+  }
+}
+
+.desktop {
+  display: none;
+}

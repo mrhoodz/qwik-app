@@ -1,0 +1,60 @@
+@import "../../../styles/colors";
+
+#Goals {
+  position: relative;
+  background-color: $primary-bg-color;
+  padding-left: calc(35vw / 524vw * 100vw);
+  padding-bottom: 73rem;
+  padding-top: 125rem;
+  margin-top: -83rem;
+  overflow: hidden;
+
+  z-index: 98;
+
+  border-radius: 0 0 94rem 94rem;
+
+  & .subtitle {
+    margin-bottom: -10rem;
+  }
+
+  & h2 {
+    margin-bottom: 43.4rem;
+  }
+
+  .goal-card {
+    display: flex;
+    flex-direction: column;
+
+    .numtitle {
+      position: relative;
+      margin-bottom: 19rem;
+
+      &::after {
+        content: " ";
+        position: absolute;
+        bottom: -8rem;
+        left: -4rem;
+        width: 62rem;
+        height: 3rem;
+        background-color: pink;
+      }
+    }
+
+    & .title {
+      width: 317rem;
+      margin-bottom: 15.8rem;
+    }
+
+    & .p-content {
+      position: relative;
+      width: 421.5rem;
+      font-family: Lato;
+      font-weight: normal;
+      font-size: 25rem;
+      letter-spacing: 0.01em;
+      line-height: 34rem;
+      text-align: left;
+      margin-bottom: 29rem;
+    }
+  }
+}

@@ -1,1 +1,0 @@
-import{c as t,T as e,_ as o}from"./q-a92c5382.js";const i=t(e(()=>o(()=>import("./q-6a19c07e.js"),["build/q-6a19c07e.js","build/q-a92c5382.js","build/q-70a4e3c1.js"]),"s_OW4nu0I1yZ8")),r={title:"Qwik Flower"};export{i as default,r as head};

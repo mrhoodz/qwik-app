@@ -1,0 +1,43 @@
+@import "../../../styles/colors";
+
+#Home {
+  position: relative;
+  background-color: $primary-bg-color;
+  padding-left: calc(35vw / 524vw * 100vw);
+  padding-bottom: calc(61vw / 1080vw * 100vh);
+  padding-top: calc(228vw / 1080vw * 100vh);
+  margin-top: -173rem;
+  overflow: hidden;
+
+  border-radius: 94rem;
+  z-index: 100;
+
+  & aside {
+    display: flex;
+    flex-direction: column;
+  }
+
+  & h1 {
+    position: relative;
+    margin-bottom: 23.9rem;
+    order: 2;
+    width: 355rem;
+  }
+
+  & p {
+    position: relative;
+    margin-bottom: 27.1rem;
+    order: 3;
+    width: 365rem;
+  }
+
+  & .subtitle {
+    position: relative;
+    margin-bottom: 6rem;
+    order: 1;
+  }
+
+  .scroll {
+    order: 4;
+  }
+}
