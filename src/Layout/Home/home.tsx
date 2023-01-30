@@ -20,7 +20,11 @@ export default component$(function Home() {
           worldwide
         </div>
 
-        <div class="scroll">SCROLL</div>
+        <div class="scroll">
+          <span>SCROLL</span>
+
+          <img src="/svg/scroll icon.svg" alt="scroll icon" />
+        </div>
       </aside>
     </article>
   );

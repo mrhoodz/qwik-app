@@ -2,16 +2,16 @@
 
 #Goals {
   position: relative;
-  background-color: $primary-bg-color;
+  background-color: $secondary-bg-color;
   padding-left: calc(35vw / 524vw * 100vw);
   padding-bottom: 73rem;
   padding-top: 125rem;
   margin-top: -83rem;
   overflow: hidden;
 
-  z-index: 98;
+  z-index: 97;
 
-  border-radius: 0 0 94rem 94rem;
+  border-radius: 0 0 0 0 ;
 
   & .subtitle {
     margin-bottom: -10rem;

@@ -29,7 +29,7 @@ export default component$(function analysis() {
         </aside>
       </div>
 
-      <div id="analysis-hero">
+      <div id="analysis-hero" class="desktop">
         <img src="" alt="image goes here" />
       </div>
     </article>

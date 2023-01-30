@@ -9,6 +9,7 @@
   //   padding-left: calc(35vw / 524vw * 100vw);
   padding-bottom: calc(49vw / 1080vw * 100vh);
   padding-top: calc(185vw / 1080vw * 100vh);
+  margin-top: -113rem;
   overflow: hidden;
 
   border-radius: 94rem;
@@ -54,5 +55,11 @@
     .scroll {
       order: 4;
     }
+
+    .hero-img {
+      order: 5;
+    }
+
+
   }
 }

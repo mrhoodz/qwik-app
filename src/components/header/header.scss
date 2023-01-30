@@ -9,12 +9,14 @@ header {
   font-size: 23rem;
   height: 113rem;
   width: 100%;
+  top: 0;
+  left: 0;
 
   padding-top: 30rem;
   padding-bottom: 32.3rem;
   padding-left: 40.8rem;
   padding-right: 53rem;
-  z-index: 999;
+  z-index: 10000;
 
   & .logoArea {
     display: flex;

@@ -1,4 +1,34 @@
 @import "./colors";
+@import "./breakpoints";
+
+@include break("tablet") {
+  h1 {
+    &::after {
+      content: "kkkk";
+      color: red;
+    }
+  }
+}
+
+@include break("mobile") {
+  h1 {
+    &::after {
+      content: "sdfdsf";
+      color: green;
+    }
+  }
+}
+
+// @include break('mobile') {
+//   h1 {
+
+//     &::after{
+//       content: "kkk";
+//       color: red;
+//     }
+
+//   }
+// }
 
 p,
 div,
@@ -33,9 +63,22 @@ h1 {
 }
 
 .scroll {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14rem;
   font-size: 16.05rem;
   letter-spacing: -0.01em;
   font-weight: 400;
+
+  & span {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 16.05rem;
+    letter-spacing: -0.01em;
+    line-height: 19.26rem;
+  }
+
   & img {
     position: relative;
     height: 57.17rem;

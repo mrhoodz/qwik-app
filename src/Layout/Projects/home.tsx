@@ -17,9 +17,13 @@ export default component$(function Home() {
           for you.
         </p>
 
-        <div class="scroll">SCROLL</div>
+        <div class="scroll">
+          <span>SCROLL</span>
 
-        <img class="hero-img" src="" alt="hero image goes here" />
+          <img src="/svg/scroll icon.svg" alt="scroll icon" />
+        </div>
+
+        <img class="hero-img desktop" src=" " alt="hero image goes here" />
       </aside>
     </article>
   );

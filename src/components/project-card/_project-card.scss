@@ -1,0 +1,101 @@
+@import "../../styles/colors";
+
+.placeholder {
+  position: relative;
+
+  margin-block: 90rem;
+}
+
+.project-card {
+  position: relative;
+  //   background-color: aquamarine;
+  width: 470.59rem;
+
+  &::after {
+    content: " ";
+    background-color: $orange;
+
+    position: absolute;
+    top: -0rem;
+    left: 210rem;
+    height: 11rem;
+    width: 50rem;
+    border-radius: 20rem;
+  }
+
+  & .project-preview {
+    position: relative;
+    // width: 470.59rem;
+    width: 100%;
+    height: 269.57rem;
+    background-color: transparent;
+    border: 6rem solid $orange;
+    border-radius: 15rem;
+    overflow: hidden;
+
+    margin-bottom: 9rem;
+
+    & img {
+      position: relative;
+      top: 0rem;
+      width: 101%;
+      height: auto;
+    }
+  }
+
+  & .project-info {
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    padding-inline: 10rem;
+    // gap: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    // width: 100%;
+    // background-color: aqua;
+
+    & .info-details {
+      position: relative;
+      //   width: 100%;
+
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      //   background-color: peru;
+
+      & h2 {
+        position: relative;
+        width: 264rem;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 28rem;
+        line-height: 32rem;
+      }
+
+      & p {
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 22rem;
+        line-height: 24rem;
+      }
+    }
+
+    .view-button {
+      // margin-top: 30rem;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 150.61rem;
+      height: 49.86rem;
+      background: transparent;
+      border: 3rem solid #fff;
+
+      font-family: Poppins;
+      font-weight: 600;
+      font-size: 16rem;
+      line-height: 19rem;
+    }
+  }
+}

@@ -9,11 +9,11 @@
   //   padding-left: calc(35vw / 524vw * 100vw);
   padding-bottom: calc(82vw / 1080vw * 100vh);
   padding-top: calc(214vw / 1080vw * 100vh);
-  margin-top: -148rem;
+  margin-top: -158rem;
 
   overflow: hidden;
 
-  border-radius: 94rem;
+  border-radius: 0 0 94rem 94rem;
   z-index: 99;
 
   & h2 {

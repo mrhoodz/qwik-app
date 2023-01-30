@@ -10,6 +10,7 @@ export default component$(() => {
       <main>
         <Slot />
       </main>
+      <Header />
     </>
   );
 });

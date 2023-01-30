@@ -3,6 +3,7 @@ import { DocumentHead } from "@builder.io/qwik-city";
 import Home from "~/Layout/Home/home";
 import Focus from "~/Layout/Home/focus";
 import Goals from "~/Layout/Home/goals";
+import Projects from "~/Layout/Home/projects";
 
 // interface ProductData {
 //   skuId: string;
@@ -18,6 +19,9 @@ export default component$(function Index() {
     <>
       <Home />
       <Focus />
+
+      <Projects />
+
       <Goals />
     </>
   );

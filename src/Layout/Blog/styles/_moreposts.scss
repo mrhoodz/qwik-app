@@ -1,0 +1,33 @@
+@import "../../../styles/colors";
+
+#Analysis {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $secondary-bg-color;
+  //   padding-left: calc(35vw / 524vw * 100vw);
+  padding-bottom: calc(82vw / 1080vw * 100vh);
+  padding-top: calc(214vw / 1080vw * 100vh);
+  margin-top: -158rem;
+
+  overflow: hidden;
+
+  border-radius: 0 0 94rem 94rem;
+  z-index: 99;
+
+  & .h2 {
+    position: relative;
+    width: 373rem;
+    margin-bottom: 86.5rem;
+
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 40rem;
+    letter-spacing: 0.01em;
+    line-height: 54rem;
+    text-align: center;
+  }
+
+
+}

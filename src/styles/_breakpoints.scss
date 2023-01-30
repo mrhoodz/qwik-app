@@ -1,0 +1,25 @@
+$breakpoints: (
+  "desktop": (
+    min-width : 960px,
+  ),
+  "tablet": (
+    min-width :  560px,
+  ),
+  "mobile": (
+    max-width :  560px,
+  )
+) !default;
+
+/// Mixin to manage responsive breakpoints
+//  @author Tinotenda
+// @param {String} $breakpoint - Breakpoint name
+// @require $breakpoints
+@mixin break($breakpoint) {
+  // If the key exists in the map
+  @if map-has-key($breakpoints, $breakpoint) {
+    // Prints a media query based on the value
+    @media #{inspect(map-get($breakpoints, $breakpoint))} {
+      @content;
+    }
+  }
+}

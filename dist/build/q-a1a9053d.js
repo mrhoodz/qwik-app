@@ -1,1 +1,0 @@
-import{c as t,T as e,_ as s}from"./q-a92c5382.js";const a=t(e(()=>s(()=>import("./q-b13d1047.js"),["build/q-b13d1047.js","build/q-a92c5382.js"]),"s_xYL1qOwPyDI")),i=o=>{console.log("booting",o)},r={title:"Homepage"};export{i as $booter,a as default,r as head};
