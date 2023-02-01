@@ -26,6 +26,17 @@ export default component$(function Home() {
           <img src="/svg/scroll icon.svg" alt="scroll icon" />
         </div>
       </aside>
+
+      <span>
+        <section class="heroImg-area">
+          <span class="shell">
+            <img class="twink-left" src="/svg/twink left.svg" alt="" />
+            <img class="twink-right" src="/svg/twink right.svg" alt="" />
+          </span>
+
+          <img class="hero-img" src="/hero-img.png" alt="hero-img" />
+        </section>
+      </span>
     </article>
   );
 });

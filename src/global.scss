@@ -19,14 +19,43 @@ body {
   // overflow: hidden;
 }
 
+a:link {
+  color: red;
+  // background-color: pink;
+  text-decoration: none;
+}
+
 .html-only {
   display: none;
 }
 
-.desktop {
-  display: none;
-}
+// .desktop {
+//   display: none;
+// }
 
 html {
   font-size: 1px;
+}
+
+
+
+// @media (width > 960px) {
+//   html {
+//     font-size: 0.58px;
+//     /* background-color: red; */
+//   }
+// }
+
+@media (width > 1280px) {
+  html {
+    font-size: 0.75px;
+    /* background-color: rebeccapurple; */
+  }
+}
+
+@media (width > 1600px) {
+  html {
+    font-size: 1px;
+    /* background-color: orange; */
+  }
 }

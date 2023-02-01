@@ -1,0 +1,1 @@
+import{c as t,T as e,_ as s}from"./q-8ab58ba4.js";const r=t(e(()=>s(()=>import("./q-9d32fdb8.js").then(o=>o.e),["build/q-9d32fdb8.js","build/q-8ab58ba4.js"]),"s_VkLNXphUh5s")),a=o=>{console.log("booting",o)};export{a as $booter,r as default};

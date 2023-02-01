@@ -47,6 +47,45 @@ export default component$(function timeline() {
           </p>
         </details>
 
+        <details class="timeline-item">
+          <summary>
+            <span>
+              <h3>Design research</h3>
+              <h2>12 sep - 13 sep</h2>
+            </span>
+
+            <span class="phase-btn">PHASE 1</span>
+          </summary>
+
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor.
+          </p>
+        </details>
+
+        <details class="timeline-item">
+          <summary>
+            <span>
+              <h3>Design research</h3>
+              <h2>12 sep - 13 sep</h2>
+            </span>
+
+            <span class="phase-btn">PHASE 1</span>
+          </summary>
+
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor.
+          </p>
+        </details>
+
+
 
       </aside>
 

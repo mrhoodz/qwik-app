@@ -1,32 +1,85 @@
 @import "../../../styles/colors";
+@import "../../../styles/breakpoints";
 
-#focus {
-  position: relative;
-  background-color: $secondary-bg-color;
-  padding-left: calc(35vw / 524vw * 100vw);
-  padding-bottom: 73rem;
-  padding-top: 238rem;
-  margin-top: -167rem;
-  overflow: hidden;
-
-  border-radius: 0 0 94rem 94rem;
-  z-index: 99;
-
-  & h2 {
+@include break("mobile") {
+  #Focus {
     position: relative;
-    margin-bottom: 26rem;
-  }
+    background-color: $secondary-bg-color;
+    padding-left: calc(35vw / 524vw * 100vw);
+    padding-bottom: 73rem;
+    padding-top: 238rem;
+    margin-top: -167rem;
+    overflow: hidden;
 
-  & aside {
+    border-radius: 0 0 94rem 94rem;
+    z-index: 99;
+
+    & h2 {
+      position: relative;
+      margin-bottom: 26rem;
+    }
+
+    & aside {
+      display: flex;
+      flex-direction: column;
+      gap: 25rem;
+      margin-bottom: 52rem;
+    }
+
+    & .p-content {
+      position: relative;
+      width: 440rem;
+      margin-bottom: 38rem;
+    }
+  }
+}
+
+@include break("tablet") {
+  #Focus {
+    position: relative;
+    background-color: $secondary-bg-color;
+    // padding-left: calc(35vw / 524vw * 100vw);
+    padding-bottom: 73rem;
+    padding-top: 238rem;
+    margin-top: -167rem;
+    overflow: hidden;
+
     display: flex;
     flex-direction: column;
-    gap: 25rem;
-    margin-bottom: 52rem;
-  }
+    align-items: center;
 
-  & .p-content {
-    position: relative;
-    width: 440rem;
-    margin-bottom: 38rem;
+    border-radius: 0 0 94rem 94rem;
+    z-index: 99;
+
+    & h2 {
+      position: relative;
+      font-family: Poppins;
+      font-weight: 600;
+      font-size: 112rem;
+      letter-spacing: -0.04em;
+      line-height: 119rem;
+      text-align: left;
+      margin-bottom: 26rem;
+      text-align: center;
+    }
+
+    & aside {
+      display: flex;
+      flex-direction: column;
+      gap: 25rem;
+      margin-bottom: 52rem;
+    }
+
+    & .p-content {
+      position: relative;
+      width: 964rem;
+      font-family: Lato;
+      font-weight: normal;
+      font-size: 40rem;
+      letter-spacing: 0.01em;
+      line-height: 72rem;
+      text-align: center;
+      margin-bottom: 38rem;
+    }
   }
 }

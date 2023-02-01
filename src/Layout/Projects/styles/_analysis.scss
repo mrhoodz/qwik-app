@@ -1,129 +1,280 @@
 @import "../../../styles/colors";
+@import "../../../styles/breakpoints";
 
-#Analysis {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: $secondary-bg-color;
-  //   padding-left: calc(35vw / 524vw * 100vw);
-  padding-bottom: calc(82vw / 1080vw * 100vh);
-  padding-top: calc(214vw / 1080vw * 100vh);
-  margin-top: -158rem;
-
-  overflow: hidden;
-
-  border-radius: 0 0 94rem 94rem;
-  z-index: 99;
-
-  & h2 {
+@include break("mobile") {
+  #Analysis {
     position: relative;
-    width: 373rem;
-    margin-bottom: 86.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $secondary-bg-color;
+    //   padding-left: calc(35vw / 524vw * 100vw);
+    padding-bottom: calc(82vw / 1080vw * 100vh);
+    padding-top: calc(214vw / 1080vw * 100vh);
+    margin-top: -158rem;
 
-    font-family: Poppins;
-    font-weight: bold;
-    font-size: 40rem;
-    letter-spacing: 0.01em;
-    line-height: 54rem;
-    text-align: center;
-  }
+    overflow: hidden;
 
-  & aside {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    border-radius: 0 0 94rem 94rem;
+    z-index: 99;
 
-    width: 462rem;
-    height: 193rem;
-
-    margin-bottom: 68.5rem;
-
-    & span {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      // background-color: ivory;
-      transition: 0.2s ease-in-out;
-
-      &:hover {
-        background-color: white;
-        color: black;
-      }
-    }
-
-    & span:nth-child(1) {
-      border-right: 1px solid whitesmoke;
-      border-bottom: 1px solid whitesmoke;
-    }
-
-    & span:nth-child(2) {
-      border-left: 1px solid whitesmoke;
-      border-bottom: 1px solid whitesmoke;
-    }
-
-    & span:nth-child(3) {
-      border-right: 1px solid whitesmoke;
-      border-top: 1px solid whitesmoke;
-    }
-
-    & span:nth-child(4) {
-      border-left: 1px solid whitesmoke;
-      border-top: 1px solid whitesmoke;
-    }
-  }
-
-  #fact {
-    position: relative;
-    width: 525rem;
-    height: 131rem;
-    background-color: transparent;
-    margin-top: 53.2rem;
-    padding-left: 127rem;
-    padding-top: 20rem;
-    // padding-bottom: 28rem;
-
-    & #bulb {
-      position: absolute;
-      height: 76.98rem;
-      width: 54.78rem;
-      left: 29.9rem;
-      top: 25.1rem;
-    }
-
-    & aside {
+    & h2 {
       position: relative;
-      display: flex;
-      flex-direction: column;
+      width: 373rem;
+      margin-bottom: 86.5rem;
 
-      width: 360rem;
-      // gap: 1rem;
-      // height: 81rem;
+      font-family: Poppins;
+      font-weight: bold;
+      font-size: 40rem;
+      letter-spacing: 0.01em;
+      line-height: 54rem;
+      text-align: center;
+    }
 
-      & h3 {
-        font-size: 26rem;
-        text-transform: uppercase;
-        font-weight: 700;
-        margin-bottom: -4rem;
-      }
+    & .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
 
-      & p {
-        position: relative;
-        width: 361rem;
-        font-family: Lato;
-        font-size: 17rem;
-        letter-spacing: 0.01em;
-        line-height: 22rem;
-        font-weight: normal;
-      }
+      width: 462rem;
+      height: 193rem;
+
+      margin-bottom: 68.5rem;
 
       & span {
         display: flex;
         justify-content: center;
         align-items: center;
         // background-color: ivory;
-        border: 1px solid red;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+          background-color: white;
+          color: black;
+        }
       }
+
+      & span:nth-child(1) {
+        border-right: 1px solid whitesmoke;
+        border-bottom: 1px solid whitesmoke;
+      }
+
+      & span:nth-child(2) {
+        border-left: 1px solid whitesmoke;
+        border-bottom: 1px solid whitesmoke;
+      }
+
+      & span:nth-child(3) {
+        border-right: 1px solid whitesmoke;
+        border-top: 1px solid whitesmoke;
+      }
+
+      & span:nth-child(4) {
+        border-left: 1px solid whitesmoke;
+        border-top: 1px solid whitesmoke;
+      }
+    }
+
+    #fact {
+      position: relative;
+      width: 525rem;
+      height: 131rem;
+      background-color: transparent;
+      margin-top: 53.2rem;
+      padding-left: 127rem;
+      padding-top: 20rem;
+      // padding-bottom: 28rem;
+
+      & #bulb {
+        position: absolute;
+        height: 76.98rem;
+        width: 54.78rem;
+        left: 29.9rem;
+        top: 25.1rem;
+      }
+
+      & aside {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        width: 360rem;
+        // gap: 1rem;
+        // height: 81rem;
+
+        & h3 {
+          font-size: 26rem;
+          text-transform: uppercase;
+          font-weight: 700;
+          margin-bottom: -4rem;
+        }
+
+        & p {
+          position: relative;
+          width: 361rem;
+          font-family: Lato;
+          font-size: 17rem;
+          letter-spacing: 0.01em;
+          line-height: 22rem;
+          font-weight: normal;
+        }
+
+        & span {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          // background-color: ivory;
+          border: 1px solid red;
+        }
+      }
+    }
+  }
+}
+
+@include break("tablet") {
+  #Analysis {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: $secondary-bg-color;
+    //   padding-left: calc(35vw / 524vw * 100vw);
+    padding-bottom: calc(82vw / 1080vw * 100vh);
+    padding-top: calc(315vw / 1080vw * 100vh);
+    margin-top: -158rem;
+
+    overflow: hidden;
+
+    border-radius: 0 0 94rem 94rem;
+    z-index: 99;
+
+    & h2 {
+      position: relative;
+      width: 478rem;
+      margin-bottom: 61.5rem;
+      margin-left: 162.5rem;
+
+      font-family: Poppins;
+      font-weight: 600;
+      font-size: 64rem;
+      letter-spacing: -0.04em;
+      line-height: 68rem;
+      text-align: left;
+    }
+
+    & .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+
+      width: 462rem;
+      height: 193rem;
+
+      margin-left: 162.5rem;
+      margin-bottom: 68.5rem;
+
+      & span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // background-color: ivory;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+          background-color: white;
+          color: black;
+        }
+      }
+
+      & span:nth-child(1) {
+        border-right: 1px solid whitesmoke;
+        border-bottom: 1px solid whitesmoke;
+      }
+
+      & span:nth-child(2) {
+        border-left: 1px solid whitesmoke;
+        border-bottom: 1px solid whitesmoke;
+      }
+
+      & span:nth-child(3) {
+        border-right: 1px solid whitesmoke;
+        border-top: 1px solid whitesmoke;
+      }
+
+      & span:nth-child(4) {
+        border-left: 1px solid whitesmoke;
+        border-top: 1px solid whitesmoke;
+      }
+    }
+
+    & .talk-btn {
+      display: none;
+    }
+
+    #fact {
+      position: relative;
+      width: 525rem;
+      height: 131rem;
+      background-color: transparent;
+      // margin-top: 56.5rem;
+      padding-left: 127rem;
+      // bottom: 168rem;
+      // left: 127rem;
+      padding-top: 20rem;
+      margin-bottom: 98rem;
+
+      & #bulb {
+        position: absolute;
+        height: 76.98rem;
+        width: 54.78rem;
+        left: 29.9rem;
+        top: 25.1rem;
+      }
+
+      & aside {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        width: 360rem;
+        // gap: 1rem;
+        // height: 81rem;
+
+        & h3 {
+          font-size: 26rem;
+          text-transform: uppercase;
+          font-weight: 700;
+          margin-bottom: -4rem;
+        }
+
+        & p {
+          position: relative;
+          width: 361rem;
+          font-family: Lato;
+          font-size: 17rem;
+          letter-spacing: 0.01em;
+          line-height: 22rem;
+          font-weight: normal;
+        }
+
+        & span {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          // background-color: ivory;
+          border: 1px solid red;
+        }
+      }
+    }
+
+    #analysis-hero {
+      position: absolute;
+      left: 937rem;
+      top: 270rem;
+
+      height: 787rem;
+      width: 1375rem;
+      background-color: brown;
     }
   }
 }

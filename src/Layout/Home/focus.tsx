@@ -5,7 +5,7 @@ export default component$(function Focus() {
   useStyles$(styles);
 
   return (
-    <article id="focus">
+    <article id="Focus">
       <h2>Focus areas</h2>
 
       <aside>

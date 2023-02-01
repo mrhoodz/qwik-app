@@ -1,43 +1,154 @@
 @import "../../../styles/colors";
+@import "../../../styles/breakpoints";
 
-#Home {
-  position: relative;
-  background-color: $primary-bg-color;
-  padding-left: calc(35vw / 524vw * 100vw);
-  padding-bottom: calc(61vw / 1080vw * 100vh);
-  padding-top: calc(228vw / 1080vw * 100vh);
-  margin-top: -173rem;
-  overflow: hidden;
-
-  border-radius: 94rem;
-  z-index: 100;
-
-  & aside {
-    display: flex;
-    flex-direction: column;
-  }
-
-  & h1 {
+@include break("mobile") {
+  #Home {
     position: relative;
-    margin-bottom: 23.9rem;
-    order: 2;
-    width: 355rem;
-  }
+    background-color: $primary-bg-color;
+    padding-left: calc(35vw / 524vw * 100vw);
+    padding-bottom: calc(61vw / 1080vw * 100vh);
+    padding-top: calc(228vw / 1080vw * 100vh);
+    margin-top: -173rem;
+    overflow: hidden;
 
-  & p {
+    border-radius: 94rem;
+    z-index: 100;
+
+    & aside {
+      display: flex;
+      flex-direction: column;
+    }
+
+    & h1 {
+      position: relative;
+      margin-bottom: 23.9rem;
+      order: 2;
+      width: 355rem;
+    }
+
+    & p {
+      position: relative;
+      margin-bottom: 27.1rem;
+      order: 3;
+      width: 365rem;
+    }
+
+    & .subtitle {
+      position: relative;
+      margin-bottom: 6rem;
+      order: 1;
+    }
+
+    .scroll {
+      order: 4;
+    }
+  }
+}
+
+@include break("tablet") {
+  #Home {
     position: relative;
-    margin-bottom: 27.1rem;
-    order: 3;
-    width: 365rem;
-  }
+    background-color: $primary-bg-color;
+    padding-left: calc(35vw / 524vw * 100vw);
+    padding-bottom: calc(61vw / 1080vw * 100vh);
+    padding-top: calc(228vw / 1080vw * 100vh);
+    margin-top: -173rem;
+    overflow: hidden;
 
-  & .subtitle {
-    position: relative;
-    margin-bottom: 6rem;
-    order: 1;
-  }
+    border-radius: 94rem;
+    z-index: 100;
 
-  .scroll {
-    order: 4;
+    & aside {
+      display: flex;
+      flex-direction: column;
+    }
+
+    & h1 {
+      position: relative;
+      margin-bottom: 23.9rem;
+      order: 2;
+      width: 595rem;
+    }
+
+    & p {
+      position: relative;
+      margin-bottom: 27.1rem;
+      order: 3;
+      width: 664rem;
+    }
+
+    & .subtitle {
+      position: relative;
+      margin-bottom: 6rem;
+      order: 1;
+    }
+
+    .scroll {
+      // background-color: aqua;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      // width: 100%;
+      margin-left: calc(-35vw / 524vw * 100vw);
+
+      order: 4;
+    }
+
+    & .heroImg-area {
+      position: absolute;
+      // background-color: maroon;
+      width: 452.82rem;
+      height: 685.34rem;
+      left: 61.86vw;
+      top: 235rem;
+      // z-index: 28;
+
+      // &::before {
+      //   content: " ";
+      //   position: absolute;
+      //   // background-color: lime;
+      //   top: 15rem;
+      //   width: 446rem;
+      //   height: 645.88rem;
+      //   border: 1rem solid #d1ede4;
+
+      //   transform: rotateZ(12.6deg);
+      // }
+
+      & .shell {
+        position: absolute;
+        // background-color: lime;
+        top: 15rem;
+        width: 446rem;
+        height: 645.88rem;
+        border: 1rem solid #d1ede4;
+
+        transform: rotateZ(12.6deg);
+        z-index: 29;
+
+        & .twink-left {
+          position: absolute;
+          left: -42rem;
+          bottom: -46rem;
+          transform: rotateZ(-12.6deg);
+        }
+
+        & .twink-right {
+          position: absolute;
+          left: 425rem;
+          top: -27rem;
+          transform: rotateZ(-12.6deg);
+        }
+      }
+
+      & .hero-img {
+        position: absolute;
+        top: 0;
+        height: inherit;
+        width: auto;
+        z-index: 31;
+      }
+    }
   }
 }

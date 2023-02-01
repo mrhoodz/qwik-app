@@ -1,57 +1,311 @@
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+@import "../../styles/breakpoints";
+@import "../../styles/colors";
 
-  position: relative;
-  background-color: black;
-  color: red;
-  font-size: 23rem;
-  height: 113rem;
-  width: 100%;
-  top: 0;
-  left: 0;
-
-  padding-top: 30rem;
-  padding-bottom: 32.3rem;
-  padding-left: 40.8rem;
-  padding-right: 53rem;
-  z-index: 10000;
-
-  & .logoArea {
+@include break("mobile") {
+  header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-  }
 
-  & #logoPng {
     position: relative;
-    height: 50.67rem;
-    width: 57.94rem;
-  }
+    background-color: black;
+    // color: red;
+    font-size: 23rem;
+    height: 113rem;
+    width: 100%;
+    top: 0;
+    left: 0;
 
-  & #logoText {
-    position: relative;
-    height: 50.67rem;
-    width: 57.94rem;
-  }
+    padding-top: 30rem;
+    padding-bottom: 32.3rem;
+    padding-left: 40.8rem;
+    padding-right: 53rem;
+    z-index: 200;
 
-  & .menu {
-    position: relative;
-    height: 35rem;
-    width: 52rem;
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
-    gap: 8rem;
+    & .logoArea {
+      margin-top: 0rem;
+      display: flex;
+      align-items: center;
+    }
 
-    & span {
-      background-color: #d1ede4;
+    & #logoPng {
+      position: relative;
+      height: 50.67rem;
+      width: 57.94rem;
+    }
+
+    & #logoText {
+      position: relative;
+      height: 50.67rem;
+      width: 57.94rem;
+    }
+
+    & .menu {
+      position: relative;
+      height: 35rem;
       width: 52rem;
-      height: 5rem;
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+      gap: 8rem;
+
+      & span {
+        background-color: #d1ede4;
+        width: 52rem;
+        height: 5rem;
+      }
+    }
+
+    & .side-analysis {
+      position: fixed;
+      top: 0rem;
+      left: 0rem;
+      height: 797rem;
+      width: 524rem;
+      background-color: black;
+      z-index: 201;
+      // display: block;
+
+      & .top {
+        position: relative;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 117rem;
+        padding-top: 30rem;
+
+        padding-left: 40.8rem;
+        padding-right: 43rem;
+
+        & .circle {
+          position: relative;
+          height: 72rem;
+          width: 72rem;
+          background-color: #d1ede4;
+          border-radius: 100%;
+        }
+      }
+
+      & .navLinks {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 64rem;
+        margin-left: 104rem;
+
+        & .link {
+          font-family: Poppins;
+          font-weight: 500;
+          font-size: 29rem;
+          line-height: 34.8rem;
+          text-align: left;
+
+          color: $secondary-text-color;
+        }
+
+        & .switch {
+          position: relative;
+          display: flex;
+
+          font-weight: 500;
+          font-size: 20rem;
+          letter-spacing: -0.04em;
+          line-height: 24rem;
+
+          & .switch-A {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 167rem;
+            height: 63rem;
+            background: black;
+            border: 1px solid #d1ede4;
+            font-size: inherit;
+            color: $secondary-text-color;
+          }
+        }
+
+        & .switch-B {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          width: 128rem;
+          height: 63rem;
+          background: #d1ede4;
+          border: 1px solid #d1ede4;
+          font-size: inherit;
+          color: black;
+        }
+      }
+    }
+    // .desktop {
+    //   display: none;
+    // }
+  }
+}
+
+@include break("tablet") {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+    background-color: black;
+    // color: red;
+    font-size: 23rem;
+    height: 133rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    // padding-top: 30rem;
+    // padding-bottom: 32.3rem;
+    padding-left: 81.8rem;
+    padding-right: 133.5rem;
+    z-index: 200;
+
+    & .logoArea {
+      position: relative;
+      // width: 800rem;
+      margin-top: 12rem;
+      // background-color: aqua;
+      display: flex;
+      gap: 18.2rem;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    & #logoPng {
+      position: relative;
+      height: 50.67rem;
+      width: 57.94rem;
+      margin-top: -15rem;
+    }
+
+    & #logoText {
+      position: relative;
+      height: auto;
+      width: 328.66rem;
+    }
+
+    & .navLinks {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      // height: max-content;
+      // width: 300rem;
+      gap: 64rem;
+      margin-left: 0;
+      // background-color: red;
+
+      & .link {
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 24rem;
+        line-height: 34.8rem;
+        text-align: left;
+
+        color: $secondary-text-color;
+      }
+    }
+
+    & .switch {
+      position: relative;
+      display: flex;
+
+      font-weight: 500;
+      font-size: 20rem;
+      letter-spacing: -0.04em;
+      line-height: 24rem;
+
+      & .switch-A {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 167rem;
+        height: 63rem;
+        background: black;
+        border: 1px solid #d1ede4;
+        font-size: inherit;
+        color: $secondary-text-color;
+      }
+    }
+
+    & .switch-B {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      width: 128rem;
+      height: 63rem;
+      background: #d1ede4;
+      border: 1px solid #d1ede4;
+      font-size: inherit;
+      color: black;
+    }
+
+    & .menu {
+      position: relative;
+      height: 35rem;
+      width: 52rem;
+      background-color: transparent;
+      // display: none;
+      flex-direction: column;
+      gap: 8rem;
+
+      & span {
+        background-color: #d1ede4;
+        width: 52rem;
+        height: 5rem;
+      }
+    }
+
+    & .side-analysis {
+      position: fixed;
+      top: 0rem;
+      left: 0rem;
+      height: 797rem;
+      width: 524rem;
+      background-color: black;
+      z-index: 201;
+      // display: block;
+
+      & .top {
+        position: relative;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 117rem;
+        padding-top: 30rem;
+
+        padding-left: 40.8rem;
+        padding-right: 43rem;
+
+        & .circle {
+          position: relative;
+          height: 72rem;
+          width: 72rem;
+          background-color: #d1ede4;
+          border-radius: 100%;
+        }
+      }
+    }
+
+    .mobile {
+      display: none;
     }
   }
 }
 
-.desktop {
-  display: none;
-}
+// @import "../../styles/displaybreak";

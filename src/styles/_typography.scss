@@ -1,219 +1,595 @@
 @import "./colors";
 @import "./breakpoints";
 
-@include break("tablet") {
-  h1 {
-    &::after {
-      content: "kkkk";
-      color: red;
-    }
-  }
-}
-
 @include break("mobile") {
-  h1 {
-    &::after {
-      content: "sdfdsf";
-      color: green;
-    }
+  .desktop {
+    display: none;
   }
+
+  .mobile {
+    display: block;
+  }
+
+
+a:visited{
+  text-decoration: none;
 }
 
-// @include break('mobile') {
-//   h1 {
 
-//     &::after{
-//       content: "kkk";
-//       color: red;
-//     }
+  p,
+  div,
+  article,
+  section,
+  span,
+  aside {
+    font-size: 21rem;
+    font-weight: 500;
+    color: $secondary-text-color;
 
-//   }
-// }
+    font-size: 21rem;
+    letter-spacing: 0.01em;
+    line-height: 46rem;
+    text-align: left;
+  }
 
-p,
-div,
-article,
-section,
-span,
-aside {
-  font-size: 21rem;
-  font-weight: 500;
-  color: $secondary-text-color;
-
-  font-size: 21rem;
-  letter-spacing: 0.01em;
-  line-height: 46rem;
-  text-align: left;
-}
-
-h1 {
-  font-family: Poppins;
-  font-weight: 600;
-  font-size: 68rem;
-  letter-spacing: -0.04em;
-  line-height: 85rem;
-  color: $primary-text-color;
-}
-
-.subtitle {
-  font-family: Lato, "sans-serif";
-  font-size: 21rem;
-  font-weight: 400;
-  color: $secondary-text-color;
-}
-
-.scroll {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 14rem;
-  font-size: 16.05rem;
-  letter-spacing: -0.01em;
-  font-weight: 400;
-
-  & span {
+  h1 {
     font-family: Poppins;
-    font-weight: normal;
+    font-weight: 600;
+    font-size: 68rem;
+    letter-spacing: -0.04em;
+    line-height: 85rem;
+    color: $primary-text-color;
+  }
+
+  .subtitle {
+    font-family: Lato, "sans-serif";
+    font-size: 21rem;
+    font-weight: 400;
+    color: $secondary-text-color;
+  }
+
+  .scroll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14rem;
     font-size: 16.05rem;
     letter-spacing: -0.01em;
-    line-height: 19.26rem;
-  }
+    font-weight: 400;
 
-  & img {
-    position: relative;
-    height: 57.17rem;
-    width: 57.17rem;
-  }
-}
-
-h2 {
-  font-family: Poppins;
-  font-weight: 600;
-  font-size: 68rem;
-  letter-spacing: -0.04em;
-  line-height: 66rem;
-  text-align: left;
-  color: $primary-text-color;
-}
-
-.focus-card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  color: $secondary-text-color;
-
-  & .numtitle {
-    font-size: 30rem;
-    letter-spacing: 0.01em;
-    line-height: 42rem;
-    text-align: left;
-    color: inherit;
-  }
-
-  & .title {
-    font-weight: 700;
-    font-size: 40rem;
-    letter-spacing: 0.01em;
-    line-height: 54rem;
-    text-align: left;
-    color: inherit;
-  }
-
-  & .subtitle {
-    font-family: Lato;
-    font-weight: 700;
-    font-size: 25rem;
-    letter-spacing: 0.01em;
-    // line-height: 54rem;
-    text-align: left;
-    color: inherit;
-  }
-}
-
-.p-content {
-  font-family: Poppins;
-  font-weight: 600;
-  font-size: 23rem;
-  letter-spacing: 0.02em;
-  line-height: 36rem;
-  //   color: red;
-}
-
-.talk-btn {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 140rem;
-  height: 63rem;
-  border-radius: 31.5rem;
-  background: #d1ede4;
-  border: 1px solid $secondary-text-color;
-
-  font-weight: 600;
-  font-size: 18rem;
-  letter-spacing: -0.05em;
-  color: black;
-}
-
-.featured {
-  position: relative;
-  & .subtitle {
-    font-weight: 500;
-    font-size: 27rem;
-    letter-spacing: 0.01em;
-    line-height: 37rem;
-    text-align: left;
-  }
-
-  .featured-area {
-    position: relative;
-    width: 380rem;
+    & span {
+      font-family: Poppins;
+      font-weight: normal;
+      font-size: 16.05rem;
+      letter-spacing: -0.01em;
+      line-height: 19.26rem;
+    }
 
     & img {
       position: relative;
-      height: 52.32rem;
-      width: auto;
+      height: 57.17rem;
+      width: 57.17rem;
+    }
+  }
+
+  h2 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 68rem;
+    letter-spacing: -0.04em;
+    line-height: 66rem;
+    text-align: left;
+    color: $primary-text-color;
+  }
+
+  .focus-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: $secondary-text-color;
+
+    & .numtitle {
+      font-size: 30rem;
+      letter-spacing: 0.01em;
+      line-height: 42rem;
+      text-align: left;
+      color: inherit;
+    }
+
+    & .title {
+      font-weight: 700;
+      font-size: 40rem;
+      letter-spacing: 0.01em;
+      line-height: 54rem;
+      text-align: left;
+      color: inherit;
+    }
+
+    & .subtitle {
+      font-family: Lato;
+      font-weight: 700;
+      font-size: 25rem;
+      letter-spacing: 0.01em;
+      // line-height: 54rem;
+      text-align: left;
+      color: inherit;
+    }
+  }
+
+  .p-content {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 23rem;
+    letter-spacing: 0.02em;
+    line-height: 36rem;
+    //   color: red;
+  }
+
+  .talk-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140rem;
+    height: 63rem;
+    border-radius: 31.5rem;
+    background: #d1ede4;
+    border: 1px solid $secondary-text-color;
+
+    font-weight: 600;
+    font-size: 18rem;
+    letter-spacing: -0.05em;
+    color: black;
+  }
+
+  .featured {
+    position: relative;
+    & .subtitle {
+      font-weight: 500;
+      font-size: 27rem;
+      letter-spacing: 0.01em;
+      line-height: 37rem;
+      text-align: left;
+    }
+
+    .featured-area {
+      position: relative;
+      width: 380rem;
+
+      & img {
+        position: relative;
+        height: 52.32rem;
+        width: auto;
+      }
+    }
+  }
+
+  .goal-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: $secondary-text-color;
+
+    & .numtitle {
+      font-size: 30rem;
+      letter-spacing: 0.01em;
+      line-height: 42rem;
+      text-align: left;
+      color: inherit;
+    }
+
+    & .title {
+      font-weight: 700;
+      font-size: 40rem;
+      letter-spacing: 0.01em;
+      line-height: 54rem;
+      text-align: left;
+      color: inherit;
+    }
+
+    //   & content-p {
+    //     font-weight: normal;
+    //     font-size: 20rem;
+    //     letter-spacing: 0.01em;
+    //     line-height: 34rem;
+    //     text-align: left;
+    //     color: inherit;
+    //   }
+
+    & .percent {
+      position: relative;
+      height: 7rem;
+      width: 311rem;
+      background-color: $primary-text-color;
     }
   }
 }
 
-.goal-card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  color: $secondary-text-color;
+@include break("tablet") {
 
-  & .numtitle {
-    font-size: 30rem;
-    letter-spacing: 0.01em;
-    line-height: 42rem;
-    text-align: left;
-    color: inherit;
+  a:visited{
+    text-decoration: none;
   }
 
-  & .title {
-    font-weight: 700;
-    font-size: 40rem;
-    letter-spacing: 0.01em;
-    line-height: 54rem;
+ 
+  
+
+  p,
+  div,
+  article,
+  section,
+  span,
+  aside {
+    color: $secondary-text-color;
+
+    font-weight: 500;
+    font-size: 26.75rem;
+    letter-spacing: 0.02em;
+    line-height: 46rem;
     text-align: left;
-    color: inherit;
   }
 
-  //   & content-p {
-  //     font-weight: normal;
-  //     font-size: 20rem;
-  //     letter-spacing: 0.01em;
-  //     line-height: 34rem;
-  //     text-align: left;
-  //     color: inherit;
-  //   }
+  h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 117.35rem;
+    letter-spacing: -0.04em;
+    line-height: 124.84rem;
+    color: $primary-text-color;
+  }
 
-  & .percent {
+  .subtitle {
+    font-family: Lato, "sans-serif";
+    font-weight: normal;
+    font-size: 24rem;
+    letter-spacing: 0.01em;
+    line-height: 43.25rem;
+    text-align: left;
+    color: $secondary-text-color;
+  }
+
+  .scroll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14rem;
+    font-size: 16.05rem;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+
+    & span {
+      font-family: Poppins;
+      font-weight: normal;
+      font-size: 16.05rem;
+      letter-spacing: -0.01em;
+      line-height: 19.26rem;
+    }
+
+    & img {
+      position: relative;
+      height: 57.17rem;
+      width: 57.17rem;
+    }
+  }
+
+  h2 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 68rem;
+    letter-spacing: -0.04em;
+    line-height: 66rem;
+    text-align: left;
+    color: $primary-text-color;
+  }
+
+  .focus-card {
     position: relative;
-    height: 7rem;
-    width: 311rem;
-    background-color: $primary-text-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $secondary-text-color;
+
+    & .numtitle {
+      font-size: 30rem;
+      letter-spacing: 0.01em;
+      line-height: 42rem;
+      text-align: left;
+      color: inherit;
+    }
+
+    & .title {
+      font-weight: 700;
+      font-size: 40rem;
+      letter-spacing: 0.01em;
+      line-height: 54rem;
+      text-align: left;
+      color: inherit;
+    }
+
+    & .subtitle {
+      font-family: Lato;
+      font-weight: 700;
+      font-size: 25rem;
+      letter-spacing: 0.01em;
+      // line-height: 54rem;
+      text-align: left;
+      color: inherit;
+    }
+  }
+
+  .p-content {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 23rem;
+    letter-spacing: 0.02em;
+    line-height: 36rem;
+    //   color: red;
+  }
+
+  .talk-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140rem;
+    height: 63rem;
+    border-radius: 31.5rem;
+    background: #d1ede4;
+    border: 1px solid $secondary-text-color;
+
+    font-weight: 600;
+    font-size: 18rem;
+    letter-spacing: -0.05em;
+    color: black;
+  }
+
+  .featured {
+    position: relative;
+    & .subtitle {
+      font-weight: 500;
+      font-size: 27rem;
+      letter-spacing: 0.01em;
+      line-height: 37rem;
+      text-align: left;
+    }
+
+    .featured-area {
+      position: relative;
+      width: 380rem;
+
+      & img {
+        position: relative;
+        height: 52.32rem;
+        width: auto;
+      }
+    }
+  }
+
+  .goal-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: $secondary-text-color;
+
+    & .numtitle {
+      font-size: 30rem;
+      letter-spacing: 0.01em;
+      line-height: 42rem;
+      text-align: left;
+      color: inherit;
+    }
+
+    & .title {
+      font-weight: 700;
+      font-size: 40rem;
+      letter-spacing: 0.01em;
+      line-height: 54rem;
+      text-align: left;
+      color: inherit;
+    }
+
+    //   & content-p {
+    //     font-weight: normal;
+    //     font-size: 20rem;
+    //     letter-spacing: 0.01em;
+    //     line-height: 34rem;
+    //     text-align: left;
+    //     color: inherit;
+    //   }
+
+    & .percent {
+      position: relative;
+      height: 7rem;
+      width: 311rem;
+      background-color: $primary-text-color;
+    }
   }
 }
+
+// p,
+// div,
+// article,
+// section,
+// span,
+// aside {
+//   font-size: 21rem;
+//   font-weight: 500;
+//   color: $secondary-text-color;
+
+//   font-size: 21rem;
+//   letter-spacing: 0.01em;
+//   line-height: 46rem;
+//   text-align: left;
+// }
+
+// h1 {
+//   font-family: Poppins;
+//   font-weight: 600;
+//   font-size: 68rem;
+//   letter-spacing: -0.04em;
+//   line-height: 85rem;
+//   color: $primary-text-color;
+// }
+
+// .subtitle {
+//   font-family: Lato, "sans-serif";
+//   font-size: 21rem;
+//   font-weight: 400;
+//   color: $secondary-text-color;
+// }
+
+// .scroll {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   gap: 14rem;
+//   font-size: 16.05rem;
+//   letter-spacing: -0.01em;
+//   font-weight: 400;
+
+//   & span {
+//     font-family: Poppins;
+//     font-weight: normal;
+//     font-size: 16.05rem;
+//     letter-spacing: -0.01em;
+//     line-height: 19.26rem;
+//   }
+
+//   & img {
+//     position: relative;
+//     height: 57.17rem;
+//     width: 57.17rem;
+//   }
+// }
+
+// h2 {
+//   font-family: Poppins;
+//   font-weight: 600;
+//   font-size: 68rem;
+//   letter-spacing: -0.04em;
+//   line-height: 66rem;
+//   text-align: left;
+//   color: $primary-text-color;
+// }
+
+// .focus-card {
+//   position: relative;
+//   display: flex;
+//   flex-direction: column;
+//   color: $secondary-text-color;
+
+//   & .numtitle {
+//     font-size: 30rem;
+//     letter-spacing: 0.01em;
+//     line-height: 42rem;
+//     text-align: left;
+//     color: inherit;
+//   }
+
+//   & .title {
+//     font-weight: 700;
+//     font-size: 40rem;
+//     letter-spacing: 0.01em;
+//     line-height: 54rem;
+//     text-align: left;
+//     color: inherit;
+//   }
+
+//   & .subtitle {
+//     font-family: Lato;
+//     font-weight: 700;
+//     font-size: 25rem;
+//     letter-spacing: 0.01em;
+//     // line-height: 54rem;
+//     text-align: left;
+//     color: inherit;
+//   }
+// }
+
+// .p-content {
+//   font-family: Poppins;
+//   font-weight: 600;
+//   font-size: 23rem;
+//   letter-spacing: 0.02em;
+//   line-height: 36rem;
+//   //   color: red;
+// }
+
+// .talk-btn {
+//   position: relative;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 140rem;
+//   height: 63rem;
+//   border-radius: 31.5rem;
+//   background: #d1ede4;
+//   border: 1px solid $secondary-text-color;
+
+//   font-weight: 600;
+//   font-size: 18rem;
+//   letter-spacing: -0.05em;
+//   color: black;
+// }
+
+// .featured {
+//   position: relative;
+//   & .subtitle {
+//     font-weight: 500;
+//     font-size: 27rem;
+//     letter-spacing: 0.01em;
+//     line-height: 37rem;
+//     text-align: left;
+//   }
+
+//   .featured-area {
+//     position: relative;
+//     width: 380rem;
+
+//     & img {
+//       position: relative;
+//       height: 52.32rem;
+//       width: auto;
+//     }
+//   }
+// }
+
+// .goal-card {
+//   position: relative;
+//   display: flex;
+//   flex-direction: column;
+//   color: $secondary-text-color;
+
+//   & .numtitle {
+//     font-size: 30rem;
+//     letter-spacing: 0.01em;
+//     line-height: 42rem;
+//     text-align: left;
+//     color: inherit;
+//   }
+
+//   & .title {
+//     font-weight: 700;
+//     font-size: 40rem;
+//     letter-spacing: 0.01em;
+//     line-height: 54rem;
+//     text-align: left;
+//     color: inherit;
+//   }
+
+//   //   & content-p {
+//   //     font-weight: normal;
+//   //     font-size: 20rem;
+//   //     letter-spacing: 0.01em;
+//   //     line-height: 34rem;
+//   //     text-align: left;
+//   //     color: inherit;
+//   //   }
+
+//   & .percent {
+//     position: relative;
+//     height: 7rem;
+//     width: 311rem;
+//     background-color: $primary-text-color;
+//   }
+// }

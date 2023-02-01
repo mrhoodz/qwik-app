@@ -9,7 +9,7 @@ export default component$(function analysis() {
     <article id="Analysis">
       <h2>Project analysis and solution summary👀</h2>
 
-      <aside>
+      <aside class="grid">
         <span class="analysis-card">Strength</span>
         <span class="analysis-card">Weaknesses</span>
         <span class="analysis-card">Opportunities</span>
