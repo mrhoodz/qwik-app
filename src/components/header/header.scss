@@ -11,8 +11,7 @@
   z-index: 500;
   transform: 0.02s ease-in-out;
 
-// transform: scaleX();
-
+  // transform: scaleX();
 }
 
 @include break("mobile") {
