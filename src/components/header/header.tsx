@@ -20,26 +20,30 @@ export default component$(() => {
   const scroll: any = useSignal(0);
   const menuSig: any = useSignal(false);
   const windowWidth: any = useSignal(1920);
+  const clientHeight: any = useSignal(0);
 
-  useClientEffect$(() => {
-    onresize = $(() => {
-      if (document.documentElement.clientWidth > 600) {
-        menuSig.value = false;
-      }
+  useClientEffect$(
+    () => {
+      onresize = $(() => {
+        if (document.documentElement.clientWidth > 600) {
+          menuSig.value = false;
+        }
 
-      windowWidth.value = document.documentElement.clientWidth;
-      console$.log(document.documentElement.clientWidth);
-    });
+        windowWidth.value = document.documentElement.clientWidth;
+        console$.log(document.documentElement.clientWidth);
+      });
 
-    onscroll = $(() => {
-      console$.log(scroll.value);
-      const height =
-        document.documentElement.scrollHeight -
-        document.documentElement.clientHeight;
+      onscroll = $(() => {
+        // console$.log(scroll.value);
+        clientHeight.value =
+          document.documentElement.scrollHeight -
+          document.documentElement.clientHeight;
 
-      scroll.value = window.scrollY / height;
-    });
-  });
+        scroll.value = window.scrollY / clientHeight.value;
+      });
+    },
+    { eagerness: "load" }
+  );
 
   // create a tenary operator to check if the menu is open or closed
   // if the menu is open, then the menu should be visible

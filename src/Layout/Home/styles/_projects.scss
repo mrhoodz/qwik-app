@@ -19,6 +19,47 @@
     flex-direction: column;
     align-items: center;
 
+    & .h2 {
+      font-family: Poppins;
+      font-weight: 500;
+      font-size: 68rem;
+      letter-spacing: -0.04em;
+      line-height: 119rem;
+      // text-align: left;
+    }
+
+    & .featured {
+      // background-color: pink;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 37.5rem;
+      margin-bottom: 65.6rem;
+
+      & .heading {
+        font-family: Poppins;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 27rem;
+        letter-spacing: 0.01em;
+        line-height: 54rem;
+        text-align: left;
+      }
+
+      & .logos {
+        display: flex;
+        // flex-direction: row;
+        gap: 38.8rem;
+
+        & img {
+          position: relative;
+          height: 52.32rem;
+          width: auto;
+        }
+      }
+    }
+
     & .scroll-container {
       position: relative;
       // width: 1590rem;
