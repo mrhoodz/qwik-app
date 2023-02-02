@@ -1,6 +1,15 @@
 @import "../../styles/colors";
 @import "../../styles/breakpoints";
 
+#project-image {
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    top: -210%;
+    transition: 1.7s ease-in-out;
+  }
+}
+
 @include break("mobile") {
   .placeholder {
     position: relative;
