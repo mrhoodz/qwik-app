@@ -2,7 +2,7 @@
 
 // import { component$, useStyles$ } from "@builder.io/qwik";
 
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import "./_project-card.scss";
 // import { qwikify$ } from "@builder.io/qwik-react";
 
