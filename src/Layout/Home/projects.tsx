@@ -35,9 +35,10 @@ export default component$(function projects() {
         </section>
 
         <h3 class="h2">Projects</h3>
+        
 
         <div class="scroll-container">
-          <DragContainer client:idle />
+          <DragContainer client:visible />
         </div>
       </article>
     </>

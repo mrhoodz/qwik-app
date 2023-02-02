@@ -14,6 +14,7 @@ export default function projectCard() {
             <img
               width="1920"
               height="3519"
+              loading="lazy"
               src="projects/preview.avif"
               alt="project here"
             />
