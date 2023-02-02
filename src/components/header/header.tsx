@@ -3,7 +3,6 @@ import {
   component$,
   useClientEffect$,
   useSignal,
-  useStore,
   useStylesScoped$,
 } from "@builder.io/qwik";
 import styles from "./header.scss?inline";
