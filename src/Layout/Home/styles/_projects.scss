@@ -2,7 +2,7 @@
 @import "../../../styles/breakpoints";
 
 @include break("mobile") {
-  #projects {
+  #Projects {
     position: relative;
     background-color: $primary-bg-color;
     //   padding-left: calc(35vw / 524vw * 100vw);
@@ -42,7 +42,7 @@
 }
 
 @include break("tablet") {
-  #projects {
+  #Projects {
     position: relative;
     background-color: $primary-bg-color;
     //   padding-left: calc(35vw / 524vw * 100vw);

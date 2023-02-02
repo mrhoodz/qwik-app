@@ -8,25 +8,30 @@ export default component$(function projects() {
 
   return (
     <>
-      <article id="projects">
+      <article id="Projects">
         <section class="featured">
           <h2 class="heading">
             {" "}
             <span class="html-only">My work is </span> featured on{" "}
           </h2>
 
-
-<div class="logos">
-
-<img class="socials" src="/svg/dribbble.svg" alt="feature on logos" />
-<img class="socials" src="/svg/instagram.svg" alt="feature on logos" />
-<img class="socials" src="/svg/behance.svg" alt="feature on logos" />
-
-
-
-</div>
-
-
+          <div class="logos">
+            <img
+              class="socials"
+              src="/svg/dribbble.svg"
+              alt="feature on logos"
+            />
+            <img
+              class="socials"
+              src="/svg/instagram.svg"
+              alt="feature on logos"
+            />
+            <img
+              class="socials"
+              src="/svg/behance.svg"
+              alt="feature on logos"
+            />
+          </div>
         </section>
 
         <h3 class="h2">Projects</h3>

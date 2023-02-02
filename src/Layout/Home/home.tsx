@@ -20,6 +20,19 @@ export default component$(function Home() {
           worldwide
         </div>
 
+        <section className="CV">
+          <div className="img-area">
+            <img
+              src=""
+              //  alt="cv-cover image"
+            />
+
+            <span id="dowload-CV"> </span>
+          </div>
+
+          <h4 id="resume-text">Download My Resume</h4>
+        </section>
+
         <div class="scroll">
           <span>SCROLL</span>
 

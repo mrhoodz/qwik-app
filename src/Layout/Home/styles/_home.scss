@@ -49,10 +49,11 @@
   #Home {
     position: relative;
     background-color: $primary-bg-color;
-    padding-left: calc(35vw / 524vw * 100vw);
-    padding-bottom: calc(61vw / 1080vw * 100vh);
-    padding-top: calc(228vw / 1080vw * 100vh);
-    margin-top: -173rem;
+    padding-left: calc(245.6vw / 1920vw * 100vw);
+    padding-bottom: calc(77.6vw / 1080vw * 100vh);
+    padding-top: calc(204.53vw / 1080vw * 100vh);
+    height: 1146rem;
+    margin-top: -132.5rem;
     overflow: hidden;
 
     border-radius: 94rem;
@@ -61,6 +62,7 @@
     & aside {
       display: flex;
       flex-direction: column;
+      margin-top: 13rem;
     }
 
     & h1 {
@@ -72,9 +74,52 @@
 
     & p {
       position: relative;
-      margin-bottom: 27.1rem;
+      margin-bottom: 36.5rem;
       order: 3;
       width: 664rem;
+    }
+
+    & .CV {
+      position: relative;
+      // width: 468.63rem;
+      height: 180.5rem;
+      // background-color: pink;
+      order: 4;
+      display: flex;
+      align-items: center;
+      gap: 23.1rem;
+
+      & .img-area {
+        position: relative;
+        height: 180.5rem;
+        width: 271.5rem;
+        background-color: yellow;
+        border-radius: 41.5rem;
+        overflow: hidden;
+      }
+
+      & #dowload-CV {
+        position: absolute;
+        height: 101rem;
+        width: 101rem;
+        background-color: green;
+        // center div with transform 50%
+        // center div with transform 50%
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+      }
+
+      & #resume-text {
+        font-family: Lato;
+        font-weight: normal;
+        font-size: 24rem;
+        letter-spacing: 0.01em;
+        line-height: 43.25rem;
+        color: $primary-text-color;
+        // text-align: left;
+      }
     }
 
     & .subtitle {
@@ -92,7 +137,7 @@
       // width: 100%;
       margin-left: calc(-35vw / 524vw * 100vw);
 
-      order: 4;
+      order: 5;
     }
 
     & .heroImg-area {
