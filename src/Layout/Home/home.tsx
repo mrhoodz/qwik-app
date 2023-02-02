@@ -20,7 +20,7 @@ export default component$(function Home() {
           worldwide
         </div>
 
-        <section className="CV">
+        <section className="CV desktop">
           <div className="img-area">
             <img
               src=""
@@ -41,7 +41,7 @@ export default component$(function Home() {
       </aside>
 
       <span>
-        <section class="heroImg-area">
+        <section class="heroImg-area desktop">
           <span class="shell">
             <img class="twink-left" src="/svg/twink left.svg" alt="" />
             <img class="twink-right" src="/svg/twink right.svg" alt="" />

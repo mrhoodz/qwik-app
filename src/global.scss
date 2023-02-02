@@ -6,6 +6,8 @@
  *
  */
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -34,28 +36,47 @@ a:link {
 // }
 
 html {
-  font-size: 1px;
+  font-size: 0.19vw;
 }
 
-
-
-// @media (width > 960px) {
+// @media (width < 530px) {
 //   html {
-//     font-size: 0.58px;
+//     font-size: 1px;
 //     /* background-color: red; */
+//   }
+// }
+
+// @media (width < 430px) {
+//   html {
+//     font-size: 0.71px;
+//     /* background-color: red; */
+//   }
+// }
+
+// @media (width < 375px) {
+//   html {
+//     font-size: 0.71px;
+//     /* background-color: red; */
+//   }
+// }
+
+// @media (width > 1280px) {
+//   html {
+//     font-size: 0.75px;
+//     /* background-color: rebeccapurple; */
 //   }
 // }
 
 @media (width > 1280px) {
   html {
-    font-size: 0.75px;
+    font-size: 0.05vw;
     /* background-color: rebeccapurple; */
   }
 }
 
-@media (width > 1600px) {
-  html {
-    font-size: 1px;
-    /* background-color: orange; */
-  }
-}
+// @media (width > 1600px) {
+//   html {
+//     font-size: 1px;
+//     /* background-color: orange; */
+//   }
+// }
