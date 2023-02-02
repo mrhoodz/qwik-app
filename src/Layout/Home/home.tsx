@@ -22,10 +22,7 @@ export default component$(function Home() {
 
         <section className="CV desktop">
           <div className="img-area">
-            <img
-              src=""
-               alt="cv-cover image"
-            />
+            <img src="" alt="cv-cover image" />
 
             <span id="dowload-CV"> </span>
           </div>
@@ -53,3 +50,6 @@ export default component$(function Home() {
     </article>
   );
 });
+
+
+
