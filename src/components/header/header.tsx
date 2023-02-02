@@ -14,9 +14,9 @@ import { Link } from "@builder.io/qwik-city";
 export default component$(() => {
   useStylesScoped$(styles);
 
-  const store: any = useStore({
-    scroll: 0,
-  });
+  // const store: any = useStore({
+  //   scroll: 0,
+  // });
 
   const scroll: any = useSignal(0);
   const menuSig: any = useSignal(false);
