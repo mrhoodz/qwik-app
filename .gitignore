@@ -3,6 +3,10 @@
 /lib-types
 /server
 
+
+#dist
+dist
+
 # Development
 node_modules
 

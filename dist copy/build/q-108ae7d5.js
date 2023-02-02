@@ -1,1 +1,0 @@
-import{R as e}from"./q-4f3865aa.js";import{j as r}from"./q-0150a6a4.js";import{m as s}from"./q-7cdc0339.js";import"./q-a92c5382.js";const c=({data:o})=>{const[i,t]=e.useState("hello");return r.jsxs(s.h2,{onClick:()=>{t("ndeipi")},whileHover:{color:"green"},children:[o," Testing 1 2"]})};export{c as s_I2z5asPy2gk};

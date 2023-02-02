@@ -11,7 +11,12 @@ export default function projectCard() {
       <article className="placeholder">
         <div className="project-card">
           <div className="project-preview">
-            <img src="/projects/zongestu (Large).jpg" alt="project here" />
+            <img
+              width="1920"
+              height="3519"
+              src="projects/preview.avif"
+              alt="project here"
+            />
           </div>
 
           <div className="project-info">
