@@ -214,13 +214,10 @@
         line-height: 35.12rem;
         transition: 0.3s ease-in-out;
 
-
-&:hover{
-  background-color: $primary-text-color;
-  color: black;
-}
-
-
+        &:hover {
+          background-color: $primary-text-color;
+          color: black;
+        }
       }
     }
   }

@@ -4,8 +4,6 @@
 // import styles from "./styles/_projects.scss?inline";
 import { qwikify$ } from "@builder.io/qwik-react";
 import { motion } from "framer-motion";
-import { useRef } from "react";
-import { console$ } from "~/components/header/header";
 import ProjectCard from "~/components/project-card/project-card";
 
 export const DragContainer = qwikify$(
