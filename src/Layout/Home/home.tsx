@@ -20,8 +20,8 @@ export default component$(function Home() {
           worldwide
         </div>
 
-        <section className="CV desktop">
-          <div className="img-area">
+        <section class="CV desktop">
+          <div class="img-area">
             <img src="" alt="cv-cover image" />
 
             <span id="dowload-CV"> </span>
@@ -50,6 +50,3 @@ export default component$(function Home() {
     </article>
   );
 });
-
-
-

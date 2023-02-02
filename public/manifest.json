@@ -3,7 +3,7 @@
   "name": "qwik-project-name",
   "short_name": "Welcome to  RealWebsDigital",
   "start_url": ".",
-  "display": "fullscreen",
+  "display": "standalone",
   "background_color": "#000000",
   "description": "RealWebsDigital Web App.",
   "theme_color": "#000000"

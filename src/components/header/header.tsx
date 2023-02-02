@@ -14,10 +14,11 @@ import { Link } from "@builder.io/qwik-city";
 export default component$(() => {
   useStylesScoped$(styles);
 
-  const store = useStore({
+  const store: any = useStore({
     scroll: 0,
   });
 
+  const scroll: any = useSignal(0);
   const menuSig: any = useSignal(false);
   const windowWidth: any = useSignal(1920);
 
@@ -32,12 +33,12 @@ export default component$(() => {
     });
 
     onscroll = $(() => {
-      // console$.log(window.scrollY / height);
+      console$.log(scroll.value);
       const height =
         document.documentElement.scrollHeight -
         document.documentElement.clientHeight;
 
-      store.scroll = window.scrollY / height;
+      scroll.value = window.scrollY / height;
     });
   });
 
@@ -57,6 +58,11 @@ export default component$(() => {
   return (
     <>
       <header>
+        <span
+          style={{ transform: `scaleX(${scroll.value})` }}
+          id="nav-progress"
+        ></span>
+
         <Link href="/">
           <div class="logoArea ">
             <img id="logoPng" src="logos/logoPng.svg" alt="logoPng" />
@@ -135,7 +141,9 @@ export default component$(() => {
             menuSig.value = true;
           }}
         >
-          <span style={{ transform: `scaleX(${store.scroll})` }}></span>
+          {/* <span style={{ transform: `scaleX(${store.scroll})` }}></span> */}
+          <span></span>
+
           <span></span>
           <span></span>
         </aside>
