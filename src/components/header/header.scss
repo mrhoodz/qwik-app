@@ -94,8 +94,21 @@
           position: relative;
           height: 72rem;
           width: 72rem;
-          background-color: #d1ede4;
+          background-color: black;
+          border: 2rem solid #d1ede4;
           border-radius: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          transition: 0.1s;
+
+
+       
+          & .close-icon {
+            height: 22.87rem;
+            width: auto;
+            fill: black
+          }
         }
       }
 

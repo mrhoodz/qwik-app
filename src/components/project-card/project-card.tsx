@@ -4,17 +4,40 @@
 
 // import { motion } from "framer-motion";
 import "./_project-card.scss";
+import { motion  } from "framer-motion";
 // import { qwikify$ } from "@builder.io/qwik-react";
 
 export default function projectCard() {
+
+  // useEffect(() => {
+  //   if (isInView) {
+  //     inView + 1;
+  //     // console$.log(inView);
+  //   } else {
+  //     inView - 1;
+
+  //     // console$.log(inView);
+  //   }
+
+  //   console.log(
+  //     "Element is in view: ",
+  //     isInView + "  and the count is " + inView
+  //   );
+  // }, [isInView]);
+
   return (
     <>
-      <article className="placeholder">
+      <motion.article
+        initial={{ scale: 0.9 }}
+        whileInView={{ scale: 1 }}
+        className="placeholder"
+      >
         <div className="project-card">
           <div className="project-preview">
-  {/* <motion.span whileHover={{scale: 2}} > */}
+            {/* <motion.span whileHover={{scale: 2}} > */}
 
-  <img id="project-image"
+            <img
+              id="project-image"
               width="1920"
               height="3519"
               loading="lazy"
@@ -22,7 +45,7 @@ export default function projectCard() {
               alt="project here"
             />
 
-  {/* </motion.span> */}
+            {/* </motion.span> */}
           </div>
 
           <div className="project-info">
@@ -35,7 +58,7 @@ export default function projectCard() {
             <div className="view-button">View Project</div>
           </div>
         </div>
-      </article>
+      </motion.article>
     </>
   );
 }

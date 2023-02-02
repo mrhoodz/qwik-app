@@ -72,7 +72,7 @@
       & .drag-container {
         position: relative;
         width: max-content;
-        padding-left: calc(27vw / 524vw * 100vw);
+        // padding-left: calc(27vw / 524vw * 100vw);
 
         // background-color: red;
         display: flex;
@@ -142,18 +142,26 @@
     }
 
     & .scroll-container {
+      // background-color: red;
       position: relative;
       // width: 1590rem;
-      // left: -400rem;
+      // width: 3190rem;
+      left: 0;
       overflow: hidden;
-      // width: 1590rem;
+
+      // display: flex;
+      // flex-direction: row;
+      // justify-content: flex-end;
+      // width: 1800rem;
       // margin-left: -400rem;
       // // padding-left: 1000rem;
+      // padding-left: calc(1700rem);
+      // left:-1700rem;
 
       & .drag-container {
+        // background-color: pink;
         position: relative;
         width: max-content;
-        padding-left: calc(27vw / 524vw * 100vw);
 
         // background-color: red;
         display: flex;

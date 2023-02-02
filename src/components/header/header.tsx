@@ -108,12 +108,24 @@ export default component$(() => {
             <div
               class="circle"
               onClick$={() => {
-                // menuEvent(menuSig)
                 menuSig.value = false;
               }}
             >
               {" "}
-              x
+              {/* <img class="close-icon" src="svg/Icon ionic-ios-close.svg" alt="close-icon" /> */}
+              <svg
+                class="close-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="22.867"
+                height="22.861"
+                viewBox="0 0 22.867 22.861"
+              >
+                <path
+                  d="M25.428,22.719,33.6,14.552a1.914,1.914,0,1,0-2.706-2.706l-8.167,8.167-8.167-8.167a1.914,1.914,0,1,0-2.706,2.706l8.167,8.167-8.167,8.167a1.914,1.914,0,1,0,2.706,2.706l8.167-8.167,8.167,8.167A1.914,1.914,0,1,0,33.6,30.887Z"
+                  transform="translate(-11.285 -11.289)"
+                  fill="#edd8d8"
+                />
+              </svg>
             </div>
           </div>
           <nav class="navLinks desktop-only">
@@ -141,7 +153,12 @@ export default component$(() => {
           class="menu mobile"
           onClick$={() => {
             // menuEvent(menuSig)
-            menuSig.value = true;
+            if (menuSig.value == false) {
+              // menuEvent(menuSig)
+              menuSig.value = true;
+            } else {
+              menuSig.value = false;
+            }
           }}
         >
           {/* <span style={{ transform: `scaleX(${store.scroll})` }}></span> */}

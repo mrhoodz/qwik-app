@@ -206,12 +206,21 @@
         height: 75rem;
 
         background: transparent;
-        border: 3rem solid #fff;
+        border: 3rem solid $primary-text-color;
 
         font-family: Poppins;
         font-weight: 600;
         font-size: 29.27rem;
         line-height: 35.12rem;
+        transition: 0.3s ease-in-out;
+
+
+&:hover{
+  background-color: $primary-text-color;
+  color: black;
+}
+
+
       }
     }
   }
