@@ -24,7 +24,7 @@ export default component$(function Home() {
           <div className="img-area">
             <img
               src=""
-              //  alt="cv-cover image"
+               alt="cv-cover image"
             />
 
             <span id="dowload-CV"> </span>
@@ -47,7 +47,7 @@ export default component$(function Home() {
             <img class="twink-right" src="/svg/twink right.svg" alt="" />
           </span>
 
-          <img class="hero-img" src="/hero-img.png" alt="hero-img" />
+          <img class="hero-img" src="/hero-img.avif" alt="hero-img" />
         </section>
       </span>
     </article>
