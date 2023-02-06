@@ -32,8 +32,12 @@ export const $booter = (response: any) => {
 };
 
 export const head: DocumentHead = {
-  title: "Based in South Africa available worldwide",
+
+//primary meta tags
+
+  title: "Homepage | RealWebsdigital",
   meta: [
+    { name: "title", content: "Based in South Africa available worldwide" },
     {
       name: "description",
       content:
@@ -43,7 +47,36 @@ export const head: DocumentHead = {
     { name: "revised", content: "Sunday, July 18th, 2021, 5:15 pm" },
     { name: "author", content: "Tinotenda Muringami" },
     { name: "theme-color", content: "#000000" },
+
+
+    // Open Graph / Facebook
+    { property: "og:type", content: "website" },
+    {property:"og:url", content:"https://www.realwebsdigital.com/"},
+    { name: "og:title", content: "Based in South Africa available worldwide" },
+
+    {
+      name: "og:description",
+      content:
+        "RealWebsdigital is a South African-based design agency that specializes in creating stunning websites, branding and digital marketing solutions for startups and established businesses worldwide.",
+    },
     { property: "og:image", content: "meta-img.jpg" },
-    { property: "twitter:image", content: "meta-img.jpg" },
-  ],
+
+
+
+//twitter meta tags
+
+
+
+{ property: "twitter:card", content: "summary_large_image" },
+{property:"twitter:url", content:"https://www.realwebsdigital.com/"},
+{ name: "twitter:title", content: "Based in South Africa available worldwide" },
+
+{
+  name: "twitter:description",
+  content:
+    "RealWebsdigital is a South African-based design agency that specializes in creating stunning websites, branding and digital marketing solutions for startups and established businesses worldwide.",
+},
+{ property: "twitter:image", content: "meta-img.jpg" },
+
+],
 };
