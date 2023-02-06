@@ -32,9 +32,13 @@ export const $booter = (response: any) => {
 };
 
 export const head: DocumentHead = {
-  title: " Based in South Africa available worldwide",
+  title: "Based in South Africa available worldwide",
   meta: [
-    { name: "description", content: "This is the homepage" },
+    {
+      name: "description",
+      content:
+        "RealWebsdigital is a South African-based design agency that specializes in creating stunning websites, branding and digital marketing solutions for startups and established businesses worldwide.",
+    },
     { name: "keywords", content: "Web Design, HTML, Javascript " },
     { name: "revised", content: "Sunday, July 18th, 2021, 5:15 pm" },
     { name: "author", content: "Tinotenda Muringami" },
