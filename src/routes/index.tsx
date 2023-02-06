@@ -40,5 +40,6 @@ export const head: DocumentHead = {
     { name: "author", content: "Tinotenda Muringami" },
     { name: "theme-color", content: "#000000" },
     { property: "og:image", content: "meta-img.jpg" },
+    { property: "twitter:image", content: "meta-img.jpg" },
   ],
 };
