@@ -8,7 +8,7 @@ import "./_project-card.scss";
 import { motion } from "framer-motion";
 // import { qwikify$ } from "@builder.io/qwik-react";
 
-export default function projectCard({img, title, year} : ProjectCardProps  ) {
+export default function projectCard({ img, title, year }: ProjectCardProps) {
   // useEffect(() => {
   //   if (isInView) {
   //     inView + 1;

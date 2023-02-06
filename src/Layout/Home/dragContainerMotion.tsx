@@ -16,7 +16,7 @@ export const DragContainer = qwikify$(
     const projectInfo: ProjectCardProps[] = [
       { img: "zongetsu.avif", title: "Zongetsu", year: "2021" },
       { img: "FYR.avif", title: "FYR Fashion 🔥", year: "2022" },
-      { img: "fyr.avif", title: "FYR 🔥", year: "2022" },
+      { img: "5star.avif", title: "5 star engineering", year: "2023" },
     ];
 
     return (
