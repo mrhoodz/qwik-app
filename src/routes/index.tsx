@@ -39,6 +39,6 @@ export const head: DocumentHead = {
     { name: "revised", content: "Sunday, July 18th, 2021, 5:15 pm" },
     { name: "author", content: "Tinotenda Muringami" },
     { name: "theme-color", content: "#000000" },
-    { property: "og:image ", content: "meta-img.jpg" },
+    { property: "og:image", content: "meta-img.jpg" },
   ],
 };
