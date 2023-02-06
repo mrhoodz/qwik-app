@@ -34,13 +34,13 @@ export const $booter = (response: any) => {
 export const head: DocumentHead = {
   //primary meta tags
 
-  title: "Homepage | RealWebsdigital",
+  title: "Homepage | Realwebsdigital",
   meta: [
     { name: "title", content: "Based in South Africa available worldwide" },
     {
       name: "description",
       content:
-        "RealWebsdigital is a South African-based design agency that specializes in creating stunning websites, branding and digital marketing solutions for startups and established businesses worldwide.",
+        "Realwebsdigital is a South African-based design agency that specializes in creating stunning websites, branding and digital marketing solutions for startups and established businesses worldwide.",
     },
     { name: "keywords", content: "Web Design, HTML, Javascript " },
     { name: "revised", content: "Sunday, July 18th, 2021, 5:15 pm" },
@@ -55,7 +55,7 @@ export const head: DocumentHead = {
     {
       name: "og:description",
       content:
-        "RealWebsdigital is a South African-based design agency that specializes in creating stunning websites, branding and digital marketing solutions for startups and established businesses worldwide.",
+        "Realwebsdigital is a South African-based design agency that specializes in creating stunning websites, branding and digital marketing solutions for startups and established businesses worldwide.",
     },
     { property: "og:image", content: "meta-img.png" },
 
@@ -71,7 +71,7 @@ export const head: DocumentHead = {
     {
       name: "twitter:description",
       content:
-        "RealWebsdigital is a South African-based design agency that specializes in creating stunning websites, branding and digital marketing solutions for startups and established businesses worldwide.",
+        "Realwebsdigital is a South African-based design agency that specializes in creating stunning websites, branding and digital marketing solutions for startups and established businesses worldwide.",
     },
     {
       property: "twitter:image",
