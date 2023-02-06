@@ -76,7 +76,7 @@ export const head: DocumentHead = {
   content:
     "RealWebsdigital is a South African-based design agency that specializes in creating stunning websites, branding and digital marketing solutions for startups and established businesses worldwide.",
 },
-{ property: "twitter:image", content: "/meta-img.jpg" },
+{ property: "twitter:image", content: "https://www.realwebsdigital.com/meta-img.jpg" },
 
 ],
 };
