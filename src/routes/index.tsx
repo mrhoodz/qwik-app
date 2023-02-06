@@ -32,8 +32,7 @@ export const $booter = (response: any) => {
 };
 
 export const head: DocumentHead = {
-
-//primary meta tags
+  //primary meta tags
 
   title: "Homepage | RealWebsdigital",
   meta: [
@@ -48,10 +47,9 @@ export const head: DocumentHead = {
     { name: "author", content: "Tinotenda Muringami" },
     { name: "theme-color", content: "#000000" },
 
-
     // Open Graph / Facebook
     { property: "og:type", content: "website" },
-    {property:"og:url", content:"https://www.realwebsdigital.com/"},
+    { property: "og:url", content: "https://www.realwebsdigital.com/" },
     { name: "og:title", content: "Based in South Africa available worldwide" },
 
     {
@@ -59,24 +57,25 @@ export const head: DocumentHead = {
       content:
         "RealWebsdigital is a South African-based design agency that specializes in creating stunning websites, branding and digital marketing solutions for startups and established businesses worldwide.",
     },
-    { property: "og:image", content: "meta-img.jpg" },
+    { property: "og:image", content: "meta-img.png" },
 
+    //twitter meta tags
 
+    { property: "twitter:card", content: "summary_large_image" },
+    { property: "twitter:url", content: "https://www.realwebsdigital.com/" },
+    {
+      name: "twitter:title",
+      content: "Based in South Africa available worldwide",
+    },
 
-//twitter meta tags
-
-
-
-{ property: "twitter:card", content: "summary_large_image" },
-{property:"twitter:url", content:"https://www.realwebsdigital.com/"},
-{ name: "twitter:title", content: "Based in South Africa available worldwide" },
-
-{
-  name: "twitter:description",
-  content:
-    "RealWebsdigital is a South African-based design agency that specializes in creating stunning websites, branding and digital marketing solutions for startups and established businesses worldwide.",
-},
-{ property: "twitter:image", content: "https://www.realwebsdigital.com/meta-img.jpg" },
-
-],
+    {
+      name: "twitter:description",
+      content:
+        "RealWebsdigital is a South African-based design agency that specializes in creating stunning websites, branding and digital marketing solutions for startups and established businesses worldwide.",
+    },
+    {
+      property: "twitter:image",
+      content: "https://www.realwebsdigital.com/meta-img.png",
+    },
+  ],
 };
