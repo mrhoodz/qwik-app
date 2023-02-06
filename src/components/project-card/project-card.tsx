@@ -3,12 +3,12 @@
 // import { component$, useStyles$ } from "@builder.io/qwik";
 
 // import { motion } from "framer-motion";
+import { ProjectCardProps } from "~/types/types";
 import "./_project-card.scss";
-import { motion  } from "framer-motion";
+import { motion } from "framer-motion";
 // import { qwikify$ } from "@builder.io/qwik-react";
 
-export default function projectCard() {
-
+export default function projectCard({img, title, year} : ProjectCardProps  ) {
   // useEffect(() => {
   //   if (isInView) {
   //     inView + 1;
@@ -41,7 +41,7 @@ export default function projectCard() {
               width="1920"
               height="3519"
               loading="lazy"
-              src="projects/preview.avif"
+              src={"projects/" + img}
               alt="project here"
             />
 
@@ -50,9 +50,9 @@ export default function projectCard() {
 
           <div className="project-info">
             <div className="info-details">
-              <h2>FashionHub</h2>
+              <h2>{title}</h2>
 
-              <p>2021</p>
+              <p>{year}</p>
             </div>
 
             <div className="view-button">View Project</div>

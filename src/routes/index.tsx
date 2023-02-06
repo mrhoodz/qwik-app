@@ -32,5 +32,13 @@ export const $booter = (response: any) => {
 };
 
 export const head: DocumentHead = {
-  title: "Homepage",
+  title: "Homepage: Based in South Africa available worldwide",
+  meta: [
+    { name: "description", content: "This is the homepage" },
+    { name: "keywords", content: "Web Design, HTML, Javascript " },
+    { name: "revised", content: "Sunday, July 18th, 2021, 5:15 pm" },
+    { name: "author", content: "Tinotenda Muringami" },
+    { name: "theme-color", content: "#000000" },
+    { property: "og:image ", content: "/meta-img.jpg " },
+  ],
 };

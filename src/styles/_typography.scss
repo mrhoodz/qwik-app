@@ -10,11 +10,9 @@
     display: block;
   }
 
-
-a:visited{
-  text-decoration: none;
-}
-
+  a:visited {
+    text-decoration: none;
+  }
 
   p,
   div,
@@ -206,13 +204,9 @@ a:visited{
 }
 
 @include break("tablet") {
-
-  a:visited{
+  a:visited {
     text-decoration: none;
   }
-
- 
-  
 
   p,
   div,
