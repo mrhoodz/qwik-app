@@ -32,7 +32,7 @@ export const $booter = (response: any) => {
 };
 
 export const head: DocumentHead = {
-  title: "Homepage: Based in South Africa available worldwide",
+  title: " Based in South Africa available worldwide",
   meta: [
     { name: "description", content: "This is the homepage" },
     { name: "keywords", content: "Web Design, HTML, Javascript " },
