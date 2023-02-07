@@ -35,6 +35,9 @@ export const head: DocumentHead = {
   //primary meta tags
 
   title: "Homepage | Realwebsdigital",
+
+  // links: [{ rel: "canonical", href: "https://www.realwebsdigital.com/" }],
+
   meta: [
     { name: "title", content: "Based in South Africa available worldwide" },
     {
