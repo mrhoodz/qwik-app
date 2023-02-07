@@ -3,6 +3,7 @@
 // import { component$ } from "@builder.io/qwik";
 // import styles from "./styles/_projects.scss?inline";
 import { qwikify$ } from "@builder.io/qwik-react";
+import { randomUUID } from "crypto";
 import { motion } from "framer-motion";
 import ProjectCard from "~/components/project-card/project-card";
 import { ProjectCardProps } from "~/types/types";
@@ -31,7 +32,12 @@ export const DragContainer = qwikify$(
             className="drag-container"
           >
             {projectInfo.map((item: any) => (
-              <ProjectCard img={item.img} title={item.title} year={item.year} />
+              <ProjectCard
+                key={Math.random()}
+                img={item.img}
+                title={item.title}
+                year={item.year}
+              />
             ))}
 
             {/* {projectInfo.map(() => (  <h2>dsadasd</h2>  )  )    } */}

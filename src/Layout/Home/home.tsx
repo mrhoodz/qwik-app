@@ -7,7 +7,7 @@ export default component$(function Home() {
   return (
     <article id="Home">
       <aside>
-        <h1>My name is Tino and design</h1>
+        <h1>My name is Tino <span class="html-only">tenda Muringami</span>   and design</h1>
 
         <p>
           {" "}
