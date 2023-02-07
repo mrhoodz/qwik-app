@@ -3,7 +3,7 @@
 // import { component$ } from "@builder.io/qwik";
 // import styles from "./styles/_projects.scss?inline";
 import { qwikify$ } from "@builder.io/qwik-react";
-import { randomUUID } from "crypto";
+// import { randomUUID } from "crypto";
 import { motion } from "framer-motion";
 import ProjectCard from "~/components/project-card/project-card";
 import { ProjectCardProps } from "~/types/types";
