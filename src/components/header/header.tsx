@@ -89,13 +89,18 @@ export default component$(() => {
             Projects
           </a>
           <a href="/#Focus" class="link">
-            FAQ
+            Focus
           </a>
         </nav>
 
         <span class="switch desktop">
-          <a class="switch-A">Portfoilo</a>
-          <a class="switch-B"> Blog </a>
+          <a href="/" class="switch-A">
+            Portfoilo
+          </a>
+          <a href="/blog" class="switch-B">
+            {" "}
+            Blog{" "}
+          </a>
         </span>
 
         <section
@@ -143,8 +148,13 @@ export default component$(() => {
             </a>
 
             <span class="switch">
-              <a class="switch-A">Portfoilo</a>
-              <a class="switch-B"> Blog </a>
+              <a href="/" class="switch-A">
+                Portfoilo
+              </a>
+              <a href="/blog" class="switch-B">
+                {" "}
+                Blog{" "}
+              </a>
             </span>
           </nav>
         </section>

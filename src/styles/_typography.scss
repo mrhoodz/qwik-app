@@ -84,14 +84,21 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    // gap: 20rem;
     color: $secondary-text-color;
 
     & .numtitle {
+      position: relative;
+      width: 55rem;
       font-size: 30rem;
       letter-spacing: 0.01em;
       line-height: 42rem;
+      margin-bottom: 11.5rem;
+
       text-align: left;
       color: inherit;
+      // background-color: red;
+      border-bottom: $primary-text-color 4rem solid;
     }
 
     & .title {
@@ -99,6 +106,8 @@
       font-size: 40rem;
       letter-spacing: 0.01em;
       line-height: 54rem;
+      margin-bottom: 2rem;
+
       text-align: left;
       color: inherit;
     }
@@ -284,11 +293,17 @@
     color: $secondary-text-color;
 
     & .numtitle {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      width: 70rem;
       font-size: 30rem;
       letter-spacing: 0.01em;
       line-height: 42rem;
       text-align: left;
       color: inherit;
+      // background-color: limegreen;
+      border-bottom: whitesmoke 2rem solid;
     }
 
     & .title {
@@ -363,14 +378,16 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    align-items: center;
     color: $secondary-text-color;
 
     & .numtitle {
       font-size: 30rem;
       letter-spacing: 0.01em;
       line-height: 42rem;
-      text-align: left;
+      text-align: center;
       color: inherit;
+      // background-color: lightsalmon;
     }
 
     & .title {
@@ -378,7 +395,7 @@
       font-size: 40rem;
       letter-spacing: 0.01em;
       line-height: 54rem;
-      text-align: left;
+      text-align: center;
       color: inherit;
     }
 

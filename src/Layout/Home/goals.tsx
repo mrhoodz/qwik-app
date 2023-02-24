@@ -4,25 +4,42 @@ import styles from "./styles/_goals.scss?inline";
 export default component$(function goals() {
   useStyles$(styles);
 
+  const goalpoints = [
+    {
+      number: "01",
+      title: "Empower web designers",
+      content:
+        "When l started web design it took me 4 years to learn web design and over the years lve dedicated my time to teaching all young and aspiring designers how to have a career to. the amazing world of web design.",
+    },
+
+    {
+      number: "02",
+      title: "Digitize Africa",
+      content:
+        "From artificial intelligence to decentralised automated sytems, technology is key to help businesses in Africa positively scale profits without increasing operational costs.",
+    },
+  ];
+
   return (
     <article id="Goals">
       <div class="subtitle">Here are some of</div>
       <h2>My Goals</h2>
 
-      <div class="goal-card">
-        <div class="numtitle">01</div>
+      <article class="thaGoals">
+        {goalpoints.map((item, index) => (
+          <div class="goal-card">
+            <div key={index} class="numtitle">
+              {item.number}
+            </div>
 
-        <div class="title">Empower web designers</div>
+            <div class="title"> {item.title} </div>
 
-        <div class="p-content">
-          When l started web design it took me 4 years to learn web design and
-          over the years lve dedicated my time to teaching all young and
-          aspiring designers how to have a career to. the amazing world of web
-          design.
-        </div>
+            <div class="p-content">{item.content}</div>
 
-        <div class="percent">  </div>
-      </div>
+            <div class="percent"> </div>
+          </div>
+        ))}
+      </article>
     </article>
   );
 });

@@ -7,7 +7,12 @@ export default component$(function Home() {
   return (
     <article id="Home">
       <aside>
-        <h1>My name is Tino <span class="html-only">tenda Muringami</span>   and design</h1>
+        {/* <motion$.h3 data={"it works woooow"} color={"aqua"} Ocolor={"pink"} /> */}
+
+        <h1>
+          My name is Tino <span class="html-only">tenda Muringami</span> and
+          design
+        </h1>
 
         <p>
           {" "}
@@ -27,7 +32,7 @@ export default component$(function Home() {
             <span id="dowload-CV"> </span>
           </div>
 
-          <h4 id="resume-text">Download My Resume</h4>
+          <span id="resume-text">Download My Resume</span>
         </section>
 
         <div class="scroll">
@@ -44,9 +49,49 @@ export default component$(function Home() {
             <img class="twink-right" src="/svg/twink right.svg" alt="" />
           </span>
 
-          <img class="hero-img" src="/hero-img.avif" alt="hero-img" />
+          <img
+            // loading="lazy"
+            class="hero-img"
+            src="/hero-img.avif"
+            alt="hero-img"
+          />
         </section>
       </span>
     </article>
   );
 });
+
+// export const motion$ = {
+//   h3: component$(({ data, color }: any) => {
+//     const Xcolor = useSignal(color);
+//     const animationName = useSignal("animate");
+
+//     const ref = useSignal();
+//     return (
+//       <>
+//         {/* <h3
+//           draggable={false}
+//           onMouseOver$={() => {
+//             Xcolor.value = "red";
+//             // animationName.value = "clickAnimate";
+//           }}
+//           style={{
+//             "--color": Xcolor.value,
+//             // animationName: animationName.value,
+//           }}
+//           class="comp"
+//         >
+//           kkkkk + {data}
+//         </h3> */}
+//       </>
+//     );
+//   }),
+
+//   h4: component$(() => {
+//     return (
+//       <>
+//         <h3>kkkkk</h3>
+//       </>
+//     );
+//   }),
+// };

@@ -15,6 +15,12 @@
 
     border-radius: 0 0 0 0;
 
+    .thaGoals {
+      display: flex;
+      flex-direction: column;
+      gap: 99rem;
+    }
+
     & .subtitle {
       margin-bottom: -10rem;
     }
@@ -93,6 +99,12 @@
       margin-bottom: 43.4rem;
     }
 
+    .thaGoals {
+      display: flex;
+      flex-direction: row;
+      gap: 189rem;
+    }
+
     .goal-card {
       display: flex;
       flex-direction: column;
@@ -106,7 +118,7 @@
           content: " ";
           position: absolute;
           bottom: -8rem;
-          left: -4rem;
+          left: -12rem;
           width: 62rem;
           height: 3rem;
           background-color: pink;

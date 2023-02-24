@@ -80,3 +80,33 @@ html {
 //     /* background-color: orange; */
 //   }
 // }
+
+.comp {
+  // color: red;
+  animation: 2s ease-in-out;
+  transition: 2s ease-in;
+  color: var(--color);
+  touch-action: pan-y;
+  user-select: none;
+  // animation-direction: alternate;
+}
+
+@keyframes animate {
+  0% {
+    color: black;
+  }
+
+  100% {
+    color: var(--color);
+  }
+}
+
+@keyframes clickAnimate {
+  0% {
+    color: black;
+  }
+
+  100% {
+    color: var(--color);
+  }
+}

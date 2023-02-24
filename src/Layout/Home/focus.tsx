@@ -2,6 +2,26 @@ import { component$, useStyles$ } from "@builder.io/qwik";
 import styles from "./styles/_focus.scss?inline";
 
 export default component$(function Focus() {
+  const focusPoints = [
+    {
+      number: "01",
+      title: "UI/UX Design",
+      subtitle: "The look",
+    },
+
+    {
+      number: "02",
+      title: "Branding",
+      subtitle: "The feel",
+    },
+
+    {
+      number: "03",
+      title: "Development",
+      subtitle: "The results",
+    },
+  ];
+
   useStyles$(styles);
 
   return (
@@ -9,18 +29,21 @@ export default component$(function Focus() {
       <h2>Focus areas</h2>
 
       <aside>
-        <div class="focus-card">
-          <div class="numtitle">01</div>
+        {focusPoints.map((item, index) => (
+          <div key={index} class="focus-card">
+            <div class="numtitle">{item.number}</div>
 
-          <div class="title">UI/UX Design</div>
+            <div class="title"> {item.title} </div>
 
-          <div class="subtitle">Impact driven design</div>
-        </div>
+            <div class="subtitle">{item.subtitle} </div>
+          </div>
+        ))}
       </aside>
 
       <p class="p-content">
         I will partner with you to understand and reveal the problems that your
-        business has and create a digitally optimized backboned system for you.
+        business has and create a digitally optimized backboned solution for
+        you.
       </p>
 
       <div class="talk-btn">LET'S TALK</div>

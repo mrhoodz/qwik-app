@@ -60,7 +60,10 @@ export const head: DocumentHead = {
       content:
         "Realwebsdigital is a South African-based design agency that specializes in creating stunning websites, branding and digital marketing solutions.",
     },
-    { property: "og:image", content: "meta-img.png" },
+    {
+      property: "og:image",
+      content: "https://www.realwebsdigital.com/meta-img.png",
+    },
 
     //twitter meta tags
 
