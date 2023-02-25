@@ -9,7 +9,7 @@
   top: 0;
   left: 0;
   z-index: 500;
-  transform: 0.02s ease-in-out;
+  transition: 0.2s ease-in-out;
 
   // transform: scaleX();
 }
@@ -102,12 +102,10 @@
           align-items: center;
           transition: 0.1s;
 
-
-       
           & .close-icon {
             height: 22.87rem;
             width: auto;
-            fill: black
+            fill: black;
           }
         }
       }

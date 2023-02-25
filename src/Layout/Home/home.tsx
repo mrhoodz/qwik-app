@@ -1,20 +1,59 @@
-import { component$, useStyles$ } from "@builder.io/qwik";
+import {
+  component$,
+  // createContext,
+  // useClientEffect$,
+  // useContext,
+  // useContextProvider,
+  // useSignal,
+  useStyles$,
+} from "@builder.io/qwik";
 import styles from "./styles/_home.scss?inline";
+// import { useTextStore } from "./textStore";
+
+// export const CTX = createContext("CTX");
 
 export default component$(function Home() {
-  useStyles$(styles);
+  // const userData = {
+  //   count: 5,
+  // };
 
+  // const sig = useSignal("23");
+
+  // sig.value = "yoo";
+
+  // useClientEffect$(() => {
+  //   useTextStore.subscribe(() => {
+  //     sig.value = useTextStore.getState().active;
+  //   });
+  // });
+
+  // useContextProvider(CTX, sig);
+
+  useStyles$(styles);
   return (
     <article id="Home">
       <aside>
         {/* <motion$.h3 data={"it works woooow"} color={"aqua"} Ocolor={"pink"} /> */}
 
-        <h1>
-          My name is Tino <span class="html-only">tenda Muringami</span> and
+        {/* <h3>hey hey hey {sig.value} </h3>
+
+        <H3 /> */}
+
+        <h1
+        // onClick$={() => {
+        //   clickHandler();
+        // }}
+        >
+          My name is Tino<span class="html-only">tenda Muringami</span> and l
           design
         </h1>
 
-        <p>
+        <p
+          window:onScroll$={() => {
+            // const {x,y}= e
+            console.log(document.documentElement.clientWidth);
+          }}
+        >
           {" "}
           Amazing websites, branding and neo-digital marketing projects for
           start ups and legacy businesses.
@@ -95,3 +134,31 @@ export default component$(function Home() {
 //     );
 //   }),
 // };
+
+//
+
+// export const clickHandler = () => {
+//   console.log("l got it");
+//   useTextStore.setState({ active: "blaaah blah blah" });
+// };
+
+// export const H3 = component$(() => {
+//   const sig: any = useContext(CTX);
+
+//   // console.log("lm h3");
+
+//   return (
+//     <>
+//       {" "}
+//       <h3
+//         onClick$={() => {
+//           console.log("loco");
+//           sig.value = 3;
+//         }}
+//         style={{ color: "lime" }}
+//       >
+//         this is h4 + {sig.value}{" "}
+//       </h3>{" "}
+//     </>
+//   );
+// });

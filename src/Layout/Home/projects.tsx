@@ -1,39 +1,70 @@
 import {
   component$,
   useClientEffect$,
+  // useOnDocument,
   useSignal,
   useStyles$,
+  $,
+  useOnWindow,
+  useTask$,
 } from "@builder.io/qwik";
 // import ProjectCard from "~/components/project-card/project-card";
 import styles from "./styles/_projects.scss?inline";
 import { DragContainer } from "./dragContainerMotion";
-import { console$ } from "~/components/header/header";
 
 export default component$(function projects() {
   useStyles$(styles);
 
   const leftConstraint = useSignal(0);
   const rightConstraint = useSignal(0);
-  const windowWidth = useSignal(0);
+  const windowWidth = useSignal(1903);
 
-  useClientEffect$(() => {
-    windowWidth.value = document.documentElement.clientWidth;
-    // console$.log(windowWidth);
-    onresize = () => {
+  useClientEffect$(
+    () => {
       windowWidth.value = document.documentElement.clientWidth;
-      console$.log(windowWidth.value);
-    };
+      console.log(windowWidth.value);
+    },
+    { eagerness: "load" }
+  );
 
+  useOnWindow(
+    "resize",
+    $(() => {
+      windowWidth.value = document.documentElement.clientWidth;
+      console.log(windowWidth.value);
+    })
+  );
+
+  useTask$(({ track }) => {
+    track(() => windowWidth.value);
     if (windowWidth.value > 700) {
-      leftConstraint.value =
-        (document.documentElement.clientWidth / 1903) * -380;
-      rightConstraint.value =
-        (document.documentElement.clientWidth / 1903) * 320;
+      leftConstraint.value = (windowWidth.value / 1903) * -380;
+      rightConstraint.value = (windowWidth.value / 1903) * 320;
     } else {
-      leftConstraint.value = -420;
-      rightConstraint.value = 390;
+      leftConstraint.value = (windowWidth.value / 524) * -520;
+      rightConstraint.value = (windowWidth.value / 524) * 550;
     }
   });
+
+  // () => {
+  //   // windowWidth.value = document.documentElement.clientWidth;
+  //   // console$.log(windowWidth);
+  //   onresize = () => {
+  //     windowWidth.value = document.documentElement.clientWidth;
+  //     console$.log(windowWidth.value);
+  //   };
+
+  //   if (windowWidth.value > 700) {
+  //     leftConstraint.value =
+  //       (document.documentElement.clientWidth / 1903) * -380;
+  //     rightConstraint.value =
+  //       (document.documentElement.clientWidth / 1903) * 320;
+  //   } else {
+  //     leftConstraint.value = -420;
+  //     rightConstraint.value = 390;
+  //   }
+  // }
+  // { eagerness: "idle" }
 
   return (
     <>
@@ -74,3 +105,8 @@ export default component$(function projects() {
     </>
   );
 });
+
+// export const resizeWindow = (res: any) => {
+//   // windowWidth.value = document.documentElement.clientWidth;
+//   console$.log("windowWidth");
+// };

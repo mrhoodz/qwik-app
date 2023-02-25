@@ -27,9 +27,9 @@ export default component$(function Index() {
   );
 });
 
-export const $booter = (response: any) => {
-  console.log("booting", response);
-};
+// export const $booter = (response: any) => {
+//   console.log("booting", response);
+// };
 
 export const head: DocumentHead = {
   //primary meta tags
