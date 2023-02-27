@@ -17,6 +17,13 @@ export default component$(() => {
    *
    * Dont remove the `<head>` and `<body>` elements.
    */
+
+  const googleScript = `window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZCKLLTQKKE'); `;
+
   useStyles$(globalStyles);
 
   return (
@@ -33,6 +40,7 @@ export default component$(() => {
           type="text/partytown"
           src="https://www.googletagmanager.com/gtag/js?id=G-ZCKLLTQKKE"
         />
+        <script type="text/partytown">{googleScript}</script>
 
         {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCKLLTQKKE"></script>
 <script>
