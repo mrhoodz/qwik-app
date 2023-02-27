@@ -68,7 +68,7 @@
   }
 }
 
-@include break("desktop") {
+@include break("tablet") {
   #Goals {
     position: relative;
     background-color: $secondary-bg-color;

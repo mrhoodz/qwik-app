@@ -72,7 +72,20 @@ export default component$(function projects() {
         <section class="featured">
           <h2 class="heading">
             {" "}
-            <span class="html-only">My work is </span> featured on{" "}
+            <span
+              window:onLoad$={() => {
+                // document.getElementById("Projects");
+                console.log(document.getElementById("Projects")?.offsetHeight);
+                console.log(
+                  " margin top " +
+                    document.getElementById("Projects")?.style.backgroundColor
+                );
+              }}
+              class="html-only"
+            >
+              My work is{" "}
+            </span>{" "}
+            featured on{" "}
           </h2>
 
           <div class="logos">

@@ -1,5 +1,6 @@
 import {
   component$,
+  // useOnDocument,
   // createContext,
   // useClientEffect$,
   // useContext,
@@ -28,6 +29,7 @@ export default component$(function Home() {
   // });
 
   // useContextProvider(CTX, sig);
+  // const position = useR
 
   useStyles$(styles);
   return (
@@ -45,16 +47,25 @@ export default component$(function Home() {
         // }}
         >
           My name is Tino<span class="html-only">tenda Muringami</span> and l
-          design
+          <span class="html-only"> am a web</span> design
+          <span class="html-only">er</span>
         </h1>
 
         <p
-          window:onScroll$={() => {
-            // const {x,y}= e
-            console.log(document.documentElement.clientWidth);
+          onClick$={() => {
+            window.scrollTo(0, 1098);
+            // console.log(document.getElementById("Home"));
           }}
+          window:onLoad$={() => {
+            // document.getElementById("#Home")
+
+            console.log(document.getElementById("Home")?.offsetTop);
+          }}
+          // window:onScroll$={() => {
+          //   console.log(document.documentElement.clientWidth);
+          // }}
         >
-          {" "}
+          <span class="html-only">I design</span>
           Amazing websites, branding and neo-digital marketing projects for
           start ups and legacy businesses.
         </p>

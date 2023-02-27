@@ -25,7 +25,14 @@ export default component$(function Focus() {
   useStyles$(styles);
 
   return (
-    <article id="Focus">
+    <article
+      window:onLoad$={() => {
+        // document.getElementById("#Home")
+
+        console.log(document.getElementById("Focus")?.offsetTop);
+      }}
+      id="Focus"
+    >
       <h2>Focus areas</h2>
 
       <aside>
