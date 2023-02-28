@@ -21,7 +21,7 @@ export default component$(function goals() {
   ];
 
   return (
-    <article id="Goals">
+    <section id="Goals">
       <div class="subtitle">Here are some of</div>
       <h2>My Goals</h2>
 
@@ -32,14 +32,14 @@ export default component$(function goals() {
               {item.number}
             </div>
 
-            <div class="title"> {item.title} </div>
+            <h3 class="title"> {item.title} </h3>
 
-            <div class="p-content">{item.content}</div>
+            <p class="p-content">{item.content}</p>
 
             <div class="percent"> </div>
           </div>
         ))}
       </article>
-    </article>
+    </section>
   );
 });
