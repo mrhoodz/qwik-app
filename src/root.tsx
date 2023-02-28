@@ -30,31 +30,27 @@ export default component$(() => {
     <QwikCityProvider>
       <head>
         <meta charSet="utf-8" />
-        <link rel="manifest" href="/manifest.json" />
         {/* <!-- Google tag (gtag.js) --> */}
 
-        <QwikPartytown forward={["dataLayer.push"]} />
+        <QwikPartytown forward={["dataLayer.push"]} debug />
 
         <script
           async
           type="text/partytown"
           src="https://www.googletagmanager.com/gtag/js?id=G-ZCKLLTQKKE"
         />
-        <script type="text/partytown">{googleScript}</script>
+        <script
+          type="text/partytown"
+          dangerouslySetInnerHTML={googleScript}
+        ></script>
 
-        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCKLLTQKKE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ZCKLLTQKKE');
-</script> */}
+        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCKLLTQKKE"></script> */}
 
         {/* 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
-          rel="preconnect"
+        rel="preconnect"
+        <link rel="manifest" href="/manifest.json" />
           href="https://fonts.gstatic.com"
           crossOrigin="use-credentials"
         />
