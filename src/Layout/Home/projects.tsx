@@ -22,7 +22,7 @@ export default component$(function projects() {
   useClientEffect$(
     () => {
       windowWidth.value = document.documentElement.clientWidth;
-      console.log(windowWidth.value);
+      // console.log(windowWidth.value);
     },
     { eagerness: "load" }
   );
@@ -31,7 +31,7 @@ export default component$(function projects() {
     "resize",
     $(() => {
       windowWidth.value = document.documentElement.clientWidth;
-      console.log(windowWidth.value);
+      // console.log(windowWidth.value);
     })
   );
 
@@ -75,11 +75,11 @@ export default component$(function projects() {
             <span
               window:onLoad$={() => {
                 // document.getElementById("Projects");
-                console.log(document.getElementById("Projects")?.offsetHeight);
-                console.log(
-                  " margin top " +
-                    document.getElementById("Projects")?.style.backgroundColor
-                );
+                // console.log(document.getElementById("Projects")?.offsetHeight);
+                // console.log(
+                //   " margin top " +
+                //     document.getElementById("Projects")?.style.backgroundColor
+                // );
               }}
               class="html-only"
             >
