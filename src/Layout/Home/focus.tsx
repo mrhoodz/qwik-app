@@ -40,9 +40,9 @@ export default component$(function Focus() {
           <div key={index} class="focus-card">
             <div class="numtitle">{item.number}</div>
 
-            <div class="title"> {item.title} </div>
+            <h3 class="title"> {item.title} </h3>
 
-            <div class="subtitle">{item.subtitle} </div>
+            <p class="subtitle">{item.subtitle} </p>
           </div>
         ))}
       </aside>

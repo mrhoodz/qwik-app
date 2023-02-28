@@ -45,8 +45,12 @@ export const head: DocumentHead = {
       content:
         "Realwebsdigital is a South African-based design agency that specializes in creating stunning websites, branding and digital marketing solutions.",
     },
-    { name: "keywords", content: "Web Design, HTML, Javascript " },
-    { name: "revised", content: "Sunday, July 18th, 2021, 5:15 pm" },
+    {
+      name: "keywords",
+      content:
+        "Web Design, HTML, Javascript, web design South Africa, digital marketing South Africa, social media marketing South Africa, facebook marketing South Africa, web design company South Africa, web design services South Africa, website design services, create website design, website design company, web design prices, website design, web design, website design South Africa ",
+    },
+    { name: "revised", content: "Saturday, February 18th, 2023, 5:15 pm" },
     { name: "author", content: "Tinotenda Muringami" },
     { name: "theme-color", content: "#000000" },
 
