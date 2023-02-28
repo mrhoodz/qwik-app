@@ -82,7 +82,7 @@ export default component$(function Home() {
             <span id="dowload-CV"> </span>
           </div>
 
-          <span id="resume-text">Download My Resume</span>
+          <span id="resume-text">Download My Resume here</span>
         </section>
 
         <div class="scroll">
