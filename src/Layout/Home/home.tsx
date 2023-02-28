@@ -71,8 +71,8 @@ export default component$(function Home() {
         </p>
 
         <div class="subtitle">
-          <span class="html-only">Im</span> Based in South Africa, available
-          worldwide
+          <span class="html-only">Realwebsdigital is</span> Based in South
+          Africa, available worldwide
         </div>
 
         <section class="CV desktop">
