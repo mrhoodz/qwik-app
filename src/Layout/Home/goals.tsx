@@ -16,7 +16,7 @@ export default component$(function goals() {
       number: "02",
       title: "Digitize Africa",
       content:
-        "From artificial intelligence to decentralised automated sytems, technology is key to help businesses in Africa positively scale profits without increasing operational costs.",
+        "Realwebsdigital aims to empower African businesses with cutting-edge technology like artificial intelligence and decentralized automated systems. Join our mission to digitize Africa's digital landscape.",
     },
   ];
 

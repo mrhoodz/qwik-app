@@ -48,9 +48,9 @@ export default component$(function Focus() {
       </aside>
 
       <p class="p-content">
-        I will partner with you to understand and reveal the problems that your
-        business has and create a digitally optimized backboned solution for
-        you.
+        <span class="html-only">At RealWebsdigital,</span> I design
+        lightning-fast websites that drive business growth and specialize in
+        delivering digital solutions that solve your complex business problems.
       </p>
 
       <div class="talk-btn">LET'S TALK</div>
