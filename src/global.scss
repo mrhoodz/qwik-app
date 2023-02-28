@@ -70,7 +70,7 @@ html {
 //   }
 // }
 
-@media (width > 560px) {
+@media (min-width: 560px) {
   html {
     font-size: 0.05vw;
     /* background-color: rebeccapurple; */

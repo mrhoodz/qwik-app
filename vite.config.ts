@@ -9,11 +9,11 @@ import { join } from "path";
 export default defineConfig(() => {
   return {
     plugins: [
+      partytownVite({ dest: join(__dirname, "public", "~partytown") }),
       qwikCity(),
       qwikVite(),
       tsconfigPaths(),
       qwikReact(),
-      partytownVite({ dest: join(__dirname, "public", "~partytown") }),
     ],
     preview: {
       headers: {
