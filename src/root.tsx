@@ -32,7 +32,7 @@ export default component$(() => {
         <meta charSet="utf-8" />
         {/* <!-- Google tag (gtag.js) --> */}
 
-        <QwikPartytown forward={["dataLayer.push"]} debug />
+        <QwikPartytown forward={["dataLayer.push"]} />
 
         <script
           async
