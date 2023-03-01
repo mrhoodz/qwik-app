@@ -310,38 +310,41 @@ export default component$(() => {
             </div>
           </div>
           <nav class="navLinks desktop-only">
-            {/* {Links.map((item) => {
-              if (urlHash.value !== "/") {
-                return (
-                  <>
-                    {Links.map((item) => (
-                      <span
-                        key={Math.random()}
-                        onClick$={() => {
-                          menuSig.value = false;
+            {urlHash.value == "/" ? (
+              <>
+                {Links.map((item) => (
+                  <span
+                    key={Math.random()}
+                    onClick$={() => {
+                      menuSig.value = false;
 
-                          document
-                            .getElementById(item.link)
-                            ?.scrollIntoView(true);
-                        }}
-                        // href="/#Projects"
-                        class="link"
-                      >
-                        {item.title}
-                      </span>
-                    ))}
-                  </>
-                );
-              } else {
-                return (
-                  <>
-                    <h1>jsj</h1>
-                  </>
-                );
-              }
-            })} */}
+                      document.getElementById(item.title)?.scrollIntoView(true);
+                    }}
+                    // href="/#Projects"
+                    class="link"
+                  >
+                    {item.title}
+                  </span>
+                ))}
+              </>
+            ) : (
+              <>
+                {Links.map((item) => (
+                  <a
+                    key={Math.random()}
+                    onClick$={() => {
+                      menuSig.value = false;
 
-            {/* <LinksList Links = {Links}     /> */}
+                      document.getElementById(item.link)?.scrollIntoView(true);
+                    }}
+                    href={item.link}
+                    class="link"
+                  >
+                    {item.title}
+                  </a>
+                ))}
+              </>
+            )}
 
             <span class="switch">
               <a href="/" class="switch-A">
