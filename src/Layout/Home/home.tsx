@@ -83,13 +83,13 @@ export default component$(function Home() {
           >
             <div class="img-area">
               <picture>
-                <source
+                {/* <source
                   type="image/avif"
                   srcSet="/projects/sub image.avif"
                   media="(min-width: 800px)"
-                />
+                /> */}
 
-                {/* <img src="/projects/sub image.png" alt="cv-cover image" /> */}
+                <img src="/projects/sub image.png" alt="cv-cover image" />
               </picture>
 
               <span id="dowload-CV"> </span>
