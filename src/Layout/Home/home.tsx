@@ -76,13 +76,27 @@ export default component$(function Home() {
         </div>
 
         <section class="CV desktop">
-          <div class="img-area">
-            <img src="" alt="cv-cover image" />
+          <a
+            href="resume.pdf"
+            download
+            //  target="_blank"
+          >
+            <div class="img-area">
+              <picture>
+                <source
+                  type="image/avif"
+                  srcSet="/projects/sub image.avif"
+                  media="(min-width: 800px)"
+                />
 
-            <span id="dowload-CV"> </span>
-          </div>
+                {/* <img src="/projects/sub image.png" alt="cv-cover image" /> */}
+              </picture>
 
-          <span id="resume-text">Download My Resume here</span>
+              <span id="dowload-CV"> </span>
+            </div>
+
+            <span id="resume-text"> Download Resume here </span>
+          </a>{" "}
         </section>
 
         <div class="scroll">
@@ -98,11 +112,18 @@ export default component$(function Home() {
             <img class="twink-left" src="/svg/twink left.svg" alt="" />
             <img class="twink-right" src="/svg/twink right.svg" alt="" />
           </span>
+          {/* 
+          <img
+            // loading="lazy"
+            class="hero-img"
+            src="/tinotenda muringami.avif"
+            alt="hero-img"
+          /> */}
 
           <img
             // loading="lazy"
             class="hero-img"
-            src="/hero-img.avif"
+            src="/Tinotenda Muringami.jpg"
             alt="hero-img"
           />
         </section>

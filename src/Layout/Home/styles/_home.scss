@@ -89,20 +89,35 @@
       align-items: center;
       gap: 23.1rem;
 
+      & a {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
       & .img-area {
         position: relative;
         height: 180.5rem;
         width: 271.5rem;
-        background-color: yellow;
+        margin-right: 20rem;
+        // background-color: yellow;
         border-radius: 41.5rem;
         overflow: hidden;
+
+        // & source {
+        //   height: 100%;
+        //   width: 100%;
+        //   background-color: red;
+        // }
       }
 
       & #dowload-CV {
         position: absolute;
         height: 101rem;
         width: 101rem;
-        background-color: green;
+        border: 1.5rem solid yellowgreen;
+        // background-color: green;
         // center div with transform 50%
         // center div with transform 50%
         top: 50%;
