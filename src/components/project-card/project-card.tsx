@@ -42,7 +42,7 @@ export default function projectCard({ img, title, year }: ProjectCardProps) {
               height="3519"
               loading="lazy"
               src={"projects/" + img}
-              alt={"Realwebsdigital project called" + title}
+              alt={"Realwebsdigital project called " + title}
             />
 
             {/* </motion.span> */}
