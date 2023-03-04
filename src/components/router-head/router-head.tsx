@@ -12,7 +12,7 @@ export const RouterHead = component$(() => {
     <>
       <title>{head.title}</title>
 
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link
         rel="preconnect"
         href="https://fonts.gstatic.com"
@@ -21,7 +21,7 @@ export const RouterHead = component$(() => {
       <link
         href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;500;600;700&display=swap"
         rel="stylesheet"
-      />
+      /> */}
 
       <link rel="canonical" href={"https://www.realwebsdigital.com/"} />
 
