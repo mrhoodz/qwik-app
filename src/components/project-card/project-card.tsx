@@ -3,7 +3,7 @@
 // import { component$, useStyles$ } from "@builder.io/qwik";
 
 // import { motion } from "framer-motion";
-import { ProjectCardProps } from "~/types/types";
+import type { ProjectCardProps } from "~/types/types";
 import "./_project-card.scss";
 import { motion } from "framer-motion";
 // import { qwikify$ } from "@builder.io/qwik-react";
