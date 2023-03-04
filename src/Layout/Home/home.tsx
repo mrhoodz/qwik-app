@@ -89,7 +89,7 @@ export default component$(function Home() {
                   media="(min-width: 800px)"
                 />
 
-                {/* <img src="/projects/sub image.png" alt="cv-cover image" /> */}
+                <img src="/projects/sub image.png" alt="cv-cover image" />
               </picture>
 
               {/* <picture>
