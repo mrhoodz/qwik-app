@@ -39,10 +39,10 @@ export default component$(() => {
           type="text/partytown"
           src="https://www.googletagmanager.com/gtag/js?id=G-ZCKLLTQKKE"
         />
-        <script
+        {/* <script
           type="text/partytown"
           dangerouslySetInnerHTML={googleScript}
-        ></script>
+        ></script> */}
 
         {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCKLLTQKKE"></script> */}
 

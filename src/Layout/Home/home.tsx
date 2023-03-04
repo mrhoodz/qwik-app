@@ -83,14 +83,22 @@ export default component$(function Home() {
           >
             <div class="img-area">
               <picture>
-                {/* <source
+                <source
                   type="image/avif"
-                  srcSet="/projects/sub image.avif"
+                  src="/projects/sub image.avif"
                   media="(min-width: 800px)"
-                /> */}
+                />
 
-                <img src="/projects/sub image.png" alt="cv-cover image" />
+                {/* <img src="/projects/sub image.png" alt="cv-cover image" /> */}
               </picture>
+
+              {/* <picture>
+                <source
+                  srcSet="/projects/sub image.png"
+                  media="(orientation: portrait)"
+                />
+                <img src="/media/cc0-images/painted-hand-298-332.jpg" alt="" />
+              </picture> */}
 
               <span id="dowload-CV"> </span>
             </div>
