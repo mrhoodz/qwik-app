@@ -85,7 +85,7 @@ export default component$(function Home() {
               <picture>
                 <source
                   type="image/avif"
-                  src="/projects/sub image.avif"
+                  srcSet="/projects/sub image.avif"
                   media="(min-width: 800px)"
                 />
 
