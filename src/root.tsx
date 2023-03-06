@@ -29,6 +29,7 @@ export default component$(() => {
   return (
     <QwikCityProvider>
       <head>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <meta charSet="utf-8" />
         {/* <!-- Google tag (gtag.js) --> */}
 
