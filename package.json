@@ -49,6 +49,7 @@
     "undici": "5.14.0",
     "vercel": "^28.4.17",
     "vite": "4.0.3",
+    "vite-plugin-webfont-dl": "^3.6.1",
     "vite-tsconfig-paths": "3.5.0"
   },
   "dependencies": {

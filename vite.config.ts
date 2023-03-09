@@ -4,12 +4,17 @@ import { qwikCity } from "@builder.io/qwik-city/vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 import { qwikReact } from "@builder.io/qwik-react/vite";
 import { partytownVite } from "@builder.io/partytown/utils";
+import webfontDownload from "vite-plugin-webfont-dl";
 import { join } from "path";
 
 export default defineConfig(() => {
   return {
     plugins: [
       partytownVite({ dest: join(__dirname, "public", "~partytown") }),
+      webfontDownload([
+        "https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap",
+        "https://fonts.googleapis.com/css2?family=Fira+Code&display=swap",
+      ]),
       qwikCity(),
       qwikVite(),
       tsconfigPaths(),
