@@ -12,8 +12,7 @@ export default defineConfig(() => {
     plugins: [
       partytownVite({ dest: join(__dirname, "public", "~partytown") }),
       webfontDownload([
-        "https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap",
-        "https://fonts.googleapis.com/css2?family=Fira+Code&display=swap",
+        "https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;500;600;700&display=swap",
       ]),
       qwikCity(),
       qwikVite(),
