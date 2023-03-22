@@ -73,10 +73,11 @@ html {
 @media (min-width: 560px) {
   html {
     // font-size: clamp(0.05px, 0.05vw, 2px);
-    font-size: clamp(0.75px, 0.05vw, 1px);
+    font-size: clamp(4%, 0.05vw, 5.7%);
 
-    // font-size: 0.05vw;
+    // font-size: 3.3%;
     // font-size: 1px;
+    // font-size: 0.05vw;
     // font-size: 0.75px;
     /* background-color: rebeccapurple; */
   }
