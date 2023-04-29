@@ -77,9 +77,8 @@ html {
 
     // font-size: 3.3%;
     // font-size: 1px;
-    font-size: 0.05vw;
+    font-size: clamp(0.1px, 6%, 0.05vw);
     // font-size: 0.75px;
-    /* background-color: rebeccapurple; */
   }
 }
 
