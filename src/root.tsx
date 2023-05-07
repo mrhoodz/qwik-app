@@ -68,6 +68,7 @@ export default component$(() => {
 
         <script
           type="text/javascript"
+          defer
           dangerouslySetInnerHTML={clarityScript}
         ></script>
 
