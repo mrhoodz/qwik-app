@@ -19,7 +19,8 @@ export default component$(() => {
    * Dont remove the `<head>` and `<body>` elements.
    */
 
-  const googleScript = `window.dataLayer = window.dataLayer || [];
+  const googleScript = ` alert("foooo")
+  window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
