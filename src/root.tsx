@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { component$, useStyles$ } from "@builder.io/qwik";
 import {
   QwikCityProvider,
@@ -23,6 +24,14 @@ export default component$(() => {
   gtag('js', new Date());
 
   gtag('config', 'G-ZCKLLTQKKE'); `;
+
+  const clarityScript = `
+  (function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "h061mu276q");
+  `;
 
   useStyles$(globalStyles);
 
@@ -56,6 +65,15 @@ export default component$(() => {
           type="text/partytown"
           dangerouslySetInnerHTML={googleScript}
         ></script>
+
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={clarityScript}
+        ></script>
+
+        {/* <script type="text/typescript">
+   
+</script> */}
 
         {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCKLLTQKKE"></script> */}
 

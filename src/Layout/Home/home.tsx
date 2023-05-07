@@ -76,10 +76,9 @@ export default component$(function Home() {
         </div>
 
         <section class="CV desktop">
-          <a
+          {/* <a
             href="resume.pdf"
             download
-            //  target="_blank"
           >
             <div class="img-area">
               <picture>
@@ -92,19 +91,19 @@ export default component$(function Home() {
                 <img src="/projects/sub image.png" alt="cv-cover image" />
               </picture>
 
-              {/* <picture>
+              <picture>
                 <source
                   srcSet="/projects/sub image.png"
                   media="(orientation: portrait)"
                 />
                 <img src="/media/cc0-images/painted-hand-298-332.jpg" alt="" />
-              </picture> */}
+              </picture>
 
               <span id="dowload-CV"> </span>
             </div>
 
             <span id="resume-text"> Download Resume here </span>
-          </a>{" "}
+          </a> */}
         </section>
 
         <div class="scroll">

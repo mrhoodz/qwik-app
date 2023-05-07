@@ -69,15 +69,22 @@ html {
 //     /* background-color: rebeccapurple; */
 //   }
 // }
+// @function multiply($value1, $value2) {
+//   @return $value1 * $value2;
+// }
 
 @media (min-width: 560px) {
   html {
     // font-size: clamp(0.05px, 0.05vw, 2px);
-    // font-size: clamp(4%, 0.05vw, 5.7%);
 
-    // font-size: 3.3%;
-    // font-size: 1px;
-    font-size: clamp(0.1px, 6%, 0.05vw);
+    // font-size: clamp(4%, 0.05vw, 5.7%);
+    font-size: 0.05vw;
+
+    // font-size: calc(0px + 0.05vw); // Computed value: 40em
+    // font-size: 0.98px;
+    // font-size: clamp(0.05vw, 6%, 5px);
+    // font-size: 6%;
+    // font-size: clamp(2%, 0.05vw, 1px);
     // font-size: 0.75px;
   }
 }
