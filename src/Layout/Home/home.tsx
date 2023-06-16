@@ -75,7 +75,7 @@ export default component$(function Home() {
           Africa, available worldwide
         </div>
 
-        <section class="CV desktop">
+        {/* <section class="CV desktop">
           <a
             // href="resume.pdf"
             download
@@ -104,7 +104,7 @@ export default component$(function Home() {
 
             <span id="resume-text"> Download Resume here </span>
           </a>
-        </section>
+        </section> */}
 
         <div class="scroll">
           <span>SCROLL</span>
