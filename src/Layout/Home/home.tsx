@@ -74,8 +74,8 @@ export default component$(function Home() {
           <span class="html-only">Realwebsdigital is</span> Based in South
           Africa, available worldwide
         </div>
-
-        {/* <section class="CV desktop">
+        {/* 
+        <section class="CV desktop">
           <a
             // href="resume.pdf"
             download
@@ -91,13 +91,13 @@ export default component$(function Home() {
                 <img src="/projects/sub image.png" alt="cv-cover image" />
               </picture>
 
-              {/* <picture>
+              <picture>
                 <source
                   srcSet="/projects/sub image.png"
                   media="(orientation: portrait)"
                 />
                 <img src="/media/cc0-images/painted-hand-298-332.jpg" alt="" />
-              </picture> */}
+              </picture>
 
               <span id="dowload-CV"> </span>
             </div>
@@ -119,20 +119,23 @@ export default component$(function Home() {
             <img class="twink-left" src="/svg/twink left.svg" alt="" />
             <img class="twink-right" src="/svg/twink right.svg" alt="" />
           </span>
-          {/* 
-          <img
-            // loading="lazy"
-            class="hero-img"
-            src="/tinotenda muringami.avif"
-            alt="hero-img"
-          /> */}
 
           <img
             // loading="lazy"
             class="hero-img"
-            src="/Tinotenda Muringami.jpg"
+            src="/tinotenda muringami.jpg"
             alt="hero-img"
           />
+
+          {/* <picture class="hero-img">
+            <source class="hero-img" srcSet="/tinotenda muringami.avif" />
+            <img
+              // loading="lazy"
+              class="hero-img"
+              src="/tinotenda muringami.jpg"
+              alt="hero-img"
+            />
+          </picture> */}
         </section>
       </span>
     </article>

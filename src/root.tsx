@@ -25,13 +25,13 @@ export default component$(() => {
 
   gtag('config', 'G-ZCKLLTQKKE'); `;
 
-  const clarityScript = `
-  (function(c,l,a,r,i,t,y){
-    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-})(window, document, "clarity", "script", "h061mu276q");
-  `;
+  //   const clarityScript = `
+  //   (function(c,l,a,r,i,t,y){
+  //     c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+  //     t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+  //     y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+  // })(window, document, "clarity", "script", "h061mu276q");
+  //   `;
 
   useStyles$(globalStyles);
 
@@ -66,11 +66,11 @@ export default component$(() => {
           dangerouslySetInnerHTML={googleScript}
         ></script>
 
-        <script
+        {/* <script
           type="text/javascript"
           defer
           dangerouslySetInnerHTML={clarityScript}
-        ></script>
+        ></script> */}
 
         {/* <script type="text/typescript">
    

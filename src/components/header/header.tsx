@@ -240,7 +240,7 @@ export default component$(() => {
           <a href="/" class="switch-A">
             Portfoilo
           </a>
-          <a href="/blog" class="switch-B">
+          <a href="/" class="switch-B">
             {" "}
             Blog{" "}
           </a>
@@ -350,7 +350,7 @@ export default component$(() => {
               <a href="/" class="switch-A">
                 Portfoilo
               </a>
-              <a href="/blog" class="switch-B">
+              <a href="/" class="switch-B">
                 {" "}
                 Blog{" "}
               </a>
