@@ -123,7 +123,7 @@ export default component$(function Home() {
           <img
             // loading="lazy"
             class="hero-img"
-            src="/Tinotenda muringami.jpg"
+            src="/Tinotenda Muringami.jpg"
             alt="hero-img"
           />
 
