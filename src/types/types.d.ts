@@ -3,9 +3,9 @@ export interface postVariants {
   link?: string;
 }
 
-
 export interface ProjectCardProps {
   img: string;
   title: string;
   year: string;
+  link?: string;
 }

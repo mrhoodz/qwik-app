@@ -8,7 +8,12 @@ import "./_project-card.scss";
 import { motion } from "framer-motion";
 // import { qwikify$ } from "@builder.io/qwik-react";
 
-export default function projectCard({ img, title, year }: ProjectCardProps) {
+export default function projectCard({
+  img,
+  title,
+  year,
+  link,
+}: ProjectCardProps) {
   // useEffect(() => {
   //   if (isInView) {
   //     inView + 1;
@@ -54,8 +59,9 @@ export default function projectCard({ img, title, year }: ProjectCardProps) {
 
               <p>{year}</p>
             </div>
-
-            <div className="view-button">View Project</div>
+            <a href={link}>
+              <div className="view-button">View Project</div>
+            </a>
           </div>
         </div>
       </motion.article>
