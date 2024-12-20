@@ -32,7 +32,7 @@ export const DragContainer = qwikify$(
         img: "dreamshakers international.jpg",
         title: "DreamShakers S.A",
         year: "2023",
-        link: "http://dreamshakers.co.za/",
+        link: "https://dreamshakers.vercel.app/",
       },
     ];
 
